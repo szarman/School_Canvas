@@ -25,11 +25,51 @@ def parse_time(value):
         return None
 
 
-def fetch_courses(client):
+def resolve_student(client):
+    """Return the observed student's ID, or None for a student's own token.
+
+    A parent/observer token sees the courses but has no submissions and no
+    grades of its own, so asking Canvas for "my" work returns an empty shell:
+    every assignment reads unsubmitted and every course ungraded. The student
+    has to be named explicitly on each call instead.
+    """
+    try:
+        observees = client.get_all("/api/v1/users/self/observees")
+    except Exception:
+        return None  # student tokens are not allowed to ask, which is answer enough
+
+    if not observees:
+        return None
+
+    if config.STUDENT_ID:
+        if not any(str(o.get("id")) == config.STUDENT_ID for o in observees):
+            raise SystemExit(
+                f"CANVAS_STUDENT_ID={config.STUDENT_ID} is not observed by this account. "
+                f"Observed IDs: {', '.join(str(o.get('id')) for o in observees)}"
+            )
+        return config.STUDENT_ID
+
+    if len(observees) > 1:
+        listed = ", ".join(f"{o.get('id')} ({o.get('name')})" for o in observees)
+        raise SystemExit(
+            f"This account observes {len(observees)} students. "
+            f"Set CANVAS_STUDENT_ID in .env to one of: {listed}"
+        )
+
+    return str(observees[0]["id"])
+
+
+def fetch_courses(client, student_id):
+    # observed_users surfaces the student's own enrollment -- and so the
+    # student's grade -- alongside the observer's scoreless one.
+    includes = ["total_scores", "term"]
+    if student_id:
+        includes.append("observed_users")
+
     raw = client.get_all(
         "/api/v1/users/self/courses",
         enrollment_state="active",
-        **{"include[]": ["total_scores", "term"]},
+        **{"include[]": includes},
     )
 
     courses = []
@@ -41,12 +81,17 @@ def fetch_courses(client):
         if not config.course_allowed(course["name"]):
             continue
 
+        # The observer's own enrollment is also type "student"-adjacent noise,
+        # so match on the student's user_id when observing.
         score = grade = None
         for enrollment in course.get("enrollments") or []:
-            if enrollment.get("type") == "student":
-                score = enrollment.get("computed_current_score")
-                grade = enrollment.get("computed_current_grade")
-                break
+            if enrollment.get("type") != "student":
+                continue
+            if student_id and str(enrollment.get("user_id")) != str(student_id):
+                continue
+            score = enrollment.get("computed_current_score")
+            grade = enrollment.get("computed_current_grade")
+            break
 
         # The raw district name never leaves this function.
         if config.matched_label(course["name"]) is None:
@@ -91,18 +136,37 @@ def classify(assignment, submission, now):
     return "upcoming", due
 
 
-def fetch_assignments(client, course, now):
+def fetch_pairs(client, course, student_id):
+    """Yield (assignment, submission) pairs for the student.
+
+    Observers cannot use assignments?include[]=submission -- that returns the
+    observer's own (nonexistent) submissions -- so the submissions endpoint is
+    queried for the named student and the assignment is embedded instead.
+    """
+    if student_id:
+        raw = client.get_all(
+            f"/api/v1/courses/{course['id']}/students/submissions",
+            **{"student_ids[]": [student_id], "include[]": ["assignment"]},
+        )
+        return [
+            (submission["assignment"], submission)
+            for submission in raw
+            if submission.get("assignment")
+        ]
+
     raw = client.get_all(
         f"/api/v1/courses/{course['id']}/assignments",
         **{"include[]": ["submission"]},
     )
+    return [(item, item.get("submission") or {}) for item in raw]
 
+
+def fetch_assignments(client, course, student_id, now):
     graded_cutoff = now - timedelta(days=config.GRADED_HISTORY_DAYS)
     missing_cutoff = now - timedelta(days=MISSING_HISTORY_DAYS)
 
     assignments = []
-    for item in raw:
-        submission = item.get("submission") or {}
+    for item, submission in fetch_pairs(client, course, student_id):
         status, due = classify(item, submission, now)
 
         # Trim old history so the board stays about the current term.
@@ -149,7 +213,11 @@ def build():
     print(f"  connected via {client.label}")
 
     try:
-        courses = fetch_courses(client)
+        student_id = resolve_student(client)
+        if student_id:
+            print(f"  observer account; reading student {student_id}")
+
+        courses = fetch_courses(client, student_id)
         if not courses:
             raise SystemExit(
                 "No active courses came back. Check INCLUDE_COURSES/EXCLUDE_COURSES in .env"
@@ -158,7 +226,7 @@ def build():
 
         assignments = []
         for course in courses:
-            found = fetch_assignments(client, course, now)
+            found = fetch_assignments(client, course, student_id, now)
             assignments.extend(found)
             print(f"    {course['name']}: {len(found)} assignment(s)")
     finally:

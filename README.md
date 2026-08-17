@@ -3,9 +3,15 @@
 Pulls assignments, due dates, submission status and grades from Canvas once a
 night, and publishes them as a static status board on GitHub Pages.
 
-Work lands in one of five buckets — **Overdue & missing**, **Due this week**,
-**Coming up**, **Awaiting grading**, **Graded** — and each item has two
-checkboxes: *Done* (you finished it) and *Turned in*.
+There are two views. **Homework** sorts work into five buckets — Overdue &
+missing, Due this week, Coming up, Awaiting grading, Graded — each with two
+checkboxes: *Done* (you finished it) and *Turned in*. **Grades** shows the
+per-course percentage and letter, points earned against points graded, and how
+many points are still outstanding, with a per-assignment breakdown.
+
+Anything Canvas has already received — submitted, graded or excused — shows
+both checkboxes ticked and locked, since a manual mark there could only
+contradict Canvas.
 
 Canvas is the source of truth. Once Canvas reports a real submission, the
 *Turned in* box is checked and locked automatically, and any manual mark you
@@ -64,6 +70,24 @@ and reads the same API through the session. Requires Chrome.
 
 If a token is set but rejected, the script falls back to the browser login on
 its own.
+
+### Parent and observer accounts
+
+A parent account works, but needs different API calls, which the scraper
+detects and handles automatically. This matters more than it sounds: an
+observer token *appears* to work: courses come back normally, and the failure
+is silent and plausible. Every assignment reads as unsubmitted and every course
+as ungraded, because Canvas is faithfully reporting that the **parent** has
+submitted nothing and is enrolled for no grade.
+
+So the scraper checks `/users/self/observees` first. When the token observes a
+student it names them explicitly — `include[]=observed_users` for grades, and
+the per-student submissions endpoint instead of `assignments?include[]=
+submission` — and prints `observer account; reading student <id>` so you can
+see which path ran.
+
+Set `CANVAS_STUDENT_ID` only if the account observes more than one student; the
+script lists the IDs and stops if it needs you to choose.
 
 `.env` is gitignored and never leaves your machine.
 
@@ -142,6 +166,12 @@ to `scrape.log`.
 | `GRADED_HISTORY_DAYS` | `45` | How far back graded work stays on the board. |
 | `INCLUDE_LINKS` | `1` | Set to `0` to omit assignment links and IDs. |
 | `CANVAS_TOKEN_EXPIRES` | *(blank)* | Token expiry date, `YYYY-MM-DD`. Drives the countdown banner. |
+| `CANVAS_STUDENT_ID` | *(blank)* | Observer accounts watching more than one student. Auto-detected otherwise. |
+
+Note `GRADED_HISTORY_DAYS` trims old graded work off the board, which also
+trims it out of the Grades view's points tally. The headline percentage is
+unaffected — that comes from Canvas and reflects the whole term — but raise
+this if you want the points breakdown to cover more than the last 45 days.
 
 ## When the token expires
 

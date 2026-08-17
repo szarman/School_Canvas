@@ -14,7 +14,13 @@
       <h1>Homework Board</h1>
       <p class="updated" id="updated">Loading…</p>
     </div>
-    <button class="ghost" id="settings-toggle" type="button" aria-expanded="false">Settings</button>
+    <div class="topbar-actions">
+      <div class="viewswitch" role="group" aria-label="Choose a view">
+        <button type="button" class="viewbtn" data-view="homework" aria-pressed="true">Homework</button>
+        <button type="button" class="viewbtn" data-view="grades" aria-pressed="false">Grades</button>
+      </div>
+      <button class="ghost" id="settings-toggle" type="button" aria-expanded="false">Settings</button>
+    </div>
   </header>
 
   <p class="banner" id="sample-banner" hidden>
@@ -49,6 +55,7 @@
   </section>
 
   <main id="board" aria-live="polite"></main>
+  <main id="grades" aria-live="polite" hidden></main>
 
   <footer>
     <p>Updated nightly at 11:00 PM from Canvas. Canvas is the source of truth for

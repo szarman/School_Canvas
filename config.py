@@ -40,6 +40,8 @@ USERNAME = os.environ.get("CANVAS_USERNAME", "").strip()
 PASSWORD = os.environ.get("CANVAS_PASSWORD", "").strip()
 
 TOKEN_EXPIRES = os.environ.get("CANVAS_TOKEN_EXPIRES", "").strip()
+# Only needed when a parent account observes more than one student.
+STUDENT_ID = os.environ.get("CANVAS_STUDENT_ID", "").strip()
 
 INCLUDE_COURSES = _csv("INCLUDE_COURSES")
 EXCLUDE_COURSES = _csv("EXCLUDE_COURSES")

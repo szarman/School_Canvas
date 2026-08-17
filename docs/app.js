@@ -17,12 +17,15 @@ const GROUPS = [
   { key: "graded",    title: "Graded",            color: "var(--ok)" },
 ];
 
+const VIEW_KEY = "hwboard.view.v1";
+
 const state = {
   data: { courses: [], assignments: [], generated_at: null },
   flags: loadFlags(),
   courseFilter: null,
   search: "",
   hideDone: false,
+  view: localStorage.getItem(VIEW_KEY) === "grades" ? "grades" : "homework",
 };
 
 /* ---------- storage ---------------------------------------------------- */
@@ -60,10 +63,11 @@ function reconcileFlags(assignments) {
   const live = new Set(assignments.map((a) => a.id));
 
   for (const assignment of assignments) {
-    const flags = state.flags[assignment.id];
-    if (flags && flags.turnedIn && canvasConfirmed(assignment)) {
-      delete flags.turnedIn;
-      if (!flags.done) delete state.flags[assignment.id];
+    // Once Canvas has the work -- submitted, graded or excused -- both marks
+    // are implied by definition. Stored ones are noise that can only end up
+    // contradicting Canvas, so they go.
+    if (state.flags[assignment.id] && canvasConfirmed(assignment)) {
+      delete state.flags[assignment.id];
       changed = true;
     }
   }
@@ -300,7 +304,17 @@ function renderCard(assignment, color) {
     meta.push(el("span", { class: "badge offline", text: "Paper / in class" }));
   }
 
-  const doneBox = el("input", { type: "checkbox", checked: flags.done });
+  // A graded or submitted assignment is finished and handed in by definition,
+  // so both boxes read checked and locked rather than inviting a mark that
+  // could only contradict Canvas.
+  const lockNote = confirmed ? "Confirmed by Canvas" : "";
+
+  const doneBox = el("input", {
+    type: "checkbox",
+    checked: confirmed || flags.done,
+    disabled: confirmed,
+    title: lockNote,
+  });
   doneBox.addEventListener("change", () => {
     setFlag(assignment.id, "done", doneBox.checked);
     render();
@@ -310,7 +324,7 @@ function renderCard(assignment, color) {
     type: "checkbox",
     checked: confirmed || flags.turnedIn,
     disabled: confirmed,
-    title: confirmed ? "Confirmed by Canvas" : "",
+    title: lockNote,
   });
   turnedInBox.addEventListener("change", () => {
     setFlag(assignment.id, "turnedIn", turnedInBox.checked);
@@ -379,13 +393,183 @@ function renderBoard(assignments) {
   board.replaceChildren(...sections);
 }
 
+/* ---------- grades view ------------------------------------------------- */
+
+function markColor(pct) {
+  if (pct === null) return "var(--muted)";
+  if (pct >= 90) return "var(--ok)";
+  if (pct >= 80) return "var(--accent)";
+  if (pct >= 70) return "var(--warn)";
+  return "var(--danger)";
+}
+
+/* Points tallied from what is on the board. Canvas's own course percentage is
+ * authoritative -- it applies category weights this cannot see -- so it is
+ * preferred for the headline whenever Canvas supplies one. */
+function courseStats(courseId) {
+  const items = state.data.assignments.filter((a) => a.course_id === courseId);
+  const scored = items.filter((a) => a.status === "graded" && a.score !== null);
+
+  const earned = scored.reduce((sum, a) => sum + a.score, 0);
+  const possible = scored.reduce((sum, a) => sum + (a.points_possible || 0), 0);
+
+  const pending = items.filter((a) => !["graded", "excused"].includes(a.status));
+  const outstanding = pending.reduce((sum, a) => sum + (a.points_possible || 0), 0);
+  const atRisk = items.filter((a) => a.status === "missing");
+
+  return {
+    items, scored, pending, atRisk,
+    earned, possible, outstanding,
+    pct: possible > 0 ? (earned / possible) * 100 : null,
+    riskPoints: atRisk.reduce((sum, a) => sum + (a.points_possible || 0), 0),
+  };
+}
+
+function scoreTable(stats) {
+  const rows = [...stats.scored]
+    .sort((a, b) => String(b.graded_at || b.due_at || "").localeCompare(String(a.graded_at || a.due_at || "")))
+    .map((a) => {
+      const pct = a.points_possible ? Math.round((a.score / a.points_possible) * 100) : null;
+      return el("tr", {}, [
+        el("td", { text: a.title }),
+        el("td", { text: a.points_possible ? `${a.score} / ${a.points_possible}` : String(a.score) }),
+        el("td", { class: `pct${pct !== null && pct < 70 ? " low" : ""}`, text: pct === null ? "—" : `${pct}%` }),
+      ]);
+    });
+
+  // Ungraded work still carries points, which is what "still out there" means.
+  // Ungraded and point-less work is listed too, so the row count always
+  // matches the assignment count quoted above it.
+  for (const a of stats.pending) {
+    rows.push(
+      el("tr", {}, [
+        el("td", { class: "pending", text: a.title }),
+        el("td", { class: "pending", text: a.points_possible ? `— / ${a.points_possible}` : "—" }),
+        el("td", { class: "pending", text: a.status === "missing" ? "missing" : "not graded" }),
+      ])
+    );
+  }
+
+  if (!rows.length) return null;
+
+  return el("details", {}, [
+    el("summary", { text: `Show all ${rows.length} assignments` }),
+    el("table", { class: "scorelist" }, [
+      el("thead", {}, [
+        el("tr", {}, [
+          el("th", { text: "Assignment" }),
+          el("th", { text: "Score" }),
+          el("th", { text: "%" }),
+        ]),
+      ]),
+      el("tbody", {}, rows),
+    ]),
+  ]);
+}
+
+function renderGrades() {
+  const host = document.getElementById("grades");
+
+  if (!state.data.courses.length) {
+    host.replaceChildren(el("p", { class: "empty", text: "No courses yet." }));
+    return;
+  }
+
+  const cards = state.data.courses.map((course) => {
+    const stats = courseStats(course.id);
+
+    // Canvas's number wins when present; otherwise fall back to the tally.
+    const official = course.score !== null && course.score !== undefined;
+    const headlinePct = official ? course.score : stats.pct;
+    const color = markColor(headlinePct);
+
+    const markText = official
+      ? course.grade
+        ? `${course.grade}  ${Math.round(course.score * 10) / 10}%`
+        : `${Math.round(course.score * 10) / 10}%`
+      : stats.pct !== null
+        ? `${Math.round(stats.pct)}%`
+        : "No grades yet";
+
+    const stat = [];
+    if (stats.scored.length) {
+      stat.push(
+        el("span", {}, [
+          el("b", { text: `${Math.round(stats.earned * 100) / 100} / ${stats.possible}` }),
+          document.createTextNode(` points on ${stats.scored.length} graded`),
+        ])
+      );
+    }
+    if (stats.outstanding) {
+      stat.push(
+        el("span", {}, [
+          el("b", { text: String(stats.outstanding) }),
+          document.createTextNode(` points still out across ${stats.pending.length} assignment${stats.pending.length === 1 ? "" : "s"}`),
+        ])
+      );
+    }
+    if (stats.atRisk.length) {
+      stat.push(
+        el("span", { class: "risk" }, [
+          el("b", { text: String(stats.atRisk.length) }),
+          document.createTextNode(` overdue${stats.riskPoints ? `, worth ${stats.riskPoints} points` : ""}`),
+        ])
+      );
+    }
+    if (!stat.length) {
+      stat.push(el("span", { text: "Nothing posted for this class yet." }));
+    }
+
+    return el("section", { class: "gradecard", style: `--mark-color: ${color}` }, [
+      el("div", { class: "gradecard-head" }, [
+        el("span", { class: "name", text: course.name }),
+        el("span", { class: `mark${headlinePct === null ? " none" : ""}`, text: markText }),
+      ]),
+      headlinePct === null
+        ? null
+        : el("div", { class: "bar" }, [
+            el("span", { style: `width: ${Math.max(0, Math.min(100, headlinePct))}%` }),
+          ]),
+      el("div", { class: "stats" }, stat),
+      scoreTable(stats),
+    ]);
+  });
+
+  host.replaceChildren(...cards);
+}
+
+/* ---------- view switching ---------------------------------------------- */
+
+function setView(view) {
+  state.view = view;
+  localStorage.setItem(VIEW_KEY, view);
+  render();
+}
+
 function render() {
-  const assignments = visibleAssignments();
+  const grades = state.view === "grades";
+
+  document.getElementById("board").hidden = grades;
+  document.getElementById("grades").hidden = !grades;
+  // Search and filters drive the homework list only.
+  document.querySelector(".controls").hidden = grades;
+  document.getElementById("tiles").hidden = grades;
+  document.getElementById("courses").hidden = grades;
+
+  for (const button of document.querySelectorAll(".viewbtn")) {
+    button.setAttribute("aria-pressed", String(button.dataset.view === state.view));
+  }
+
   renderUpdated();
+  if (grades) {
+    renderGrades();
+    return;
+  }
+
   renderTiles(state.data.assignments);
   renderCourses();
   renderFilters();
-  renderBoard(assignments);
+  renderBoard(visibleAssignments());
 }
 
 /* ---------- token expiry ----------------------------------------------- */
@@ -431,6 +615,10 @@ function renderTokenBanner() {
 /* ---------- settings --------------------------------------------------- */
 
 function wireSettings() {
+  for (const button of document.querySelectorAll(".viewbtn")) {
+    button.addEventListener("click", () => setView(button.dataset.view));
+  }
+
   const toggle = document.getElementById("settings-toggle");
   const panel = document.getElementById("settings");
   toggle.addEventListener("click", () => {
