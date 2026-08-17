@@ -70,17 +70,15 @@ won't work — the browser blocks `fetch` on `file://`.)
 
 ### 4. Put it on GitHub
 
-Create a **new empty public repository** on github.com, then:
+The remote is already wired to <https://github.com/szarman/School_Canvas>:
 
 ```bash
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
-git branch -M main
 git push -u origin main
 ```
 
-In the repo, go to **Settings → Pages** and set the source to **Deploy from a
-branch**, branch `main`, folder **`/docs`**. The board appears at
-`https://YOUR-USERNAME.github.io/YOUR-REPO/` a minute or so later.
+Then in the repo go to **Settings → Pages**, set the source to **Deploy from a
+branch**, branch `main`, folder **`/docs`**, and save. The board appears at
+<https://szarman.github.io/School_Canvas/> a minute or so later.
 
 ### 5. Schedule the nightly pull
 
