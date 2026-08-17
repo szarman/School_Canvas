@@ -166,11 +166,24 @@ def build():
 
     assignments.sort(key=lambda a: (a["due_at"] is None, a["due_at"] or ""))
 
-    return {
+    data = {
         "generated_at": now.isoformat().replace("+00:00", "Z"),
         "courses": courses,
         "assignments": assignments,
     }
+
+    # Surface the token deadline on the board itself -- that is the page
+    # actually looked at every day, so it is where the reminder will land.
+    days_left = config.token_days_left()
+    if days_left is not None:
+        data["token_expires"] = config.TOKEN_EXPIRES
+        data["token_days_left"] = days_left
+        if days_left < 0:
+            print(f"  WARNING: the Canvas token expired {-days_left} day(s) ago")
+        elif days_left <= 30:
+            print(f"  NOTE: the Canvas token expires in {days_left} day(s)")
+
+    return data
 
 
 def main():

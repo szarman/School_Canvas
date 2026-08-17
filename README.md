@@ -141,6 +141,22 @@ to `scrape.log`.
 | `EXCLUDE_COURSES` | *(blank)* | Name substrings to drop, e.g. `homeroom,advisory`. |
 | `GRADED_HISTORY_DAYS` | `45` | How far back graded work stays on the board. |
 | `INCLUDE_LINKS` | `1` | Set to `0` to omit assignment links and IDs. |
+| `CANVAS_TOKEN_EXPIRES` | *(blank)* | Token expiry date, `YYYY-MM-DD`. Drives the countdown banner. |
+
+## When the token expires
+
+Canvas access tokens can be issued with an expiry date. Put that date in
+`CANVAS_TOKEN_EXPIRES` and the board shows a countdown banner for the last 30
+days, turning red in the final week, then switching to "the board has stopped
+updating" once it lapses. `scrape.py` prints the same warning to `scrape.log`.
+
+The countdown is computed in the browser from the date, not from a number baked
+into `data.json` — because the failure it warns about is exactly the one that
+stops `data.json` from updating. A stored count would freeze at "expires in
+1 day" forever.
+
+To renew: Canvas → **Account → Settings → + New Access Token**, then update
+both `CANVAS_TOKEN` and `CANVAS_TOKEN_EXPIRES` in `.env`.
 
 Courses are discovered from active enrollments each run, so a new school year
 picks up new classes with no code changes.

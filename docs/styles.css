@@ -172,6 +172,12 @@ button.ghost.danger { color: var(--danger); }
   font-size: .85rem;
 }
 
+.banner.critical {
+  border-color: var(--danger);
+  color: var(--danger);
+  font-weight: 600;
+}
+
 .banner code {
   background: var(--surface-2);
   border-radius: 4px;

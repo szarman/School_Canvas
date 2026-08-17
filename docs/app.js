@@ -388,6 +388,46 @@ function render() {
   renderBoard(assignments);
 }
 
+/* ---------- token expiry ----------------------------------------------- */
+
+/* The countdown is computed here rather than read from data.json, because the
+ * failure this warns about -- an expired token -- also stops data.json from
+ * updating. A baked-in number would freeze at "expires in 1 day" forever. */
+function renderTokenBanner() {
+  const node = document.getElementById("token-banner");
+  const expires = state.data.token_expires;
+  if (!expires) {
+    node.hidden = true;
+    return;
+  }
+
+  const days = Math.round((startOfDay(new Date(`${expires}T00:00:00`)) - startOfDay(new Date())) / DAY);
+  if (Number.isNaN(days) || days > 30) {
+    node.hidden = true;
+    return;
+  }
+
+  const pretty = new Date(`${expires}T00:00:00`).toLocaleDateString(undefined, {
+    month: "long", day: "numeric", year: "numeric",
+  });
+
+  node.hidden = false;
+  node.classList.toggle("critical", days <= 7);
+  if (days < 0) {
+    node.textContent =
+      `The Canvas access token expired on ${pretty}. The board has stopped updating — ` +
+      `create a new token in Canvas (Account → Settings) and put it in .env.`;
+  } else if (days === 0) {
+    node.textContent =
+      `The Canvas access token expires today (${pretty}). Create a new one in ` +
+      `Canvas (Account → Settings) and put it in .env.`;
+  } else {
+    node.textContent =
+      `The Canvas access token expires in ${days} day${days === 1 ? "" : "s"} (${pretty}). ` +
+      `Create a new one in Canvas (Account → Settings) and put it in .env before then.`;
+  }
+}
+
 /* ---------- settings --------------------------------------------------- */
 
 function wireSettings() {
@@ -460,6 +500,7 @@ async function main() {
     return;
   }
   document.getElementById("sample-banner").hidden = !state.data.sample;
+  renderTokenBanner();
   reconcileFlags(state.data.assignments);
   render();
 }

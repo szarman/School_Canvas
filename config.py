@@ -3,6 +3,7 @@
 import json
 import os
 import re
+from datetime import date as _date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -38,6 +39,8 @@ TOKEN = os.environ.get("CANVAS_TOKEN", "").strip()
 USERNAME = os.environ.get("CANVAS_USERNAME", "").strip()
 PASSWORD = os.environ.get("CANVAS_PASSWORD", "").strip()
 
+TOKEN_EXPIRES = os.environ.get("CANVAS_TOKEN_EXPIRES", "").strip()
+
 INCLUDE_COURSES = _csv("INCLUDE_COURSES")
 EXCLUDE_COURSES = _csv("EXCLUDE_COURSES")
 GRADED_HISTORY_DAYS = int(os.environ.get("GRADED_HISTORY_DAYS", "45"))
@@ -51,6 +54,25 @@ def validate():
         raise SystemExit(
             "No credentials. Set CANVAS_TOKEN, or CANVAS_USERNAME + CANVAS_PASSWORD, in .env"
         )
+
+
+def token_days_left(today=None):
+    """Days until the access token expires, or None if no date is configured.
+
+    Negative once it has lapsed. A malformed date is reported rather than
+    swallowed, since a silently-ignored expiry defeats the whole point.
+    """
+    if not TOKEN_EXPIRES:
+        return None
+    try:
+        expires = _date.fromisoformat(TOKEN_EXPIRES)
+    except ValueError:
+        print(
+            f"  warning: CANVAS_TOKEN_EXPIRES={TOKEN_EXPIRES!r} is not YYYY-MM-DD; "
+            "no expiry reminder will be shown"
+        )
+        return None
+    return (expires - (today or _date.today())).days
 
 
 def course_allowed(name):
