@@ -33,6 +33,7 @@ def fetch_courses(client):
     )
 
     courses = []
+    unmapped = []
     for course in raw:
         # Courses whose term has ended come back as a stub with no name.
         if course.get("access_restricted_by_date") or not course.get("name"):
@@ -47,14 +48,26 @@ def fetch_courses(client):
                 grade = enrollment.get("computed_current_grade")
                 break
 
+        # The raw district name never leaves this function.
+        if config.matched_label(course["name"]) is None:
+            unmapped.append(course["name"])
+
         courses.append(
             {
                 "id": str(course["id"]),
-                "name": course["name"],
+                "name": config.course_label(course["name"]),
                 "score": score,
                 "grade": grade,
             }
         )
+
+    if unmapped:
+        print("  warning: no label configured for these courses, so a tidied")
+        print("           version of the district name will be published:")
+        for name in unmapped:
+            print(f"             {name!r} -> {config.tidy_course(name)!r}")
+        print("           add them to course_labels.json to control this.")
+
     return courses
 
 

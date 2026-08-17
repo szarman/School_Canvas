@@ -161,6 +161,24 @@ button.ghost {
 button.ghost:hover { background: var(--surface-2); }
 button.ghost.danger { color: var(--danger); }
 
+.banner {
+  margin: 0 0 18px;
+  padding: 10px 14px;
+  border: 1px solid var(--warn);
+  border-left-width: 3px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--warn);
+  font-size: .85rem;
+}
+
+.banner code {
+  background: var(--surface-2);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: .95em;
+}
+
 /* --- Settings panel ----------------------------------------------------- */
 
 .panel {

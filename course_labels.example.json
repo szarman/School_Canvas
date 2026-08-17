@@ -1,0 +1,20 @@
+{
+  "_comment": [
+    "Copy this to course_labels.json (which is gitignored) and edit.",
+    "Keys are case-insensitive substrings matched against the course name",
+    "Canvas returns; the first match wins, so order matters. Values are what",
+    "the public board displays.",
+    "",
+    "The point is to keep teacher surnames and period numbers -- i.e. the",
+    "student's full schedule -- out of the published data. Anything that does",
+    "not match a key falls back to the raw name with period markers stripped,",
+    "and scrape.py prints a warning listing it."
+  ],
+
+  "orchestra": "Orchestra",
+  "alg 1": "Algebra 1 Honors",
+  "wrld hist": "World History",
+  "spanish": "Spanish 1",
+  "lang arts": "Language Arts",
+  "phys ed": "PE"
+}

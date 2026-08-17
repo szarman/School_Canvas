@@ -459,6 +459,7 @@ async function main() {
     document.getElementById("updated").textContent = "No data";
     return;
   }
+  document.getElementById("sample-banner").hidden = !state.data.sample;
   reconcileFlags(state.data.assignments);
   render();
 }

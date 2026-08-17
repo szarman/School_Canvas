@@ -1,6 +1,10 @@
 # Secrets -- never commit
 .env
 
+# Maps district course names (teacher surname + period) to public labels.
+# Local-only: the whole point is to keep the schedule off the public site.
+course_labels.json
+
 # Legacy scripts: these contain a hardcoded Canvas password.
 # Keep them out of git history, which would be public.
 Get Assignments.py

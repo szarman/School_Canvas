@@ -1,10 +1,13 @@
 """Configuration loaded from a gitignored .env file beside this script."""
 
+import json
 import os
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 ENV_PATH = ROOT / ".env"
+LABELS_PATH = ROOT / "course_labels.json"
 DATA_PATH = ROOT / "docs" / "data.json"
 
 
@@ -55,3 +58,56 @@ def course_allowed(name):
     if INCLUDE_COURSES:
         return any(term in lowered for term in INCLUDE_COURSES)
     return not any(term in lowered for term in EXCLUDE_COURSES)
+
+
+# --- Course display names -------------------------------------------------
+#
+# District course names carry the student's whole schedule -- teacher surname
+# and period number -- e.g. "ALG 1 HON - P2 - Surname". Publishing that to a
+# public page identifies the student far more precisely than a grade does, so
+# names are rewritten here before anything is written to data.json.
+
+
+def _load_labels():
+    if not LABELS_PATH.exists():
+        return {}
+    try:
+        raw = json.loads(LABELS_PATH.read_text(encoding="utf-8-sig"))
+    except (json.JSONDecodeError, OSError) as exc:
+        print(f"  warning: could not read course_labels.json ({exc}); using raw names")
+        return {}
+    return {
+        str(key).lower(): str(value)
+        for key, value in raw.items()
+        # "_"-prefixed keys are comments in the example file.
+        if key and value and not str(key).startswith("_")
+    }
+
+
+COURSE_LABELS = _load_labels()
+
+# " - P2 - ", ": PER: 6,7,8", "(Period 3)" and friends.
+_PERIOD_RE = re.compile(
+    r"[-–—:,(]?\s*\b(?:p|pd|per|period)\.?\s*\d+(?:\s*[,&/]\s*\d+)*\b\s*[-–—:,)]?",
+    re.IGNORECASE,
+)
+
+
+def matched_label(name):
+    """The configured label for a course, or None if nothing matches."""
+    lowered = (name or "").lower()
+    for key, label in COURSE_LABELS.items():
+        if key in lowered:
+            return label
+    return None
+
+
+def tidy_course(name):
+    """Fallback for unmapped courses: at least drop the period markers."""
+    cleaned = _PERIOD_RE.sub(" ", name or "")
+    cleaned = re.sub(r"\s{2,}", " ", cleaned).strip(" -–—:,.")
+    return cleaned or (name or "Course")
+
+
+def course_label(name):
+    return matched_label(name) or tidy_course(name)
