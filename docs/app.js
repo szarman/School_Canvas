@@ -425,45 +425,71 @@ function courseStats(courseId) {
   };
 }
 
-function scoreTable(stats) {
+function tableHead() {
+  return el("thead", {}, [
+    el("tr", {}, [
+      el("th", { text: "Assignment" }),
+      el("th", { text: "Score" }),
+      el("th", { text: "%" }),
+    ]),
+  ]);
+}
+
+const round2 = (n) => Math.round(n * 100) / 100;
+
+/* Graded work, always visible -- this is the part worth seeing at a glance,
+ * with a total row so the class adds up on screen. */
+function gradedTable(stats) {
+  if (!stats.scored.length) return null;
+
   const rows = [...stats.scored]
     .sort((a, b) => String(b.graded_at || b.due_at || "").localeCompare(String(a.graded_at || a.due_at || "")))
     .map((a) => {
       const pct = a.points_possible ? Math.round((a.score / a.points_possible) * 100) : null;
       return el("tr", {}, [
         el("td", { text: a.title }),
-        el("td", { text: a.points_possible ? `${a.score} / ${a.points_possible}` : String(a.score) }),
+        el("td", { text: a.points_possible ? `${round2(a.score)} / ${a.points_possible}` : String(round2(a.score)) }),
         el("td", { class: `pct${pct !== null && pct < 70 ? " low" : ""}`, text: pct === null ? "—" : `${pct}%` }),
       ]);
     });
 
-  // Ungraded work still carries points, which is what "still out there" means.
-  // Ungraded and point-less work is listed too, so the row count always
-  // matches the assignment count quoted above it.
-  for (const a of stats.pending) {
-    rows.push(
+  const totalPct = stats.possible ? Math.round((stats.earned / stats.possible) * 100) : null;
+
+  return el("table", { class: "scorelist" }, [
+    tableHead(),
+    el("tbody", {}, rows),
+    el("tfoot", {}, [
       el("tr", {}, [
-        el("td", { class: "pending", text: a.title }),
-        el("td", { class: "pending", text: a.points_possible ? `— / ${a.points_possible}` : "—" }),
-        el("td", { class: "pending", text: a.status === "missing" ? "missing" : "not graded" }),
-      ])
-    );
-  }
-
-  if (!rows.length) return null;
-
-  return el("details", {}, [
-    el("summary", { text: `Show all ${rows.length} assignments` }),
-    el("table", { class: "scorelist" }, [
-      el("thead", {}, [
-        el("tr", {}, [
-          el("th", { text: "Assignment" }),
-          el("th", { text: "Score" }),
-          el("th", { text: "%" }),
-        ]),
+        el("td", { text: `Total — ${stats.scored.length} graded` }),
+        el("td", { text: `${round2(stats.earned)} / ${round2(stats.possible)}` }),
+        el("td", {
+          class: `pct${totalPct !== null && totalPct < 70 ? " low" : ""}`,
+          text: totalPct === null ? "—" : `${totalPct}%`,
+        }),
       ]),
-      el("tbody", {}, rows),
     ]),
+  ]);
+}
+
+/* Ungraded work is folded away -- it has no scores to read, and it is already
+ * the whole point of the Homework view. */
+function pendingDetails(stats) {
+  if (!stats.pending.length) return null;
+
+  const rows = stats.pending.map((a) =>
+    el("tr", {}, [
+      el("td", { class: "pending", text: a.title }),
+      el("td", { class: "pending", text: a.points_possible ? `— / ${a.points_possible}` : "—" }),
+      el("td", { class: "pending", text: a.status === "missing" ? "missing" : "not graded" }),
+    ])
+  );
+
+  const worth = stats.outstanding ? ` worth ${stats.outstanding} points` : "";
+  return el("details", {}, [
+    el("summary", {
+      text: `${stats.pending.length} assignment${stats.pending.length === 1 ? "" : "s"} not graded yet${worth}`,
+    }),
+    el("table", { class: "scorelist" }, [tableHead(), el("tbody", {}, rows)]),
   ]);
 }
 
@@ -531,7 +557,8 @@ function renderGrades() {
             el("span", { style: `width: ${Math.max(0, Math.min(100, headlinePct))}%` }),
           ]),
       el("div", { class: "stats" }, stat),
-      scoreTable(stats),
+      gradedTable(stats),
+      pendingDetails(stats),
     ]);
   });
 
