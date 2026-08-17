@@ -20,6 +20,20 @@ email, or Canvas user ID. Only course names, assignment titles, dates, points
 and scores. Set `INCLUDE_LINKS=0` in `.env` to also strip the click-through
 links (and with them the course/assignment IDs).
 
+Course names get rewritten first. District names embed the teacher surname and
+period number — `ALG 1 HON - P2 - Surname`, `IAPS: C.SURNAME: PER: 6,7,8` —
+which together amount to the student's full schedule and identify them far more
+precisely than a grade does. `course_labels.json` maps those to clean labels
+(`Algebra 1 Honors`, `IAPS`) before anything is written.
+
+That file is **gitignored**, since it holds the very names being stripped. Copy
+`course_labels.example.json` to `course_labels.json` and edit it. Keys are
+case-insensitive substrings of the Canvas course name, first match wins.
+
+Anything unmapped falls back to the raw name with period markers removed —
+which does *not* remove a teacher surname — and `scrape.py` prints a warning
+naming the course so you can add it.
+
 Note that a GitHub Pages site is reachable by anyone who knows the URL, on
 every plan. Grades will be visible to anyone who finds it.
 
@@ -112,7 +126,8 @@ to `scrape.log`.
 | --- | --- |
 | `scrape.py` | Canvas → `docs/data.json` |
 | `canvas_client.py` | Token and browser-login transports for the Canvas API |
-| `config.py` | Reads `.env` |
+| `config.py` | Reads `.env` and `course_labels.json` |
+| `course_labels.json` | District course name → public label (gitignored) |
 | `publish.py` | Commits and pushes `docs/` |
 | `run_daily.py` | Nightly entry point; scrape + publish + log |
 | `install_task.ps1` | Registers/removes the 11 PM scheduled task |
