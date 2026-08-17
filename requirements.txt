@@ -1,0 +1,4 @@
+requests>=2.32
+# Only needed for the browser-login fallback (see README).
+selenium>=4.22
+webdriver-manager>=4.0

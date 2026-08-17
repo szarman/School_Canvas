@@ -1,0 +1,25 @@
+# Secrets -- never commit
+.env
+
+# Legacy scripts: these contain a hardcoded Canvas password.
+# Keep them out of git history, which would be public.
+Get Assignments.py
+HW scraper.py
+Canvas_Assignments.xlsx
+Upcoming_Assignments.csv
+# Saved Canvas pages dropped in the project root -- must not match docs/index.html
+/*.html
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime
+scrape.log
+.last_run.json
+
+# OneDrive / Windows noise
+desktop.ini
+Thumbs.db

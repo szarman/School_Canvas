@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Homework Board</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-main">
+      <h1>Homework Board</h1>
+      <p class="updated" id="updated">Loading…</p>
+    </div>
+    <button class="ghost" id="settings-toggle" type="button" aria-expanded="false">Settings</button>
+  </header>
+
+  <section class="panel" id="settings" hidden>
+    <p>Your “done” and “turned in” checkmarks live in this browser only. Move them to another
+       device by exporting here and importing there.</p>
+    <div class="panel-actions">
+      <button class="ghost" id="export-flags" type="button">Export checkmarks</button>
+      <button class="ghost" id="import-flags" type="button">Import checkmarks</button>
+      <button class="ghost danger" id="reset-flags" type="button">Clear all checkmarks</button>
+    </div>
+    <input type="file" id="import-file" accept="application/json" hidden>
+  </section>
+
+  <section class="tiles" id="tiles" aria-label="Summary"></section>
+
+  <section class="courses" id="courses" aria-label="Course grades"></section>
+
+  <section class="controls">
+    <input type="search" id="search" placeholder="Search assignments…" aria-label="Search assignments">
+    <div class="chips" id="course-filter" role="group" aria-label="Filter by course"></div>
+    <label class="toggle">
+      <input type="checkbox" id="hide-done">
+      <span>Hide done &amp; graded</span>
+    </label>
+  </section>
+
+  <main id="board" aria-live="polite"></main>
+
+  <footer>
+    <p>Updated nightly at 11:00 PM from Canvas. Canvas is the source of truth for
+       submitted and graded work; the checkboxes are yours.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
