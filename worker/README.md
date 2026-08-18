@@ -11,8 +11,9 @@ writes a day, and one household generates a handful of writes.
 
 Nothing to install. Paste `src/index.js` into the web editor.
 
-1. **KV namespace first.** dash.cloudflare.com → **Storage & Databases → KV**
-   → *Create namespace* → name it `homework-board-flags`.
+1. **KV namespace first.** dash.cloudflare.com → **Storage & databases →
+   Workers KV** → **+ Create Instance** (older dashboards called this *Create
+   namespace*) → name it `homework-board-flags`.
 2. **Create the worker.** **Compute → Workers & Pages** → *Create* →
    **Workers** → *Start with Hello World* → name it `homework-board-sync` →
    *Deploy*.
