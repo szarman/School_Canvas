@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T20:31:49.031820Z",
+  "generated_at": "2026-08-18T22:00:06.250312Z",
   "courses": [
     {
       "id": "1411965",
@@ -290,11 +290,11 @@
       "course_id": "1411346",
       "title": "An unexpected school experience. ",
       "due_at": "2026-08-19T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 30.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-08-18T20:47:50Z",
       "graded_at": null,
       "late": false,
       "offline": false,
