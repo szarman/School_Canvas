@@ -7,9 +7,39 @@ marks a person makes by hand.
 Free tier is far more than enough: Cloudflare allows 100,000 KV reads and 1,000
 writes a day, and one household generates a handful of writes.
 
-## Setup
+## Setup A: the Cloudflare dashboard (no CLI)
 
-Run everything below from **this `worker/` folder**.
+Nothing to install. Paste `src/index.js` into the web editor.
+
+1. **KV namespace first.** dash.cloudflare.com → **Storage & Databases → KV**
+   → *Create namespace* → name it `homework-board-flags`.
+2. **Create the worker.** **Compute → Workers & Pages** → *Create* →
+   **Workers** → *Start with Hello World* → name it `homework-board-sync` →
+   *Deploy*.
+3. **Paste the code.** Open the worker → *Edit code* → select all → replace
+   with the contents of [`src/index.js`](src/index.js) → *Deploy*.
+4. **Bind the namespace.** Worker → **Settings → Bindings** → *Add* → **KV
+   namespace**. Variable name **`FLAGS`** (exactly), namespace
+   `homework-board-flags`. Deploy.
+5. **Add the key.** **Settings → Variables and Secrets** → *Add* → type
+   **Secret**, name **`SYNC_KEY`**, value = your passphrase. Deploy.
+6. **Add the origin.** Same screen → *Add* → type **Text**, name
+   **`ALLOWED_ORIGIN`**, value `https://szarman.github.io`. Deploy.
+
+The binding name must be `FLAGS` and the secret `SYNC_KEY` -- the code reads
+them by those names. Until the KV binding exists, requests fail with a 500.
+
+Copy the worker's `*.workers.dev` URL, then continue at "Point the board at
+it" below.
+
+## Setup B: the wrangler CLI
+
+
+Run everything below from **this `worker/` folder** -- wrangler looks for
+`wrangler.toml` in the current directory.
+
+If `npx` asks to install wrangler, answer **y**; declining reports
+`npm error canceled`.
 
 ### 1. Sign in
 
