@@ -156,6 +156,7 @@ to `scrape.log`.
 | `run_daily.py` | Nightly entry point; scrape + publish + log |
 | `install_task.ps1` | Registers/removes the 11 PM scheduled task |
 | `docs/` | The published site |
+| `worker/` | Cloudflare Worker for cross-device checkmark sync |
 
 ## Options in `.env`
 
@@ -167,6 +168,7 @@ to `scrape.log`.
 | `INCLUDE_LINKS` | `1` | Set to `0` to omit assignment links and IDs. |
 | `CANVAS_TOKEN_EXPIRES` | *(blank)* | Token expiry date, `YYYY-MM-DD`. Drives the countdown banner. |
 | `CANVAS_STUDENT_ID` | *(blank)* | Observer accounts watching more than one student. Auto-detected otherwise. |
+| `SYNC_URL` | *(blank)* | Cloudflare Worker URL for cross-device checkmarks. See [worker/README.md](worker/README.md). |
 
 Note `GRADED_HISTORY_DAYS` trims old graded work off the board, which also
 trims it out of the Grades view's points tally. The headline percentage is
@@ -195,9 +197,10 @@ picks up new classes with no code changes.
 
 - `docs/data.json` currently holds **sample data** so the page renders before
   your first real pull. `python scrape.py` overwrites it.
-- The *Done* / *Turned in* checkmarks live in the browser's `localStorage`, so
-  they're per-device and don't sync between a phone and a laptop. **Settings →
-  Export / Import checkmarks** moves them across.
+- The *Done* / *Turned in* checkmarks live in the browser's `localStorage`. On
+  their own they are per-device; set up `worker/` for a Cloudflare Worker that
+  syncs them across a phone and a laptop. **Settings → Export / Import
+  checkmarks** still works either way as a manual backup.
 - The old `Get Assignments.py`, `HW scraper.py` and `Canvas_Assignments.xlsx`
   are gitignored and are not part of this tool. `Get Assignments.py` contains a
   plaintext Canvas password — see below.

@@ -440,3 +440,24 @@ footer p { margin: 0; }
   .card { flex-direction: column; gap: 8px; }
   .marks { flex-direction: row; gap: 14px; }
 }
+
+/* --- Sync ---------------------------------------------------------------- */
+
+.panel-title {
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+
+.panel-title + .syncstatus, .panel-title + p { margin-top: 0; }
+.panel .panel-actions + .panel-title { margin-top: 18px; }
+
+.syncstatus { font-size: .85rem; margin: 0 0 12px; color: var(--muted); }
+.syncstatus.ok { color: var(--ok); }
+.syncstatus.syncing { color: var(--accent); }
+.syncstatus.error { color: var(--warn); }
+.syncstatus.unauthorized { color: var(--danger); font-weight: 600; }
+
+button.ghost:disabled { opacity: .45; cursor: not-allowed; }

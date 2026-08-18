@@ -47,6 +47,8 @@ INCLUDE_COURSES = _csv("INCLUDE_COURSES")
 EXCLUDE_COURSES = _csv("EXCLUDE_COURSES")
 GRADED_HISTORY_DAYS = int(os.environ.get("GRADED_HISTORY_DAYS", "45"))
 INCLUDE_LINKS = os.environ.get("INCLUDE_LINKS", "1").strip() not in ("0", "false", "no")
+# Cloudflare Worker that syncs the done/turned-in marks across devices.
+SYNC_URL = os.environ.get("SYNC_URL", "").strip().rstrip("/")
 
 
 def validate():

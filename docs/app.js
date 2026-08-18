@@ -18,6 +18,7 @@ const GROUPS = [
 ];
 
 const VIEW_KEY = "hwboard.view.v1";
+const SYNC_KEY_STORAGE = "hwboard.synckey.v1";
 
 const state = {
   data: { courses: [], assignments: [], generated_at: null },
@@ -26,6 +27,12 @@ const state = {
   search: "",
   hideDone: false,
   view: localStorage.getItem(VIEW_KEY) === "grades" ? "grades" : "homework",
+  sync: {
+    url: null,                                          // from data.json
+    key: localStorage.getItem(SYNC_KEY_STORAGE) || "",  // per device
+    status: "off",                                      // off|syncing|ok|error|unauthorized
+    detail: "",
+  },
 };
 
 /* ---------- storage ---------------------------------------------------- */
@@ -51,38 +58,185 @@ function flagsFor(id) {
 }
 
 function setFlag(id, name, value) {
-  const current = { ...flagsFor(id), [name]: value, ts: new Date().toISOString() };
-  if (!current.done && !current.turnedIn) delete state.flags[id];
-  else state.flags[id] = current;
+  // A cleared mark is stored as {done:false, turnedIn:false} rather than
+  // removed. Sync cannot tell a deleted entry from one that was never set, so
+  // a device still holding the old value would restore it on its next merge.
+  state.flags[id] = { ...flagsFor(id), [name]: value, ts: new Date().toISOString() };
   saveFlags();
+  queuePush([id]);
 }
 
 /* Drop manual marks Canvas has since confirmed, so they cannot drift apart. */
 function reconcileFlags(assignments) {
-  let changed = false;
-  const live = new Set(assignments.map((a) => a.id));
+  const cleared = [];
 
   for (const assignment of assignments) {
     // Once Canvas has the work -- submitted, graded or excused -- both marks
     // are implied by definition. Stored ones are noise that can only end up
-    // contradicting Canvas, so they go.
-    if (state.flags[assignment.id] && canvasConfirmed(assignment)) {
-      delete state.flags[assignment.id];
-      changed = true;
+    // contradicting Canvas, so they are cleared here and on every device.
+    const flags = state.flags[assignment.id];
+    if (flags && canvasConfirmed(assignment) && (flags.done || flags.turnedIn)) {
+      state.flags[assignment.id] = { done: false, turnedIn: false, ts: new Date().toISOString() };
+      cleared.push(assignment.id);
     }
   }
-  // Forget marks for assignments that have aged off the board.
-  for (const id of Object.keys(state.flags)) {
-    if (!live.has(id)) {
-      delete state.flags[id];
-      changed = true;
-    }
+
+  if (cleared.length) {
+    saveFlags();
+    queuePush(cleared);
   }
-  if (changed) saveFlags();
 }
 
 function canvasConfirmed(assignment) {
   return ["awaiting_grading", "graded", "excused"].includes(assignment.status);
+}
+
+/* ---------- cross-device sync ------------------------------------------ */
+
+/* The board stays usable with sync off, unreachable, or unauthorised --
+ * localStorage remains the working copy and the worker is an overlay on top.
+ * Merging is last-write-wins per assignment, compared on the ISO timestamp
+ * each mark carries. */
+
+const syncPending = new Set();
+let syncTimer = null;
+let syncInFlight = false;
+
+const syncConfigured = () => Boolean(state.sync.url && state.sync.key);
+const isNewer = (a, b) => String((a && a.ts) || "") > String((b && b.ts) || "");
+
+function setSyncStatus(status, detail = "") {
+  state.sync.status = status;
+  state.sync.detail = detail;
+  renderSyncStatus();
+}
+
+async function syncRequest(method, body) {
+  const response = await fetch(state.sync.url, {
+    method,
+    headers: {
+      Authorization: `Bearer ${state.sync.key}`,
+      ...(body ? { "Content-Type": "application/json" } : {}),
+    },
+    body: body ? JSON.stringify(body) : undefined,
+    cache: "no-store",
+  });
+
+  if (response.status === 401 || response.status === 403) {
+    const error = new Error("the sync key was rejected");
+    error.unauthorized = true;
+    throw error;
+  }
+  if (!response.ok) throw new Error(`sync server returned HTTP ${response.status}`);
+  return response.json();
+}
+
+/** Adopt any remote entry newer than the local one. Returns true if changed. */
+function adoptRemote(remote) {
+  let changed = false;
+  for (const [id, entry] of Object.entries(remote || {})) {
+    if (!state.flags[id] || isNewer(entry, state.flags[id])) {
+      state.flags[id] = entry;
+      changed = true;
+    }
+  }
+  return changed;
+}
+
+/** Full two-way reconcile: pull everything, push whatever is newer here. */
+async function syncNow() {
+  if (!syncConfigured() || syncInFlight) return;
+  syncInFlight = true;
+  setSyncStatus("syncing");
+  try {
+    const { flags: remote } = await syncRequest("GET");
+
+    const outgoing = {};
+    for (const [id, entry] of Object.entries(state.flags)) {
+      if (!remote[id] || isNewer(entry, remote[id])) outgoing[id] = entry;
+    }
+    adoptRemote(remote);
+
+    if (Object.keys(outgoing).length) {
+      const { flags: merged } = await syncRequest("POST", { changes: outgoing });
+      adoptRemote(merged);
+    }
+
+    saveFlags();
+    setSyncStatus("ok");
+    render();
+  } catch (error) {
+    setSyncStatus(error.unauthorized ? "unauthorized" : "error", error.message);
+  } finally {
+    syncInFlight = false;
+  }
+}
+
+/** Coalesce rapid ticking into one request. */
+function queuePush(ids) {
+  if (!syncConfigured()) return;
+  ids.forEach((id) => syncPending.add(id));
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(flushPush, 700);
+}
+
+async function flushPush() {
+  if (!syncConfigured() || !syncPending.size) return;
+  if (syncInFlight) {
+    syncTimer = setTimeout(flushPush, 400);
+    return;
+  }
+
+  const changes = {};
+  for (const id of syncPending) {
+    if (state.flags[id]) changes[id] = state.flags[id];
+  }
+  syncPending.clear();
+
+  syncInFlight = true;
+  setSyncStatus("syncing");
+  try {
+    const { flags: merged } = await syncRequest("POST", { changes });
+    if (adoptRemote(merged)) {
+      saveFlags();
+      render();
+    }
+    setSyncStatus("ok");
+  } catch (error) {
+    // Put them back so the next attempt retries rather than losing the tick.
+    Object.keys(changes).forEach((id) => syncPending.add(id));
+    setSyncStatus(error.unauthorized ? "unauthorized" : "error", error.message);
+  } finally {
+    syncInFlight = false;
+  }
+}
+
+function renderSyncStatus() {
+  const node = document.getElementById("sync-status");
+  if (!node) return;
+
+  const messages = {
+    off: state.sync.url
+      ? "Not connected on this device. Marks stay in this browser only."
+      : "Sync is not set up. Marks stay in this browser only.",
+    syncing: "Syncing…",
+    ok: "Connected. Marks sync across your devices.",
+    unauthorized: "That sync key was rejected. Reconnect with the right one.",
+    error: `Could not reach the sync server (${state.sync.detail}). Marks are saved on this device and will retry.`,
+  };
+
+  node.textContent = messages[state.sync.status] || messages.off;
+  node.className = `syncstatus ${state.sync.status}`;
+
+  const connect = document.getElementById("sync-connect");
+  if (connect) {
+    connect.textContent = state.sync.key ? "Change sync key" : "Connect this device";
+    connect.disabled = !state.sync.url;
+  }
+  for (const id of ["sync-now", "sync-disconnect"]) {
+    const button = document.getElementById(id);
+    if (button) button.disabled = !syncConfigured();
+  }
 }
 
 /* ---------- dates ------------------------------------------------------ */
@@ -646,6 +800,31 @@ function wireSettings() {
     button.addEventListener("click", () => setView(button.dataset.view));
   }
 
+  document.getElementById("sync-connect").addEventListener("click", () => {
+    const entered = prompt(
+      "Enter the sync key for this homework board.\n\n" +
+        "It is the same key on every device. Leave blank to cancel."
+    );
+    if (entered === null || !entered.trim()) return;
+    state.sync.key = entered.trim();
+    localStorage.setItem(SYNC_KEY_STORAGE, state.sync.key);
+    syncNow();
+  });
+
+  document.getElementById("sync-now").addEventListener("click", syncNow);
+
+  document.getElementById("sync-disconnect").addEventListener("click", () => {
+    if (!confirm("Stop syncing on this device? Marks already here are kept.")) return;
+    state.sync.key = "";
+    localStorage.removeItem(SYNC_KEY_STORAGE);
+    setSyncStatus("off");
+  });
+
+  // Pick up marks made on another device when the tab comes back into view.
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") syncNow();
+  });
+
   const toggle = document.getElementById("settings-toggle");
   const panel = document.getElementById("settings");
   toggle.addEventListener("click", () => {
@@ -716,8 +895,15 @@ async function main() {
   }
   document.getElementById("sample-banner").hidden = !state.data.sample;
   renderTokenBanner();
+
+  state.sync.url = state.data.sync_url || window.HWBOARD_SYNC_URL || null;
+  setSyncStatus(syncConfigured() ? "syncing" : "off");
+
   reconcileFlags(state.data.assignments);
   render();
+
+  // Local marks are already on screen; the pull only ever adds to them.
+  if (syncConfigured()) syncNow();
 }
 
 main();

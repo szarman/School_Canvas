@@ -1,0 +1,15 @@
+name = "homework-board-sync"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# Only these origins may call the worker. The bearer key is the real guard --
+# a browser sends Origin but a script need not -- so treat this as tidiness,
+# not security. Add http://localhost:8765 while testing the board locally.
+[vars]
+ALLOWED_ORIGIN = "https://szarman.github.io"
+
+# Created by:  npx wrangler kv namespace create FLAGS
+# Paste the printed id below.
+[[kv_namespaces]]
+binding = "FLAGS"
+id = "PASTE_YOUR_KV_NAMESPACE_ID_HERE"

@@ -31,8 +31,17 @@
   <p class="banner" id="token-banner" hidden></p>
 
   <section class="panel" id="settings" hidden>
-    <p>Your “done” and “turned in” checkmarks live in this browser only. Move them to another
-       device by exporting here and importing there.</p>
+    <h2 class="panel-title">Sync across devices</h2>
+    <p class="syncstatus" id="sync-status">Checking…</p>
+    <div class="panel-actions">
+      <button class="ghost" id="sync-connect" type="button">Connect this device</button>
+      <button class="ghost" id="sync-now" type="button">Sync now</button>
+      <button class="ghost danger" id="sync-disconnect" type="button">Disconnect</button>
+    </div>
+
+    <h2 class="panel-title">Manual backup</h2>
+    <p>Export and import move checkmarks between devices without sync, and give
+       you a copy either way.</p>
     <div class="panel-actions">
       <button class="ghost" id="export-flags" type="button">Export checkmarks</button>
       <button class="ghost" id="import-flags" type="button">Import checkmarks</button>

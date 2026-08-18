@@ -240,6 +240,10 @@ def build():
         "assignments": assignments,
     }
 
+    # Not a secret: the worker also demands a bearer key the board never publishes.
+    if config.SYNC_URL:
+        data["sync_url"] = config.SYNC_URL
+
     # Surface the token deadline on the board itself -- that is the page
     # actually looked at every day, so it is where the reminder will land.
     days_left = config.token_days_left()
