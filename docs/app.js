@@ -820,9 +820,17 @@ function wireSettings() {
     setSyncStatus("off");
   });
 
-  // Pick up marks made on another device when the tab comes back into view.
+  document.getElementById("refresh").addEventListener("click", (event) =>
+    refresh({ button: event.currentTarget })
+  );
+
+  // Returning to the tab picks up marks from other devices, and any newer
+  // data.json, without a manual reload. Throttled so flicking between tabs
+  // does not re-fetch constantly.
   document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "visible") syncNow();
+    if (document.visibilityState !== "visible") return;
+    if (Date.now() - lastLoad > 60_000) refresh();
+    else syncNow();
   });
 
   const toggle = document.getElementById("settings-toggle");
@@ -879,13 +887,47 @@ function wireSettings() {
 
 /* ---------- boot ------------------------------------------------------- */
 
+/* ---------- loading ----------------------------------------------------- */
+
+let lastLoad = 0;
+
+/** Re-read data.json. Returns false if it could not be fetched. */
+async function loadData() {
+  // Cache-bust: GitHub Pages serves data.json with max-age=600, so without
+  // this a reload can show up to ten-minute-old data.
+  const response = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  state.data = await response.json();
+  lastLoad = Date.now();
+  return true;
+}
+
+async function refresh({ button } = {}) {
+  if (button) {
+    button.disabled = true;
+    button.textContent = "Refreshing…";
+  }
+  try {
+    await loadData();
+    document.getElementById("sample-banner").hidden = !state.data.sample;
+    renderTokenBanner();
+    reconcileFlags(state.data.assignments);
+    render();
+    await syncNow();
+  } catch (error) {
+    document.getElementById("updated").textContent = `Could not refresh (${error.message})`;
+  } finally {
+    if (button) {
+      button.disabled = false;
+      button.textContent = "Refresh";
+    }
+  }
+}
+
 async function main() {
   wireSettings();
   try {
-    // Cache-bust so a fresh nightly push shows up without a hard reload.
-    const response = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.data = await response.json();
+    await loadData();
   } catch (error) {
     document.getElementById("board").replaceChildren(
       el("p", { class: "empty", text: `Could not load data.json (${error.message}). Run scrape.py to create it.` })

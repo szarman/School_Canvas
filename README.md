@@ -124,15 +124,27 @@ branch**, branch `main`, folder **`/docs`**, and save. The board appears at
 powershell -ExecutionPolicy Bypass -File .\install_task.ps1
 ```
 
-Registers a task named **Canvas Homework Board** that runs at 11:00 PM daily as
-you, only while you're logged on, so no password is stored with the task. If
+Registers a task named **Canvas Homework Board** that runs at **6:00 AM,
+6:00 PM and 11:00 PM** — morning check, after school, end of day. It runs as
+you and only while you're logged on, so no password is stored with the task. If
 the PC was off, it catches up at the next login.
 
 ```bash
-powershell -ExecutionPolicy Bypass -File .\install_task.ps1 -At 22:00
+powershell -ExecutionPolicy Bypass -File .\install_task.ps1 -At 07:00,16:00
 ```
 
-changes the time; `-Remove` unregisters it.
+sets different times; `-Remove` unregisters it.
+
+## Refreshing the board
+
+The page re-reads `data.json` on load, when the tab regains focus (at most once
+a minute), and whenever **Refresh** is pressed. That shows the most recent
+*published* pull.
+
+It cannot fetch newer grades than the last scrape produced: the Canvas token
+lives on the PC, and a browser cannot call the Canvas API from a public page.
+Fresher data means running `run_daily.py` again — which is what the schedule
+above is for.
 
 ## Running it by hand
 

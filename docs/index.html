@@ -19,6 +19,7 @@
         <button type="button" class="viewbtn" data-view="homework" aria-pressed="true">Homework</button>
         <button type="button" class="viewbtn" data-view="grades" aria-pressed="false">Grades</button>
       </div>
+      <button class="ghost" id="refresh" type="button" title="Check for new assignments and grades">Refresh</button>
       <button class="ghost" id="settings-toggle" type="button" aria-expanded="false">Settings</button>
     </div>
   </header>
@@ -67,7 +68,8 @@
   <main id="grades" aria-live="polite" hidden></main>
 
   <footer>
-    <p>Updated nightly at 11:00 PM from Canvas. Canvas is the source of truth for
+    <p>Pulled from Canvas at 6:00&nbsp;AM, 6:00&nbsp;PM and 11:00&nbsp;PM. Press
+       Refresh for the latest published data. Canvas is the source of truth for
        submitted and graded work; the checkboxes are yours.</p>
   </footer>
 
