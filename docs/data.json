@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:00:06.070730Z",
+  "generated_at": "2026-08-19T10:00:06.484394Z",
   "courses": [
     {
       "id": "1411965",
@@ -245,7 +245,7 @@
       "course_id": "1413943",
       "title": "In-Class Review and Quiz",
       "due_at": "2026-08-19T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 25.0,
       "score": null,
       "grade": null,
@@ -275,7 +275,7 @@
       "course_id": "1414605",
       "title": "AP Classroom Access",
       "due_at": "2026-08-19T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 5.0,
       "score": null,
       "grade": null,
@@ -543,5 +543,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 89
+  "token_days_left": 88
 }
