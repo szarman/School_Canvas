@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:00:08.133940Z",
+  "generated_at": "2026-08-20T10:00:06.795274Z",
   "courses": [
     {
       "id": "1411965",
@@ -320,7 +320,7 @@
       "course_id": "1412828",
       "title": "#8 Activity 1 Improving Car and Driver Safety",
       "due_at": "2026-08-20T03:30:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -335,7 +335,7 @@
       "course_id": "1411965",
       "title": "Syllabus Signed & Returned",
       "due_at": "2026-08-20T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -350,7 +350,7 @@
       "course_id": "1412828",
       "title": "PM1 Session 1-participation",
       "due_at": "2026-08-20T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -618,5 +618,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 88
+  "token_days_left": 87
 }
