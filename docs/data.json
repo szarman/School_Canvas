@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:00:06.795274Z",
+  "generated_at": "2026-08-20T22:00:07.049436Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 100.0,
+      "score": 98.67,
       "grade": "A"
     },
     {
@@ -316,21 +316,6 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/21932973"
     },
     {
-      "id": "1412828-22050084",
-      "course_id": "1412828",
-      "title": "#8 Activity 1 Improving Car and Driver Safety",
-      "due_at": "2026-08-20T03:30:00Z",
-      "status": "missing",
-      "points_possible": 20.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050084"
-    },
-    {
       "id": "1411965-22157299",
       "course_id": "1411965",
       "title": "Syllabus Signed & Returned",
@@ -350,12 +335,12 @@
       "course_id": "1412828",
       "title": "PM1 Session 1-participation",
       "due_at": "2026-08-20T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-20T18:13:11Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22178075"
@@ -365,7 +350,7 @@
       "course_id": "1413943",
       "title": "Khan HW-Solve Absolute Value, Solve Absolute Value with bars on both sides",
       "due_at": "2026-08-20T12:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -380,12 +365,12 @@
       "course_id": "1412828",
       "title": "PM1 Session 2-participation",
       "due_at": "2026-08-21T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-20T18:13:40Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22178078"
@@ -410,15 +395,30 @@
       "course_id": "1413943",
       "title": "Canvas HW- Literal Equations",
       "due_at": "2026-08-21T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
+      "score": 9.0,
+      "grade": "9",
+      "submitted_at": "2026-08-20T21:58:59Z",
+      "graded_at": "2026-08-20T21:59:01Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22141724"
+    },
+    {
+      "id": "1412828-22050084",
+      "course_id": "1412828",
+      "title": "#8 Activity 1 Improving Car and Driver Safety",
+      "due_at": "2026-08-21T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22141724"
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050084"
     },
     {
       "id": "1413943-22141725",
@@ -494,21 +494,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22170597"
-    },
-    {
-      "id": "1412828-22050087",
-      "course_id": "1412828",
-      "title": "#9 Activity 2 Measuring & Graphing Speed LWU",
-      "due_at": "2026-08-24T13:30:00Z",
-      "status": "upcoming",
-      "points_possible": 50.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050087"
     },
     {
       "id": "1412828-21940832",
