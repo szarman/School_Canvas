@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T22:00:07.254336Z",
+  "generated_at": "2026-08-20T03:00:08.133940Z",
   "courses": [
     {
       "id": "1411965",
@@ -395,11 +395,11 @@
       "course_id": "1411346",
       "title": "Los cognados / Choice board",
       "due_at": "2026-08-21T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-08-19T23:15:06Z",
       "graded_at": null,
       "late": false,
       "offline": false,
