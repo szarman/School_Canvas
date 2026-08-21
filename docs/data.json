@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:00:07.049436Z",
+  "generated_at": "2026-08-21T03:00:07.471600Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 98.67,
+      "score": 100.0,
       "grade": "A"
     },
     {
@@ -397,10 +397,10 @@
       "due_at": "2026-08-21T12:00:00Z",
       "status": "graded",
       "points_possible": 10.0,
-      "score": 9.0,
-      "grade": "9",
-      "submitted_at": "2026-08-20T21:58:59Z",
-      "graded_at": "2026-08-20T21:59:01Z",
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-08-20T22:02:47Z",
+      "graded_at": "2026-08-20T22:02:59Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22141724"
@@ -440,11 +440,11 @@
       "course_id": "1412828",
       "title": "HW:  #1 Science Cover Page- SUBMISSION",
       "due_at": "2026-08-22T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-08-20T23:00:36Z",
       "graded_at": null,
       "late": false,
       "offline": false,
