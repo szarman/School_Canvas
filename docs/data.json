@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:00:07.183202Z",
+  "generated_at": "2026-08-22T10:00:06.532650Z",
   "courses": [
     {
       "id": "1411965",
@@ -485,7 +485,7 @@
       "course_id": "1414605",
       "title": "Passport",
       "due_at": "2026-08-22T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -693,5 +693,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 86
+  "token_days_left": 85
 }
