@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-24T10:00:06.458888Z",
+  "generated_at": "2026-08-24T22:00:07.492594Z",
   "courses": [
     {
       "id": "1411965",
       "name": "Orchestra",
-      "score": null,
-      "grade": null
+      "score": 100.0,
+      "grade": "A"
     },
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 90.91,
-      "grade": "A"
+      "score": 89.17,
+      "grade": "B"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 98.67,
+      "score": 96.47,
       "grade": "A"
     },
     {
@@ -320,12 +320,12 @@
       "course_id": "1411965",
       "title": "Syllabus Signed & Returned",
       "due_at": "2026-08-20T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-24T14:28:52Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22157299"
@@ -410,15 +410,30 @@
       "course_id": "1412828",
       "title": "#8 Activity 1 Improving Car and Driver Safety",
       "due_at": "2026-08-21T13:30:00Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 16.0,
+      "grade": "16",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-24T17:54:25Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050084"
+    },
+    {
+      "id": "1411965-22219271",
+      "course_id": "1411965",
+      "title": "Week 2 Rehearsal Etiquette",
+      "due_at": "2026-08-22T03:59:59Z",
+      "status": "graded",
+      "points_possible": 50.0,
+      "score": 50.0,
+      "grade": "50",
+      "submitted_at": null,
+      "graded_at": "2026-08-24T14:32:47Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22219271"
     },
     {
       "id": "1413943-22141725",
@@ -485,27 +500,42 @@
       "course_id": "1414605",
       "title": "Passport",
       "due_at": "2026-08-22T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 20.0,
+      "score": 20.0,
+      "grade": "20",
+      "submitted_at": null,
+      "graded_at": "2026-08-24T14:14:06Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22170597"
+    },
+    {
+      "id": "1411346-22219060",
+      "course_id": "1411346",
+      "title": "Spelling in Spanish ",
+      "due_at": "2026-08-25T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 5.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
       "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22170597"
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22219060"
     },
     {
       "id": "1413943-22207386",
       "course_id": "1413943",
       "title": "Canvas HW- Simple Interest",
       "due_at": "2026-08-25T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 7.0,
+      "grade": "7",
+      "submitted_at": "2026-08-24T21:55:38Z",
+      "graded_at": "2026-08-24T21:55:40Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207386"
