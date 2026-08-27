@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T10:00:07.048602Z",
+  "generated_at": "2026-08-27T22:00:08.435812Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 91.67,
+      "score": 92.31,
       "grade": "A"
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "1414702",
       "name": "PE",
-      "score": 98.5,
+      "score": 99.5,
       "grade": "A"
     },
     {
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 78.33,
+      "score": 76.0,
       "grade": "C"
     }
   ],
@@ -421,6 +421,21 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050084"
     },
     {
+      "id": "1411346-22322017",
+      "course_id": "1411346",
+      "title": "Los cognados",
+      "due_at": "2026-08-21T20:30:00Z",
+      "status": "graded",
+      "points_possible": 50.0,
+      "score": 33.0,
+      "grade": "33",
+      "submitted_at": null,
+      "graded_at": "2026-08-26T20:52:21Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22322017"
+    },
+    {
       "id": "1411965-22219271",
       "course_id": "1411965",
       "title": "Week 2 Rehearsal Etiquette",
@@ -511,16 +526,31 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22170597"
     },
     {
+      "id": "1414605-22225354",
+      "course_id": "1414605",
+      "title": "NHD Week 1 Packet",
+      "due_at": "2026-08-25T03:59:59Z",
+      "status": "missing",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225354"
+    },
+    {
       "id": "1411346-22219060",
       "course_id": "1411346",
       "title": "Spelling in Spanish ",
       "due_at": "2026-08-25T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 5.0,
-      "score": null,
-      "grade": null,
+      "score": 5.0,
+      "grade": "5",
       "submitted_at": "2026-08-25T01:55:21Z",
-      "graded_at": null,
+      "graded_at": "2026-08-25T20:34:12Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22219060"
@@ -541,11 +571,86 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207386"
     },
     {
+      "id": "1413943-22227918",
+      "course_id": "1413943",
+      "title": "Surprise Binder Check",
+      "due_at": "2026-08-26T03:59:59Z",
+      "status": "graded",
+      "points_possible": 5.0,
+      "score": 5.0,
+      "grade": "5",
+      "submitted_at": null,
+      "graded_at": "2026-08-25T15:11:58Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22227918"
+    },
+    {
+      "id": "1414605-22225376",
+      "course_id": "1414605",
+      "title": "Principles of Geography G1 Intro",
+      "due_at": "2026-08-26T03:59:59Z",
+      "status": "missing",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225376"
+    },
+    {
+      "id": "1414605-22226281",
+      "course_id": "1414605",
+      "title": "Map Basics & Features QUIZ",
+      "due_at": "2026-08-26T03:59:59Z",
+      "status": "missing",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22226281"
+    },
+    {
+      "id": "1411346-22230618",
+      "course_id": "1411346",
+      "title": "Útiles Escolares / Commandos",
+      "due_at": "2026-08-26T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-08-25T16:24:39Z",
+      "graded_at": "2026-08-26T12:23:36Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22230618"
+    },
+    {
+      "id": "1414605-22225390",
+      "course_id": "1414605",
+      "title": "Principles of Geography G1-A",
+      "due_at": "2026-08-27T03:59:59Z",
+      "status": "missing",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225390"
+    },
+    {
       "id": "1412828-22050087",
       "course_id": "1412828",
-      "title": "#9 Activity 2 Measuring & Graphing Speed LWU ",
-      "due_at": "2026-08-25T13:30:00Z",
-      "status": "upcoming",
+      "title": "#9 Activity 2 Measuring & Graphing Speed Lab",
+      "due_at": "2026-08-27T13:30:00Z",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -560,12 +665,12 @@
       "course_id": "1413943",
       "title": "Teacher Led Unit 1 Review Day ",
       "due_at": "2026-08-28T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 5.0,
-      "score": null,
-      "grade": null,
+      "score": 5.0,
+      "grade": "5",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-27T13:24:37Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207388"
@@ -601,9 +706,24 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207389"
     },
     {
-      "id": "1412828-22050107",
-      "course_id": "1412828",
-      "title": "#10 Distance-Time Gizmo  ",
+      "id": "1414702-21951538",
+      "course_id": "1414702",
+      "title": "Fitness Quiz",
+      "due_at": "2026-08-29T03:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 96.0,
+      "grade": "96",
+      "submitted_at": "2026-08-25T11:50:49Z",
+      "graded_at": "2026-08-25T11:50:51Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951538"
+    },
+    {
+      "id": "1414605-22225422",
+      "course_id": "1414605",
+      "title": "Principles of Geography G1-B/C",
       "due_at": "2026-08-29T03:59:59Z",
       "status": "upcoming",
       "points_possible": 20.0,
@@ -612,23 +732,23 @@
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050107"
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225422"
     },
     {
-      "id": "1414702-21951538",
-      "course_id": "1414702",
-      "title": "Fitness Quiz",
+      "id": "1411346-22345084",
+      "course_id": "1411346",
+      "title": "El alfabeto aloud",
       "due_at": "2026-08-29T03:59:59Z",
-      "status": "graded",
-      "points_possible": 100.0,
-      "score": 88.0,
-      "grade": "88",
-      "submitted_at": "2026-08-24T22:15:42Z",
-      "graded_at": "2026-08-24T22:15:45Z",
+      "status": "awaiting_grading",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": "2026-08-27T01:00:05Z",
+      "graded_at": null,
       "late": false,
       "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951538"
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22345084"
     },
     {
       "id": "1413943-22207387",
@@ -646,19 +766,34 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207387"
     },
     {
-      "id": "1412828-22146670",
+      "id": "1412828-22050107",
       "course_id": "1412828",
-      "title": "# 11 Activity 3: Speed and Kinetic Energy LWU",
+      "title": "#10 Distance-Time Gizmo  ",
       "due_at": "2026-08-31T13:30:00Z",
       "status": "upcoming",
-      "points_possible": 50.0,
+      "points_possible": 20.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
       "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22146670"
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050107"
+    },
+    {
+      "id": "1414605-22225360",
+      "course_id": "1414605",
+      "title": "NHD Week 2 Packet",
+      "due_at": "2026-09-01T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225360"
     },
     {
       "id": "1412828-21940832",
@@ -768,5 +903,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 82
+  "token_days_left": 80
 }
