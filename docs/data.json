@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:00:06.675154Z",
+  "generated_at": "2026-08-29T03:00:06.443482Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,8 +10,8 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 93.33,
-      "grade": "A"
+      "score": 84.0,
+      "grade": "B"
     },
     {
       "id": "1412828",
@@ -740,12 +740,12 @@
       "course_id": "1413943",
       "title": "Unit 1 Test",
       "due_at": "2026-08-29T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 75.0,
-      "score": null,
-      "grade": null,
+      "score": 49.0,
+      "grade": "49",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-28T22:19:50Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207389"
