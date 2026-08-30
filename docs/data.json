@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T03:00:06.470595Z",
+  "generated_at": "2026-08-30T10:00:06.276894Z",
   "courses": [
     {
       "id": "1411965",
@@ -1038,5 +1038,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 78
+  "token_days_left": 77
 }
