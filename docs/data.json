@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:00:06.276894Z",
+  "generated_at": "2026-08-30T22:00:06.706091Z",
   "courses": [
     {
       "id": "1411965",
@@ -856,6 +856,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359267"
     },
     {
+      "id": "1412828-22146670",
+      "course_id": "1412828",
+      "title": "# 11 Activity 3: Speed and Kinetic Energy LWU",
+      "due_at": "2026-09-01T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22146670"
+    },
+    {
       "id": "1413943-22359265",
       "course_id": "1413943",
       "title": "Compound Inequalities",
@@ -886,6 +901,36 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359260"
     },
     {
+      "id": "1412828-22050120",
+      "course_id": "1412828",
+      "title": "# 12 Notes Speed, Velocity, Acceleration",
+      "due_at": "2026-09-03T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050120"
+    },
+    {
+      "id": "1412828-22050122",
+      "course_id": "1412828",
+      "title": "#13 Speed, Velocity & Acceleration: Practice Problems",
+      "due_at": "2026-09-03T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050122"
+    },
+    {
       "id": "1413943-22359263",
       "course_id": "1413943",
       "title": "CW- Inequalities Practice",
@@ -899,6 +944,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359263"
+    },
+    {
+      "id": "1412828-22346877",
+      "course_id": "1412828",
+      "title": "# 14 Activity 4: Mass and Kinetic Energy LWU",
+      "due_at": "2026-09-04T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22346877"
     },
     {
       "id": "1413943-22359268",
