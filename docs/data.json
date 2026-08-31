@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:00:06.706091Z",
+  "generated_at": "2026-08-31T03:00:06.216412Z",
   "courses": [
     {
       "id": "1411965",
@@ -40,8 +40,8 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 76.0,
-      "grade": "C"
+      "score": 81.71,
+      "grade": "B"
     }
   ],
   "assignments": [
@@ -689,6 +689,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207388"
+    },
+    {
+      "id": "1411346-22370693",
+      "course_id": "1411346",
+      "title": "El alfabeto - Spelling in Spanish - Quiz",
+      "due_at": "2026-08-28T08:30:00Z",
+      "status": "graded",
+      "points_possible": 50.0,
+      "score": 48.0,
+      "grade": "48",
+      "submitted_at": null,
+      "graded_at": "2026-08-31T00:58:12Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22370693"
     },
     {
       "id": "1413943-22207385",
