@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T10:00:08.887507Z",
+  "generated_at": "2026-08-31T22:00:05.695307Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 84.0,
+      "score": 84.68,
       "grade": "B"
     },
     {
@@ -34,14 +34,14 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 98.96,
+      "score": 99.06,
       "grade": "A"
     },
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 81.71,
-      "grade": "B"
+      "score": 72.04,
+      "grade": "C"
     }
   ],
   "assignments": [
@@ -785,12 +785,12 @@
       "course_id": "1414605",
       "title": "Principles of Geography G1-B/C",
       "due_at": "2026-08-29T03:59:59Z",
-      "status": "missing",
-      "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-31T20:12:13Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225422"
@@ -815,12 +815,12 @@
       "course_id": "1413943",
       "title": "Khan HW- Solve 1-step inequalities and 2-step inequalities",
       "due_at": "2026-08-31T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-08-31T12:52:06Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207387"
@@ -830,7 +830,7 @@
       "course_id": "1412828",
       "title": "#10 Distance-Time Gizmo  ",
       "due_at": "2026-08-31T13:30:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -839,6 +839,36 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050107"
+    },
+    {
+      "id": "1411346-22368075",
+      "course_id": "1411346",
+      "title": "El alfabeto - Listening quiz",
+      "due_at": "2026-08-31T20:30:00Z",
+      "status": "graded",
+      "points_possible": 20.0,
+      "score": 9.0,
+      "grade": "9",
+      "submitted_at": "2026-08-31T15:25:05Z",
+      "graded_at": "2026-08-31T15:25:09Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22368075"
+    },
+    {
+      "id": "1411346-22376406",
+      "course_id": "1411346",
+      "title": "Agosto Bellwork",
+      "due_at": "2026-09-01T03:30:00Z",
+      "status": "awaiting_grading",
+      "points_possible": 16.0,
+      "score": 0.0,
+      "grade": "0",
+      "submitted_at": "2026-08-31T15:29:36Z",
+      "graded_at": "2026-08-31T15:28:28Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22376406"
     },
     {
       "id": "1414605-22225360",
@@ -989,6 +1019,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359268"
+    },
+    {
+      "id": "1414605-22374292",
+      "course_id": "1414605",
+      "title": "NHD Week 3 Packet",
+      "due_at": "2026-09-08T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22374292"
     },
     {
       "id": "1413943-22359264",
