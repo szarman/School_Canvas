@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T03:00:06.133174Z",
+  "generated_at": "2026-09-01T10:00:06.464732Z",
   "courses": [
     {
       "id": "1411965",
@@ -875,7 +875,7 @@
       "course_id": "1414605",
       "title": "NHD Week 2 Packet",
       "due_at": "2026-09-01T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -1158,5 +1158,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 76
+  "token_days_left": 75
 }
