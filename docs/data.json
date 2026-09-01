@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T10:00:06.464732Z",
+  "generated_at": "2026-09-01T22:00:09.062839Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 84.68,
+      "score": 85.31,
       "grade": "B"
     },
     {
@@ -34,7 +34,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 99.06,
+      "score": 99.14,
       "grade": "A"
     },
     {
@@ -871,16 +871,31 @@
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22376406"
     },
     {
-      "id": "1414605-22225360",
-      "course_id": "1414605",
-      "title": "NHD Week 2 Packet",
+      "id": "1411965-22384462",
+      "course_id": "1411965",
+      "title": "Week 3 Practice Logs",
       "due_at": "2026-09-01T03:59:59Z",
       "status": "missing",
-      "points_possible": 10.0,
+      "points_possible": 20.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22384462"
+    },
+    {
+      "id": "1414605-22225360",
+      "course_id": "1414605",
+      "title": "NHD Week 2 Packet",
+      "due_at": "2026-09-01T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": null,
+      "graded_at": "2026-09-01T19:48:41Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225360"
@@ -890,12 +905,12 @@
       "course_id": "1413943",
       "title": "Khan HW- 2-Step Inequality Word Problems and Multistep Inequalities",
       "due_at": "2026-09-01T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-01T16:00:26Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359267"
@@ -905,7 +920,7 @@
       "course_id": "1412828",
       "title": "# 11 Activity 3: Speed and Kinetic Energy LWU",
       "due_at": "2026-09-01T13:30:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -929,6 +944,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359265"
+    },
+    {
+      "id": "1411346-22385910",
+      "course_id": "1411346",
+      "title": "21 Countries info.",
+      "due_at": "2026-09-03T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 21.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22385910"
     },
     {
       "id": "1413943-22359260",
@@ -989,6 +1019,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359263"
+    },
+    {
+      "id": "1414605-22383541",
+      "course_id": "1414605",
+      "title": "Regionalization G2-Intro/A",
+      "due_at": "2026-09-04T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22383541"
     },
     {
       "id": "1412828-22346877",
@@ -1139,6 +1184,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22178093"
+    },
+    {
+      "id": "1411248-22382224",
+      "course_id": "1411248",
+      "title": "Figurative Language Student Notes",
+      "due_at": null,
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
     },
     {
       "id": "1414702-21951636",
