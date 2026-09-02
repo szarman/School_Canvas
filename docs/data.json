@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-02T10:00:09.253104Z",
+  "generated_at": "2026-09-02T22:00:05.372248Z",
   "courses": [
     {
       "id": "1411965",
       "name": "Orchestra",
-      "score": 104.55,
+      "score": 95.83,
       "grade": "A"
     },
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 85.75,
+      "score": 85.88,
       "grade": "B"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 95.45,
+      "score": 95.83,
       "grade": "A"
     },
     {
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 72.04,
+      "score": 74.46,
       "grade": "C"
     }
   ],
@@ -800,12 +800,12 @@
       "course_id": "1411346",
       "title": "El alfabeto aloud",
       "due_at": "2026-08-29T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": "2026-08-27T01:00:05Z",
-      "graded_at": null,
+      "graded_at": "2026-09-02T16:42:40Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22345084"
@@ -830,12 +830,12 @@
       "course_id": "1412828",
       "title": "#10 Distance-Time Gizmo  ",
       "due_at": "2026-08-31T13:30:00Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-02T17:20:10Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050107"
@@ -875,12 +875,12 @@
       "course_id": "1411965",
       "title": "Week 3 Practice Logs",
       "due_at": "2026-09-01T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-02T13:15:59Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22384462"
@@ -937,10 +937,10 @@
       "due_at": "2026-09-02T12:00:00Z",
       "status": "graded",
       "points_possible": 10.0,
-      "score": 9.666666666666666,
-      "grade": "9.666666666666666",
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": "2026-09-01T23:05:09Z",
-      "graded_at": "2026-09-01T23:05:11Z",
+      "graded_at": "2026-09-02T12:20:11Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359265"
@@ -1051,6 +1051,21 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22346877"
     },
     {
+      "id": "1411965-22405339",
+      "course_id": "1411965",
+      "title": "Week 4 Rehearsal Etiquette",
+      "due_at": "2026-09-05T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22405339"
+    },
+    {
       "id": "1413943-22359268",
       "course_id": "1413943",
       "title": "Unit 1 Test Corrections",
@@ -1094,6 +1109,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359264"
+    },
+    {
+      "id": "1411965-22405345",
+      "course_id": "1411965",
+      "title": "Week 4 Practice Log",
+      "due_at": "2026-09-09T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22405345"
     },
     {
       "id": "1412828-21940832",
