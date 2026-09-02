@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:00:09.062839Z",
+  "generated_at": "2026-09-02T03:00:09.292010Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 85.31,
+      "score": 85.75,
       "grade": "B"
     },
     {
@@ -935,12 +935,12 @@
       "course_id": "1413943",
       "title": "Compound Inequalities",
       "due_at": "2026-09-02T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 9.666666666666666,
+      "grade": "9.666666666666666",
+      "submitted_at": "2026-09-01T23:05:09Z",
+      "graded_at": "2026-09-01T23:05:11Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359265"
