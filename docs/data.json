@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:00:05.346187Z",
+  "generated_at": "2026-09-03T22:00:05.187707Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,13 +10,13 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 86.04,
+      "score": 85.4,
       "grade": "B"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 95.83,
+      "score": 96.3,
       "grade": "A"
     },
     {
@@ -966,11 +966,11 @@
       "title": "Absolute Value Inequalities",
       "due_at": "2026-09-03T12:00:00Z",
       "status": "graded",
-      "points_possible": 10.0,
+      "points_possible": 9.0,
       "score": 9.0,
       "grade": "9",
       "submitted_at": "2026-09-02T23:17:11Z",
-      "graded_at": "2026-09-02T23:17:14Z",
+      "graded_at": "2026-09-03T17:01:33Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359260"
@@ -980,12 +980,12 @@
       "course_id": "1412828",
       "title": "# 12 Notes Speed, Velocity, Acceleration",
       "due_at": "2026-09-03T13:30:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-03T17:55:20Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050120"
@@ -995,12 +995,12 @@
       "course_id": "1412828",
       "title": "#13 Speed, Velocity & Acceleration: Practice Problems",
       "due_at": "2026-09-03T13:30:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-03T18:00:52Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050122"
@@ -1010,15 +1010,30 @@
       "course_id": "1413943",
       "title": "CW- Inequalities Practice",
       "due_at": "2026-09-04T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 5.0,
-      "score": null,
-      "grade": null,
+      "score": 5.0,
+      "grade": "5",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-03T15:40:35Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359263"
+    },
+    {
+      "id": "1413943-22416876",
+      "course_id": "1413943",
+      "title": "Absolute Value Worksheet Check",
+      "due_at": "2026-09-04T03:59:59Z",
+      "status": "graded",
+      "points_possible": 5.0,
+      "score": 1.0,
+      "grade": "1",
+      "submitted_at": null,
+      "graded_at": "2026-09-03T15:11:02Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22416876"
     },
     {
       "id": "1414605-22383541",
