@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T03:00:04.692004Z",
+  "generated_at": "2026-09-05T10:00:05.463656Z",
   "courses": [
     {
       "id": "1411965",
@@ -1055,7 +1055,7 @@
       "course_id": "1411965",
       "title": "Week 4 Rehearsal Etiquette",
       "due_at": "2026-09-05T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -1383,5 +1383,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 72
+  "token_days_left": 71
 }
