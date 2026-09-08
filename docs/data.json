@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-08T10:00:04.986024Z",
+  "generated_at": "2026-09-08T22:00:05.317050Z",
   "courses": [
     {
       "id": "1411965",
       "name": "Orchestra",
-      "score": 95.83,
+      "score": 96.55,
       "grade": "A"
     },
     {
@@ -16,7 +16,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 92.81,
+      "score": 93.03,
       "grade": "A"
     },
     {
@@ -34,7 +34,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 99.14,
+      "score": 99.32,
       "grade": "A"
     },
     {
@@ -1055,12 +1055,12 @@
       "course_id": "1411965",
       "title": "Week 4 Rehearsal Etiquette",
       "due_at": "2026-09-05T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 50.0,
+      "grade": "50",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-08T16:45:24Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22405339"
@@ -1079,51 +1079,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359268"
-    },
-    {
-      "id": "1411248-22178093",
-      "course_id": "1411248",
-      "title": "Literary Elements Benchmark Student Notes",
-      "due_at": "2026-09-08T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-08-19T14:22:59Z",
-      "graded_at": "2026-09-08T03:11:34Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22178093"
-    },
-    {
-      "id": "1411248-22382224",
-      "course_id": "1411248",
-      "title": "Figurative Language Student Notes",
-      "due_at": "2026-09-08T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 0.0,
-      "grade": "0",
-      "submitted_at": null,
-      "graded_at": "2026-09-08T03:00:20Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
-    },
-    {
-      "id": "1411248-22422300",
-      "course_id": "1411248",
-      "title": "Literary Elements Quiz",
-      "due_at": "2026-09-08T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 9.0,
-      "grade": "9",
-      "submitted_at": "2026-09-04T14:28:03Z",
-      "graded_at": "2026-09-04T14:28:06Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22422300"
     },
     {
       "id": "1411248-22438932",
@@ -1201,26 +1156,11 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359264"
     },
     {
-      "id": "1413943-22420966",
-      "course_id": "1413943",
-      "title": "Khan HW- Equations and Inequalities Unit \"Test\"",
-      "due_at": "2026-09-08T12:00:00Z",
-      "status": "upcoming",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22420966"
-    },
-    {
       "id": "1412828-22346877",
       "course_id": "1412828",
       "title": "# 14 Activity 4: Mass and Kinetic Energy LWU",
       "due_at": "2026-09-08T13:30:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -1250,12 +1190,12 @@
       "course_id": "1412828",
       "title": "#15 Unbalanced/Balanced Forces",
       "due_at": "2026-09-09T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-08T20:21:28Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22212387"
@@ -1265,15 +1205,30 @@
       "course_id": "1414605",
       "title": "Principles of Geography G2-B/C",
       "due_at": "2026-09-09T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 30.0,
+      "score": 30.0,
+      "grade": "30",
+      "submitted_at": null,
+      "graded_at": "2026-09-08T21:55:27Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22429317"
+    },
+    {
+      "id": "1413943-22420966",
+      "course_id": "1413943",
+      "title": "Khan HW- Equations and Inequalities Unit \"Test\"",
+      "due_at": "2026-09-09T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22429317"
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22420966"
     },
     {
       "id": "1412828-22212382",
@@ -1351,6 +1306,36 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434974"
     },
     {
+      "id": "1411248-22178093",
+      "course_id": "1411248",
+      "title": "Literary Elements Benchmark Student Notes",
+      "due_at": "2026-09-11T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-08-19T14:22:59Z",
+      "graded_at": "2026-09-08T03:11:34Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22178093"
+    },
+    {
+      "id": "1411248-22382224",
+      "course_id": "1411248",
+      "title": "Figurative Language Student Notes",
+      "due_at": "2026-09-11T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 0.0,
+      "grade": "0",
+      "submitted_at": null,
+      "graded_at": "2026-09-08T03:00:20Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
+    },
+    {
       "id": "1413943-22420963",
       "course_id": "1413943",
       "title": "Canvas HW- Functions",
@@ -1411,6 +1396,21 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434127"
     },
     {
+      "id": "1411248-22422300",
+      "course_id": "1411248",
+      "title": "Literary Elements Quiz",
+      "due_at": "2026-09-12T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 9.0,
+      "grade": "9",
+      "submitted_at": "2026-09-04T14:28:03Z",
+      "graded_at": "2026-09-04T14:28:06Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22422300"
+    },
+    {
       "id": "1413943-22420969",
       "course_id": "1413943",
       "title": "Khan HW-Evaluate Functions, Evaluate from a graph, and Recognize functions from a graph",
@@ -1424,6 +1424,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22420969"
+    },
+    {
+      "id": "1414605-22447541",
+      "course_id": "1414605",
+      "title": "High School Credit Course FORM",
+      "due_at": "2026-09-15T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 5.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22447541"
     },
     {
       "id": "1412828-21940832",
