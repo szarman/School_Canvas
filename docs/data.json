@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:00:05.169008Z",
+  "generated_at": "2026-09-08T03:00:05.181868Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 85.66,
+      "score": 86.53,
       "grade": "B"
     },
     {
@@ -22,8 +22,8 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 90.0,
-      "grade": "A"
+      "score": 76.37,
+      "grade": "C"
     },
     {
       "id": "1414702",
@@ -1096,6 +1096,51 @@
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22422300"
     },
     {
+      "id": "1411248-22438932",
+      "course_id": "1411248",
+      "title": "The Lottery First Read Annotation Guide",
+      "due_at": "2026-09-08T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 8.0,
+      "grade": "8",
+      "submitted_at": null,
+      "graded_at": "2026-09-08T01:44:47Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22438932"
+    },
+    {
+      "id": "1411248-22439046",
+      "course_id": "1411248",
+      "title": "The Lottery Literary Elements Graphic Organizer ",
+      "due_at": "2026-09-08T03:59:59Z",
+      "status": "graded",
+      "points_possible": 21.0,
+      "score": 11.0,
+      "grade": "11",
+      "submitted_at": null,
+      "graded_at": "2026-09-08T02:02:43Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22439046"
+    },
+    {
+      "id": "1411248-22439125",
+      "course_id": "1411248",
+      "title": "The Lottery Figurative Language Graphic Organizer ",
+      "due_at": "2026-09-08T03:59:59Z",
+      "status": "graded",
+      "points_possible": 27.0,
+      "score": 22.0,
+      "grade": "22",
+      "submitted_at": null,
+      "graded_at": "2026-09-08T02:21:28Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22439125"
+    },
+    {
       "id": "1414605-22374292",
       "course_id": "1414605",
       "title": "NHD Week 3 Packet",
@@ -1115,12 +1160,12 @@
       "course_id": "1413943",
       "title": "Chapter 1 B.E.S.T. Test Prep Pages 13- 16",
       "due_at": "2026-09-08T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 18.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 18.0,
+      "grade": "18",
+      "submitted_at": "2026-09-07T22:30:27Z",
+      "graded_at": "2026-09-07T22:30:29Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359264"
