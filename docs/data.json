@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T03:00:05.181868Z",
+  "generated_at": "2026-09-08T10:00:04.986024Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 76.37,
+      "score": 72.62,
       "grade": "C"
     },
     {
@@ -1081,6 +1081,36 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22359268"
     },
     {
+      "id": "1411248-22178093",
+      "course_id": "1411248",
+      "title": "Literary Elements Benchmark Student Notes",
+      "due_at": "2026-09-08T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-08-19T14:22:59Z",
+      "graded_at": "2026-09-08T03:11:34Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22178093"
+    },
+    {
+      "id": "1411248-22382224",
+      "course_id": "1411248",
+      "title": "Figurative Language Student Notes",
+      "due_at": "2026-09-08T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 0.0,
+      "grade": "0",
+      "submitted_at": null,
+      "graded_at": "2026-09-08T03:00:20Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
+    },
+    {
       "id": "1411248-22422300",
       "course_id": "1411248",
       "title": "Literary Elements Quiz",
@@ -1145,7 +1175,7 @@
       "course_id": "1414605",
       "title": "NHD Week 3 Packet",
       "due_at": "2026-09-08T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -1471,36 +1501,6 @@
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951664"
     },
     {
-      "id": "1411248-22178093",
-      "course_id": "1411248",
-      "title": "Literary Elements Benchmark Student Notes",
-      "due_at": null,
-      "status": "awaiting_grading",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": "2026-08-19T14:22:59Z",
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22178093"
-    },
-    {
-      "id": "1411248-22382224",
-      "course_id": "1411248",
-      "title": "Figurative Language Student Notes",
-      "due_at": null,
-      "status": "upcoming",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
-    },
-    {
       "id": "1414702-21951636",
       "course_id": "1414702",
       "title": "Health Alert - This is not a graded assignment - It is optional to submit.",
@@ -1518,5 +1518,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 69
+  "token_days_left": 68
 }
