@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T10:00:05.319401Z",
+  "generated_at": "2026-09-10T22:00:05.387005Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,13 +10,13 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 79.45,
+      "score": 79.97,
       "grade": "C"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 93.24,
+      "score": 93.78,
       "grade": "A"
     },
     {
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 81.39,
+      "score": 82.94,
       "grade": "B"
     }
   ],
@@ -950,12 +950,12 @@
       "course_id": "1411346",
       "title": "21 Countries info.",
       "due_at": "2026-09-03T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 21.0,
-      "score": null,
-      "grade": null,
+      "score": 21.0,
+      "grade": "21",
       "submitted_at": "2026-09-02T23:08:09Z",
-      "graded_at": null,
+      "graded_at": "2026-09-10T14:55:37Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22385910"
@@ -1265,12 +1265,12 @@
       "course_id": "1413943",
       "title": "Khan HW- Points on Coordinate Plane (7) and Quadrants on a Coordinate Plane (7)",
       "due_at": "2026-09-10T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-10T14:09:12Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22420968"
@@ -1280,30 +1280,15 @@
       "course_id": "1412828",
       "title": "#17 Changing Direction Lab ( no LWU)",
       "due_at": "2026-09-10T13:30:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-10T18:03:36Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050195"
-    },
-    {
-      "id": "1412828-22434974",
-      "course_id": "1412828",
-      "title": "Blooket review",
-      "due_at": "2026-09-11T03:59:59Z",
-      "status": "upcoming",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434974"
     },
     {
       "id": "1411248-22178093",
@@ -1355,6 +1340,21 @@
       "course_id": "1412828",
       "title": "# 18 Notes Newton's laws",
       "due_at": "2026-09-11T13:30:00Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": null,
+      "graded_at": "2026-09-10T19:36:36Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434461"
+    },
+    {
+      "id": "1412828-22434974",
+      "course_id": "1412828",
+      "title": "Blooket review- IF absent I put links here too!",
+      "due_at": "2026-09-11T13:30:00Z",
       "status": "upcoming",
       "points_possible": 10.0,
       "score": null,
@@ -1363,7 +1363,7 @@
       "graded_at": null,
       "late": false,
       "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434461"
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434974"
     },
     {
       "id": "1411965-22428932",
@@ -1424,6 +1424,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22420969"
+    },
+    {
+      "id": "1412828-22467499",
+      "course_id": "1412828",
+      "title": "HS letter signed",
+      "due_at": "2026-09-15T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22467499"
     },
     {
       "id": "1414605-22447541",
