@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T03:00:05.454390Z",
+  "generated_at": "2026-09-12T10:00:05.292582Z",
   "courses": [
     {
       "id": "1411965",
@@ -40,8 +40,8 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 84.54,
-      "grade": "B"
+      "score": 70.16,
+      "grade": "C"
     }
   ],
   "assignments": [
@@ -1385,7 +1385,7 @@
       "course_id": "1411965",
       "title": "Week 5 Rehearsal Etiquette",
       "due_at": "2026-09-12T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 40.0,
       "score": null,
       "grade": null,
@@ -1475,12 +1475,12 @@
       "course_id": "1411346",
       "title": "Definite-indefinite articles, Subject Pronouns, Ser",
       "due_at": "2026-09-12T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 65.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-12T04:11:18Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22479335"
@@ -1758,5 +1758,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 65
+  "token_days_left": 64
 }
