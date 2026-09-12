@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:00:05.292582Z",
+  "generated_at": "2026-09-12T22:00:06.091121Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,8 +22,8 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 72.62,
-      "grade": "C"
+      "score": 68.38,
+      "grade": "D"
     },
     {
       "id": "1414702",
@@ -1484,6 +1484,36 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22479335"
+    },
+    {
+      "id": "1411248-22481028",
+      "course_id": "1411248",
+      "title": "The Lottery Close Read",
+      "due_at": "2026-09-13T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22481028"
+    },
+    {
+      "id": "1411248-22481036",
+      "course_id": "1411248",
+      "title": "Let 'Em Play God First Read",
+      "due_at": "2026-09-13T03:59:59Z",
+      "status": "graded",
+      "points_possible": 18.0,
+      "score": 6.0,
+      "grade": "6",
+      "submitted_at": null,
+      "graded_at": "2026-09-12T19:27:31Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22481036"
     },
     {
       "id": "1413943-22420969",
