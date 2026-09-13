@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:00:05.670495Z",
+  "generated_at": "2026-09-13T22:00:05.078631Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 68.38,
+      "score": 68.42,
       "grade": "D"
     },
     {
@@ -1490,12 +1490,12 @@
       "course_id": "1411248",
       "title": "The Lottery Close Read",
       "due_at": "2026-09-13T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 6.0,
+      "grade": "6",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-13T12:05:33Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22481028"
@@ -1591,6 +1591,36 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477902"
     },
     {
+      "id": "1412828-22212403",
+      "course_id": "1412828",
+      "title": "# 19: Newton's Laws Video",
+      "due_at": "2026-09-15T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22212403"
+    },
+    {
+      "id": "1412828-22434085",
+      "course_id": "1412828",
+      "title": "#20 Newtons Laws Handout",
+      "due_at": "2026-09-15T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434085"
+    },
+    {
       "id": "1413943-22477898",
       "course_id": "1413943",
       "title": "Canvas HW- Interpret Graphs of Functions",
@@ -1604,6 +1634,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477898"
+    },
+    {
+      "id": "1412828-22435157",
+      "course_id": "1412828",
+      "title": "#21 Activity 8 Force,Mass,Acceleration",
+      "due_at": "2026-09-16T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22435157"
     },
     {
       "id": "1413943-22477900",
@@ -1621,6 +1666,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477900"
     },
     {
+      "id": "1412828-22435847",
+      "course_id": "1412828",
+      "title": "# 22 Activity 9 Newton's Laws of Motion",
+      "due_at": "2026-09-17T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22435847"
+    },
+    {
       "id": "1413943-22477899",
       "course_id": "1413943",
       "title": "Canvas HW- Linear vs Non- Linear Functions",
@@ -1634,6 +1694,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477899"
+    },
+    {
+      "id": "1412828-22482522",
+      "course_id": "1412828",
+      "title": "#23 Magnetic Force Lab ",
+      "due_at": "2026-09-18T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482522"
     },
     {
       "id": "1413943-22477906",
@@ -1664,6 +1739,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477904"
+    },
+    {
+      "id": "1412828-22212380",
+      "course_id": "1412828",
+      "title": "#24 Crumple Zone Gizmo",
+      "due_at": "2026-09-21T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22212380"
     },
     {
       "id": "1412828-21940832",
@@ -1760,12 +1850,12 @@
       "course_id": "1411248",
       "title": "Conduct",
       "due_at": null,
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 100.0,
-      "score": null,
-      "grade": null,
+      "score": 100.0,
+      "grade": "100",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-13T17:55:41Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22476910"
