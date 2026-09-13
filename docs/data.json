@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:00:06.091121Z",
+  "generated_at": "2026-09-13T03:00:05.000983Z",
   "courses": [
     {
       "id": "1411965",
@@ -40,8 +40,8 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 70.16,
-      "grade": "C"
+      "score": 80.63,
+      "grade": "B"
     }
   ],
   "assignments": [
@@ -1477,10 +1477,10 @@
       "due_at": "2026-09-12T03:59:59Z",
       "status": "graded",
       "points_possible": 65.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 40.0,
+      "grade": "40",
       "submitted_at": null,
-      "graded_at": "2026-09-12T04:11:18Z",
+      "graded_at": "2026-09-13T00:29:10Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22479335"
