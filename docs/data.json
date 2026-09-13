@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T03:00:05.000983Z",
+  "generated_at": "2026-09-13T10:00:05.670495Z",
   "courses": [
     {
       "id": "1411965",
@@ -1490,7 +1490,7 @@
       "course_id": "1411248",
       "title": "The Lottery Close Read",
       "due_at": "2026-09-13T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -1788,5 +1788,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 64
+  "token_days_left": 63
 }
