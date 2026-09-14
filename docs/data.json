@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:00:05.610840Z",
+  "generated_at": "2026-09-14T22:00:05.259702Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,13 +10,13 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.71,
+      "score": 81.18,
       "grade": "B"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 91.56,
+      "score": 92.0,
       "grade": "A"
     },
     {
@@ -1175,12 +1175,12 @@
       "course_id": "1412828",
       "title": "# 14 Activity 4: Mass and Kinetic Energy LWU",
       "due_at": "2026-09-08T13:30:00Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 48.0,
+      "grade": "48",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-14T17:39:30Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22346877"
@@ -1520,12 +1520,12 @@
       "course_id": "1413943",
       "title": "Khan HW-Evaluate Functions, Evaluate from a graph, and Recognize functions from a graph",
       "due_at": "2026-09-14T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-14T13:01:44Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22420969"
@@ -1574,6 +1574,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22447541"
+    },
+    {
+      "id": "1411346-22499123",
+      "course_id": "1411346",
+      "title": "Flowers Hispanic Heritage",
+      "due_at": "2026-09-15T03:59:59Z",
+      "status": "awaiting_grading",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": "2026-09-14T15:31:39Z",
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22499123"
     },
     {
       "id": "1413943-22477902",
@@ -1666,6 +1681,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477900"
     },
     {
+      "id": "1414605-22496018",
+      "course_id": "1414605",
+      "title": "Spatial Reorganization G3",
+      "due_at": "2026-09-17T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 30.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22496018"
+    },
+    {
       "id": "1412828-22435847",
       "course_id": "1412828",
       "title": "# 22 Activity 9 Newton's Laws of Motion",
@@ -1756,6 +1786,21 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22212380"
     },
     {
+      "id": "1414605-22495964",
+      "course_id": "1414605",
+      "title": "NHD Week 4 Packet",
+      "due_at": "2026-09-22T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22495964"
+    },
+    {
       "id": "1412828-21940832",
       "course_id": "1412828",
       "title": "CONDUCT GRADE",
@@ -1835,11 +1880,11 @@
       "course_id": "1411248",
       "title": "Purpose and Perspective - Student Notes",
       "due_at": null,
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-09-14T14:08:14Z",
       "graded_at": null,
       "late": false,
       "offline": false,
