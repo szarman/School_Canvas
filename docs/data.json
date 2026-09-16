@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:00:02.167143Z",
+  "generated_at": "2026-09-16T22:00:05.774920Z",
   "courses": [
     {
       "id": "1411965",
@@ -16,7 +16,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 92.31,
+      "score": 91.85,
       "grade": "A"
     },
     {
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 80.63,
+      "score": 81.59,
       "grade": "B"
     }
   ],
@@ -1535,12 +1535,12 @@
       "course_id": "1411346",
       "title": "Flowers Hispanic Heritage",
       "due_at": "2026-09-15T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": "2026-09-14T15:31:39Z",
-      "graded_at": null,
+      "graded_at": "2026-09-16T14:57:40Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22499123"
@@ -1591,31 +1591,16 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22434085"
     },
     {
-      "id": "1411248-22382224",
-      "course_id": "1411248",
-      "title": "Figurative Language Student Notes",
-      "due_at": "2026-09-16T03:59:59Z",
-      "status": "awaiting_grading",
-      "points_possible": 10.0,
-      "score": 0.0,
-      "grade": "0",
-      "submitted_at": "2026-09-15T20:57:19Z",
-      "graded_at": "2026-09-15T20:57:19Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
-    },
-    {
       "id": "1411346-22507589",
       "course_id": "1411346",
       "title": "Song: La Gozadera",
       "due_at": "2026-09-16T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": "2026-09-15T16:08:26Z",
-      "graded_at": null,
+      "graded_at": "2026-09-16T14:57:13Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22507589"
@@ -1640,12 +1625,12 @@
       "course_id": "1412828",
       "title": "#21 Activity 8 Force,Mass,Acceleration",
       "due_at": "2026-09-16T13:30:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 16.0,
+      "grade": "16",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-16T18:24:33Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22435157"
@@ -1664,21 +1649,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477900"
-    },
-    {
-      "id": "1411248-22178093",
-      "course_id": "1411248",
-      "title": "Literary Elements Benchmark Student Notes",
-      "due_at": "2026-09-17T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-08-19T14:22:59Z",
-      "graded_at": "2026-09-08T03:11:34Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22178093"
     },
     {
       "id": "1411248-22422300",
@@ -1769,6 +1739,66 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477906"
+    },
+    {
+      "id": "1411248-22178093",
+      "course_id": "1411248",
+      "title": "Literary Elements Benchmark Student Notes",
+      "due_at": "2026-09-19T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-08-19T14:22:59Z",
+      "graded_at": "2026-09-08T03:11:34Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22178093"
+    },
+    {
+      "id": "1411248-22382224",
+      "course_id": "1411248",
+      "title": "Figurative Language Student Notes",
+      "due_at": "2026-09-19T03:59:59Z",
+      "status": "awaiting_grading",
+      "points_possible": 10.0,
+      "score": 0.0,
+      "grade": "0",
+      "submitted_at": "2026-09-15T20:57:19Z",
+      "graded_at": "2026-09-15T20:57:19Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
+    },
+    {
+      "id": "1411248-22470745",
+      "course_id": "1411248",
+      "title": "Purpose and Perspective - Student Notes",
+      "due_at": "2026-09-19T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-09-14T14:08:14Z",
+      "graded_at": "2026-09-15T20:34:39Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22470745"
+    },
+    {
+      "id": "1411248-22512764",
+      "course_id": "1411248",
+      "title": "Argument Student Notes",
+      "due_at": "2026-09-19T03:59:59Z",
+      "status": "awaiting_grading",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": "2026-09-16T14:21:50Z",
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22512764"
     },
     {
       "id": "1413943-22477904",
@@ -1904,21 +1934,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951664"
-    },
-    {
-      "id": "1411248-22470745",
-      "course_id": "1411248",
-      "title": "Purpose and Perspective - Student Notes",
-      "due_at": null,
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-09-14T14:08:14Z",
-      "graded_at": "2026-09-15T20:34:39Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22470745"
     },
     {
       "id": "1411248-22476910",
