@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:00:05.243700Z",
+  "generated_at": "2026-09-16T03:00:05.293854Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 81.38,
+      "score": 81.81,
       "grade": "B"
     },
     {
@@ -1625,12 +1625,12 @@
       "course_id": "1413943",
       "title": "Canvas HW- Interpret Graphs of Functions",
       "due_at": "2026-09-16T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-09-16T01:09:53Z",
+      "graded_at": "2026-09-16T01:09:55Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477898"
