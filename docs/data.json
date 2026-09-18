@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:00:05.697535Z",
+  "generated_at": "2026-09-18T22:00:05.448198Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,19 +10,19 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 79.78,
-      "grade": "C"
+      "score": 80.14,
+      "grade": "B"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 91.79,
+      "score": 90.34,
       "grade": "A"
     },
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 70.89,
+      "score": 78.57,
       "grade": "C"
     },
     {
@@ -34,8 +34,8 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 93.92,
-      "grade": "A"
+      "score": 88.63,
+      "grade": "B"
     },
     {
       "id": "1411346",
@@ -1685,12 +1685,12 @@
       "course_id": "1414605",
       "title": "Spatial Reorganization G3",
       "due_at": "2026-09-17T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 30.0,
-      "score": null,
-      "grade": null,
+      "score": 17.0,
+      "grade": "17",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-18T16:55:07Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22496018"
@@ -1716,11 +1716,11 @@
       "title": "Canvas HW- Linear vs Non- Linear Functions",
       "due_at": "2026-09-18T12:00:00Z",
       "status": "graded",
-      "points_possible": 10.0,
+      "points_possible": 9.0,
       "score": 9.0,
       "grade": "9",
       "submitted_at": "2026-09-17T21:36:34Z",
-      "graded_at": "2026-09-17T21:36:35Z",
+      "graded_at": "2026-09-18T10:59:26Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477899"
@@ -1730,12 +1730,12 @@
       "course_id": "1412828",
       "title": "#23 Magnetic Force Lab ",
       "due_at": "2026-09-18T13:30:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-18T18:26:55Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482522"
@@ -1745,12 +1745,12 @@
       "course_id": "1413943",
       "title": "Unit 2 Test Corrections",
       "due_at": "2026-09-19T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 5.0,
-      "score": null,
-      "grade": null,
+      "score": 5.0,
+      "grade": "5",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-18T14:48:19Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477906"
@@ -1775,12 +1775,12 @@
       "course_id": "1411248",
       "title": "Figurative Language Student Notes",
       "due_at": "2026-09-19T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": "2026-09-15T20:57:19Z",
-      "graded_at": "2026-09-15T20:57:19Z",
+      "graded_at": "2026-09-18T16:40:18Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22382224"
@@ -1805,12 +1805,12 @@
       "course_id": "1411248",
       "title": "Argument Student Notes",
       "due_at": "2026-09-19T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": "2026-09-16T14:21:50Z",
-      "graded_at": null,
+      "graded_at": "2026-09-18T20:48:10Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22512764"
@@ -1876,6 +1876,51 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22511200"
     },
     {
+      "id": "1413943-22533259",
+      "course_id": "1413943",
+      "title": "Canvas HW- Exponential Functions",
+      "due_at": "2026-09-23T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533259"
+    },
+    {
+      "id": "1413943-22533258",
+      "course_id": "1413943",
+      "title": "CW- Review all types of functions",
+      "due_at": "2026-09-25T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 5.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533258"
+    },
+    {
+      "id": "1413943-22533261",
+      "course_id": "1413943",
+      "title": "Khan HW- Absolute Value Shift, Absolute value scale and reflect, Graph Ab Value",
+      "due_at": "2026-09-25T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533261"
+    },
+    {
       "id": "1414702-21951516",
       "course_id": "1414702",
       "title": "Basketball Unit Quiz Round 1",
@@ -1889,6 +1934,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951516"
+    },
+    {
+      "id": "1413943-22533260",
+      "course_id": "1413943",
+      "title": "Features of Various Functions",
+      "due_at": "2026-09-28T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533260"
     },
     {
       "id": "1412828-21940832",
@@ -1906,19 +1966,19 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/21940832"
     },
     {
-      "id": "1413943-21904595",
-      "course_id": "1413943",
-      "title": "CONDUCT",
+      "id": "1411965-22532687",
+      "course_id": "1411965",
+      "title": "All County Scales Assignment",
       "due_at": "2026-10-10T03:59:59Z",
-      "status": "graded",
-      "points_possible": 100.0,
-      "score": 100.0,
-      "grade": "100",
+      "status": "upcoming",
+      "points_possible": 0.0,
+      "score": null,
+      "grade": null,
       "submitted_at": null,
-      "graded_at": "2026-08-04T14:43:55Z",
+      "graded_at": null,
       "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/21904595"
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22532687"
     },
     {
       "id": "1414702-21951628",
