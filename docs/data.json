@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:00:05.874224Z",
+  "generated_at": "2026-09-20T03:00:09.075646Z",
   "courses": [
     {
       "id": "1411965",
@@ -1979,51 +1979,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22532687"
-    },
-    {
-      "id": "1414702-21951628",
-      "course_id": "1414702",
-      "title": "Conduct: Q1",
-      "due_at": "2026-10-10T03:59:59Z",
-      "status": "graded",
-      "points_possible": 100.0,
-      "score": 100.0,
-      "grade": "100",
-      "submitted_at": null,
-      "graded_at": "2026-08-05T15:50:13Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951628"
-    },
-    {
-      "id": "1414702-21951632",
-      "course_id": "1414702",
-      "title": "Dress Out/Prepared for Class: Q1",
-      "due_at": "2026-10-10T03:59:59Z",
-      "status": "graded",
-      "points_possible": 100.0,
-      "score": 100.0,
-      "grade": "100",
-      "submitted_at": null,
-      "graded_at": "2026-08-05T15:51:00Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951632"
-    },
-    {
-      "id": "1414702-21951664",
-      "course_id": "1414702",
-      "title": "Participation: Q1",
-      "due_at": "2026-10-10T03:59:59Z",
-      "status": "graded",
-      "points_possible": 100.0,
-      "score": 100.0,
-      "grade": "100",
-      "submitted_at": null,
-      "graded_at": "2026-08-05T15:50:36Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951664"
     },
     {
       "id": "1411248-22476910",
