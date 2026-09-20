@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T10:00:05.008364Z",
+  "generated_at": "2026-09-20T22:00:04.882559Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 78.57,
+      "score": 76.75,
       "grade": "C"
     },
     {
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 81.59,
+      "score": 83.73,
       "grade": "B"
     }
   ],
@@ -1816,6 +1816,36 @@
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22512764"
     },
     {
+      "id": "1411346-22539937",
+      "course_id": "1411346",
+      "title": "El Calendario",
+      "due_at": "2026-09-19T03:59:59Z",
+      "status": "graded",
+      "points_possible": 65.0,
+      "score": 63.0,
+      "grade": "63",
+      "submitted_at": null,
+      "graded_at": "2026-09-20T19:27:46Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22539937"
+    },
+    {
+      "id": "1411248-22538283",
+      "course_id": "1411248",
+      "title": "Let 'Em Play God Argument Graphic Organizer ",
+      "due_at": "2026-09-21T03:59:59Z",
+      "status": "graded",
+      "points_possible": 20.0,
+      "score": 11.0,
+      "grade": "11",
+      "submitted_at": null,
+      "graded_at": "2026-09-20T11:51:47Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22538283"
+    },
+    {
       "id": "1413943-22477904",
       "course_id": "1413943",
       "title": "Unit 2 B.E.S.T. Unit Test Prep Pages 31-34",
@@ -1876,6 +1906,21 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22511200"
     },
     {
+      "id": "1412828-22482677",
+      "course_id": "1412828",
+      "title": "#25 Activity 12 Collisions and Changes in Motion",
+      "due_at": "2026-09-23T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 30.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482677"
+    },
+    {
       "id": "1413943-22533259",
       "course_id": "1413943",
       "title": "Canvas HW- Exponential Functions",
@@ -1889,6 +1934,36 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533259"
+    },
+    {
+      "id": "1412828-22482692",
+      "course_id": "1412828",
+      "title": " #26 Activity 13 Braking Distance LWU",
+      "due_at": "2026-09-23T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482692"
+    },
+    {
+      "id": "1412828-22532108",
+      "course_id": "1412828",
+      "title": "NB check 1-25",
+      "due_at": "2026-09-24T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22532108"
     },
     {
       "id": "1413943-22533258",
@@ -1951,6 +2026,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533260"
     },
     {
+      "id": "1412828-22482694",
+      "course_id": "1412828",
+      "title": "#27 Act. 14 Coming to a Stop",
+      "due_at": "2026-09-28T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482694"
+    },
+    {
       "id": "1412828-21940832",
       "course_id": "1412828",
       "title": "CONDUCT GRADE",
@@ -1984,7 +2074,7 @@
       "id": "1411248-22476910",
       "course_id": "1411248",
       "title": "Conduct",
-      "due_at": null,
+      "due_at": "2027-05-02T03:59:59Z",
       "status": "graded",
       "points_possible": 100.0,
       "score": 100.0,
