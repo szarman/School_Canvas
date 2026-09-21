@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-21T10:00:04.787288Z",
+  "generated_at": "2026-09-21T22:00:04.777889Z",
   "courses": [
     {
       "id": "1411965",
       "name": "Orchestra",
-      "score": 93.62,
+      "score": 90.74,
       "grade": "A"
     },
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.14,
+      "score": 80.41,
       "grade": "B"
     },
     {
@@ -1490,12 +1490,12 @@
       "course_id": "1411965",
       "title": "Week 5 Practice Log",
       "due_at": "2026-09-15T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-21T14:57:28Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22475573"
@@ -1741,6 +1741,21 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482522"
     },
     {
+      "id": "1411965-22545690",
+      "course_id": "1411965",
+      "title": "Week 6 Rehearsal Etiquette",
+      "due_at": "2026-09-19T03:59:59Z",
+      "status": "graded",
+      "points_possible": 50.0,
+      "score": 50.0,
+      "grade": "50",
+      "submitted_at": null,
+      "graded_at": "2026-09-21T14:39:10Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22545690"
+    },
+    {
       "id": "1413943-22477906",
       "course_id": "1413943",
       "title": "Unit 2 Test Corrections",
@@ -1850,12 +1865,12 @@
       "course_id": "1413943",
       "title": "Unit 2 B.E.S.T. Unit Test Prep Pages 31-34",
       "due_at": "2026-09-21T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 17.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 15.0,
+      "grade": "15",
+      "submitted_at": "2026-09-21T11:53:24Z",
+      "graded_at": "2026-09-21T11:53:26Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22477904"
@@ -1865,7 +1880,7 @@
       "course_id": "1412828",
       "title": "#24 Crumple Zone Gizmo",
       "due_at": "2026-09-21T13:30:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -1874,6 +1889,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22212380"
+    },
+    {
+      "id": "1411965-22545673",
+      "course_id": "1411965",
+      "title": "Week 6 Practice Log",
+      "due_at": "2026-09-22T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22545673"
     },
     {
       "id": "1414605-22495964",
@@ -2039,6 +2069,36 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482694"
+    },
+    {
+      "id": "1411965-22545687",
+      "course_id": "1411965",
+      "title": "Week 7 Practice Log",
+      "due_at": "2026-09-29T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22545687"
+    },
+    {
+      "id": "1414605-22542611",
+      "course_id": "1414605",
+      "title": "NHD Week 5 Packet",
+      "due_at": "2026-09-29T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22542611"
     },
     {
       "id": "1412828-21940832",
