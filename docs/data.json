@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:00:04.777889Z",
+  "generated_at": "2026-09-22T03:00:05.195218Z",
   "courses": [
     {
       "id": "1411965",
@@ -1921,21 +1921,6 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22495964"
     },
     {
-      "id": "1414605-22511200",
-      "course_id": "1414605",
-      "title": "Geography and World Regions",
-      "due_at": "2026-09-22T03:59:59Z",
-      "status": "upcoming",
-      "points_possible": 40.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22511200"
-    },
-    {
       "id": "1412828-22482677",
       "course_id": "1412828",
       "title": "#25 Activity 12 Collisions and Changes in Motion",
@@ -2099,6 +2084,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22542611"
+    },
+    {
+      "id": "1414605-22511200",
+      "course_id": "1414605",
+      "title": "Geography and World Regions",
+      "due_at": "2026-10-03T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 40.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22511200"
     },
     {
       "id": "1412828-21940832",
