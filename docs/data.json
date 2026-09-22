@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:00:05.195218Z",
+  "generated_at": "2026-09-22T10:00:05.065785Z",
   "courses": [
     {
       "id": "1411965",
@@ -1895,7 +1895,7 @@
       "course_id": "1411965",
       "title": "Week 6 Practice Log",
       "due_at": "2026-09-22T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -1910,7 +1910,7 @@
       "course_id": "1414605",
       "title": "NHD Week 4 Packet",
       "due_at": "2026-09-22T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -2163,5 +2163,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 55
+  "token_days_left": 54
 }
