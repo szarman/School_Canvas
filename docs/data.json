@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:00:04.510815Z",
+  "generated_at": "2026-09-23T03:00:06.078860Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.41,
+      "score": 80.78,
       "grade": "B"
     },
     {
@@ -1940,11 +1940,11 @@
       "course_id": "1411346",
       "title": "Sub - Review worksheet Sept. 21",
       "due_at": "2026-09-23T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-09-22T23:36:35Z",
       "graded_at": null,
       "late": false,
       "offline": false,
@@ -1955,11 +1955,11 @@
       "course_id": "1411346",
       "title": "Pronombre reflexivo y llamar",
       "due_at": "2026-09-23T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-09-22T23:32:07Z",
       "graded_at": null,
       "late": false,
       "offline": false,
@@ -1970,12 +1970,12 @@
       "course_id": "1413943",
       "title": "Canvas HW- Exponential Functions",
       "due_at": "2026-09-23T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-09-22T23:13:03Z",
+      "graded_at": "2026-09-22T23:13:05Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533259"
@@ -2009,6 +2009,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22532108"
+    },
+    {
+      "id": "1411248-22559190",
+      "course_id": "1411248",
+      "title": "CCC Strategy Introduction",
+      "due_at": "2026-09-24T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 43.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22559190"
     },
     {
       "id": "1413943-22533258",
