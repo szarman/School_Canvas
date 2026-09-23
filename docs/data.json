@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:00:02.612656Z",
+  "generated_at": "2026-09-23T22:00:05.267795Z",
   "courses": [
     {
       "id": "1411965",
@@ -16,7 +16,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 90.0,
+      "score": 90.75,
       "grade": "A"
     },
     {
@@ -1880,12 +1880,12 @@
       "course_id": "1412828",
       "title": "#24 Crumple Zone Gizmo",
       "due_at": "2026-09-21T13:30:00Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 18.0,
+      "grade": "18",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-23T14:05:39Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22212380"
@@ -1985,7 +1985,7 @@
       "course_id": "1412828",
       "title": " #26 Activity 13 Braking Distance LWU",
       "due_at": "2026-09-23T13:30:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -2000,12 +2000,12 @@
       "course_id": "1412828",
       "title": "NB check 1-25",
       "due_at": "2026-09-24T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 50.0,
+      "grade": "50",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-23T18:22:16Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22532108"
@@ -2024,6 +2024,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22559190"
+    },
+    {
+      "id": "1411346-22562192",
+      "course_id": "1411346",
+      "title": "El verbo tener",
+      "due_at": "2026-09-24T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22562192"
     },
     {
       "id": "1413943-22533258",
@@ -2159,6 +2174,36 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22542611"
+    },
+    {
+      "id": "1414605-22563381",
+      "course_id": "1414605",
+      "title": "College Board Login INFO",
+      "due_at": "2026-09-29T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 5.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22563381"
+    },
+    {
+      "id": "1411965-22561086",
+      "course_id": "1411965",
+      "title": "C Major Scale 2 Octaves",
+      "due_at": "2026-09-30T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 100.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22561086"
     },
     {
       "id": "1414605-22511200",
