@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T03:00:05.898774Z",
+  "generated_at": "2026-09-24T10:00:03.379570Z",
   "courses": [
     {
       "id": "1411965",
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 83.73,
+      "score": 80.29,
       "grade": "B"
     }
   ],
@@ -2015,7 +2015,7 @@
       "course_id": "1411248",
       "title": "CCC Strategy Introduction",
       "due_at": "2026-09-24T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 43.0,
       "score": null,
       "grade": null,
@@ -2030,12 +2030,12 @@
       "course_id": "1411346",
       "title": "El verbo tener",
       "due_at": "2026-09-24T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-24T04:14:33Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22562192"
@@ -2283,5 +2283,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 53
+  "token_days_left": 52
 }
