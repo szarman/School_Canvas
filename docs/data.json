@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:00:03.379570Z",
+  "generated_at": "2026-09-24T22:00:04.760577Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,19 +10,19 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.78,
+      "score": 80.96,
       "grade": "B"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 90.75,
+      "score": 91.11,
       "grade": "A"
     },
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 76.75,
+      "score": 71.46,
       "grade": "C"
     },
     {
@@ -1985,12 +1985,12 @@
       "course_id": "1412828",
       "title": " #26 Activity 13 Braking Distance LWU",
       "due_at": "2026-09-23T13:30:00Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 48.0,
+      "grade": "48",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-24T18:28:12Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22482692"
@@ -2045,12 +2045,12 @@
       "course_id": "1413943",
       "title": "CW- Review all types of functions",
       "due_at": "2026-09-25T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 5.0,
-      "score": null,
-      "grade": null,
+      "score": 5.0,
+      "grade": "5",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-24T19:36:10Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533258"
@@ -2114,6 +2114,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22555093"
+    },
+    {
+      "id": "1411248-22567235",
+      "course_id": "1411248",
+      "title": "Logical Fallacies and Reasonings Quiz",
+      "due_at": "2026-09-28T03:59:59Z",
+      "status": "graded",
+      "points_possible": 15.0,
+      "score": 9.0,
+      "grade": "9",
+      "submitted_at": "2026-09-24T13:59:31Z",
+      "graded_at": "2026-09-24T13:59:33Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22567235"
     },
     {
       "id": "1413943-22533260",
