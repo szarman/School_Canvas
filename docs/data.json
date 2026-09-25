@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:00:05.067398Z",
+  "generated_at": "2026-09-25T22:00:05.024007Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.96,
+      "score": 81.31,
       "grade": "B"
     },
     {
@@ -2045,12 +2045,12 @@
       "course_id": "1413943",
       "title": "Khan HW- Absolute Value Shift, Absolute value scale and reflect, Graph Ab Value",
       "due_at": "2026-09-25T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-09-25T13:25:14Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533261"
@@ -2176,6 +2176,21 @@
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22545687"
     },
     {
+      "id": "1413943-22578895",
+      "course_id": "1413943",
+      "title": "In-Class Review and Quiz Linear, Quadratic, Exponential, Ab Value",
+      "due_at": "2026-09-29T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 25.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578895"
+    },
+    {
       "id": "1414605-22542611",
       "course_id": "1414605",
       "title": "NHD Week 5 Packet",
@@ -2219,6 +2234,66 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22561086"
+    },
+    {
+      "id": "1413943-22578893",
+      "course_id": "1413943",
+      "title": "Canvas HW- Parent Functions",
+      "due_at": "2026-09-30T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578893"
+    },
+    {
+      "id": "1413943-22578894",
+      "course_id": "1413943",
+      "title": "Canvas HW- Transformations",
+      "due_at": "2026-10-01T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578894"
+    },
+    {
+      "id": "1413943-22578891",
+      "course_id": "1413943",
+      "title": "CW- Units 1-3 Concept Review",
+      "due_at": "2026-10-03T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 5.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578891"
+    },
+    {
+      "id": "1413943-22578892",
+      "course_id": "1413943",
+      "title": "CW- Units 1-3 Concept Review ",
+      "due_at": "2026-10-03T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 5.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578892"
     },
     {
       "id": "1414605-22511200",
