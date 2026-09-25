@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:00:04.760577Z",
+  "generated_at": "2026-09-25T03:00:05.941426Z",
   "courses": [
     {
       "id": "1411965",
@@ -1816,21 +1816,6 @@
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22470745"
     },
     {
-      "id": "1411248-22512764",
-      "course_id": "1411248",
-      "title": "Argument Student Notes",
-      "due_at": "2026-09-19T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-09-16T14:21:50Z",
-      "graded_at": "2026-09-18T20:48:10Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22512764"
-    },
-    {
       "id": "1411346-22539937",
       "course_id": "1411346",
       "title": "El Calendario",
@@ -2069,6 +2054,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22533261"
+    },
+    {
+      "id": "1411248-22512764",
+      "course_id": "1411248",
+      "title": "Argument Student Notes",
+      "due_at": "2026-09-26T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-09-16T14:21:50Z",
+      "graded_at": "2026-09-18T20:48:10Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22512764"
     },
     {
       "id": "1414702-21951516",
