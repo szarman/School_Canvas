@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T03:00:06.553848Z",
+  "generated_at": "2026-09-26T10:00:04.944520Z",
   "courses": [
     {
       "id": "1411965",
@@ -2075,7 +2075,7 @@
       "course_id": "1414702",
       "title": "Basketball Unit Quiz Round 1",
       "due_at": "2026-09-26T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 100.0,
       "score": null,
       "grade": null,
@@ -2105,7 +2105,7 @@
       "course_id": "1414605",
       "title": "Adaptations to Natural Resources",
       "due_at": "2026-09-26T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 11.0,
       "score": null,
       "grade": null,
@@ -2373,5 +2373,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 51
+  "token_days_left": 50
 }
