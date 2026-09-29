@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:00:05.449447Z",
+  "generated_at": "2026-09-29T03:00:05.741663Z",
   "courses": [
     {
       "id": "1411965",
@@ -2165,11 +2165,11 @@
       "course_id": "1411346",
       "title": "Worksheet SER, TENER, LLAMAR, LLAMARSE",
       "due_at": "2026-09-29T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-09-29T01:13:27Z",
       "graded_at": null,
       "late": false,
       "offline": false,
@@ -2369,6 +2369,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22592272"
+    },
+    {
+      "id": "1414605-22599020",
+      "course_id": "1414605",
+      "title": "Regions Review Worksheet FRIDAY",
+      "due_at": "2026-10-06T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22599020"
     },
     {
       "id": "1411965-22532687",
