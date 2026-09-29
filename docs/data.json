@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:00:05.741663Z",
+  "generated_at": "2026-09-29T10:00:05.637476Z",
   "courses": [
     {
       "id": "1411965",
@@ -2090,7 +2090,7 @@
       "course_id": "1411965",
       "title": "Week 7 Practice Log",
       "due_at": "2026-09-29T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -2120,7 +2120,7 @@
       "course_id": "1412828",
       "title": "# 28 Weight &  Mass Notes",
       "due_at": "2026-09-29T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -2135,7 +2135,7 @@
       "course_id": "1414605",
       "title": "NHD Week 5 Packet",
       "due_at": "2026-09-29T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -2150,7 +2150,7 @@
       "course_id": "1414605",
       "title": "College Board Login INFO",
       "due_at": "2026-09-29T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 5.0,
       "score": null,
       "grade": null,
@@ -2433,5 +2433,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 48
+  "token_days_left": 47
 }
