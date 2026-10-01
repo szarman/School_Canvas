@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:00:06.198335Z",
+  "generated_at": "2026-10-01T22:00:05.484622Z",
   "courses": [
     {
       "id": "1411965",
@@ -40,8 +40,8 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 78.96,
-      "grade": "C"
+      "score": 82.58,
+      "grade": "B"
     }
   ],
   "assignments": [
@@ -91,36 +91,6 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22101296"
     },
     {
-      "id": "1413943-21968612",
-      "course_id": "1413943",
-      "title": "Khan HW-Equations with Variables on Both Sides and Equations with Parentheses",
-      "due_at": "2026-08-17T12:00:00Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-17T13:07:43Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/21968612"
-    },
-    {
-      "id": "1412828-22049903",
-      "course_id": "1412828",
-      "title": "# 5 Metric Activity",
-      "due_at": "2026-08-17T13:30:00Z",
-      "status": "graded",
-      "points_possible": 20.0,
-      "score": 20.0,
-      "grade": "20",
-      "submitted_at": null,
-      "graded_at": "2026-08-17T17:55:49Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22049903"
-    },
-    {
       "id": "1412828-21932978",
       "course_id": "1412828",
       "title": "# 7 Variables Practice Handout",
@@ -164,21 +134,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22172128"
-    },
-    {
-      "id": "1412828-21932977",
-      "course_id": "1412828",
-      "title": "# 6 Notes: Scientific Method",
-      "due_at": "2026-08-19T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-17T17:55:00Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/21932977"
     },
     {
       "id": "1414605-22101300",
@@ -1910,12 +1865,12 @@
       "course_id": "1411346",
       "title": "El verbo tener",
       "due_at": "2026-09-24T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 19.4,
+      "grade": "19.4",
       "submitted_at": "2026-09-29T23:26:37Z",
-      "graded_at": "2026-09-24T04:14:33Z",
+      "graded_at": "2026-10-01T15:48:43Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22562192"
@@ -2165,12 +2120,12 @@
       "course_id": "1411346",
       "title": "Worksheet SER, TENER, LLAMAR, LLAMARSE",
       "due_at": "2026-09-29T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": "2026-09-29T01:13:27Z",
-      "graded_at": null,
+      "graded_at": "2026-10-01T15:47:44Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22593625"
@@ -2311,34 +2266,19 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578894"
     },
     {
-      "id": "1413943-22578891",
-      "course_id": "1413943",
-      "title": "CW- Units 1-3 Concept Review",
-      "due_at": "2026-10-03T03:59:59Z",
+      "id": "1411346-22619791",
+      "course_id": "1411346",
+      "title": "¡Hola! Conozcámonos.",
+      "due_at": "2026-10-02T03:59:59Z",
       "status": "upcoming",
-      "points_possible": 5.0,
+      "points_possible": 10.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578891"
-    },
-    {
-      "id": "1413943-22578892",
-      "course_id": "1413943",
-      "title": "CW- Units 1-3 Concept Review ",
-      "due_at": "2026-10-03T03:59:59Z",
-      "status": "upcoming",
-      "points_possible": 5.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578892"
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22619791"
     },
     {
       "id": "1412828-22572941",
@@ -2446,6 +2386,21 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22609594"
     },
     {
+      "id": "1413943-22621127",
+      "course_id": "1413943",
+      "title": "Unit 3 Functions Test",
+      "due_at": "2026-10-07T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 75.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621127"
+    },
+    {
       "id": "1414605-22611089",
       "course_id": "1414605",
       "title": "Global Cultural Patterns",
@@ -2459,6 +2414,51 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22611089"
+    },
+    {
+      "id": "1413943-22621125",
+      "course_id": "1413943",
+      "title": "Khan HW- Functions and Absolute Value \"Test\"",
+      "due_at": "2026-10-07T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621125"
+    },
+    {
+      "id": "1413943-22621123",
+      "course_id": "1413943",
+      "title": "Khan HW- Find Slope From a Graph and 2 points",
+      "due_at": "2026-10-08T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621123"
+    },
+    {
+      "id": "1413943-22621124",
+      "course_id": "1413943",
+      "title": "Khan HW- Find Slope from a table and an equation",
+      "due_at": "2026-10-09T12:00:00Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621124"
     },
     {
       "id": "1411965-22532687",
@@ -2489,6 +2489,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22511200"
+    },
+    {
+      "id": "1413943-22621122",
+      "course_id": "1413943",
+      "title": "In-Class Review and quiz on slope- Grade will be going into 2nd Quarter",
+      "due_at": "2026-10-13T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621122"
     },
     {
       "id": "1414702-21951513",
