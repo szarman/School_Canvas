@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:00:08.262410Z",
+  "generated_at": "2026-10-01T03:00:05.595043Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 81.77,
+      "score": 82.07,
       "grade": "B"
     },
     {
@@ -2300,12 +2300,12 @@
       "course_id": "1413943",
       "title": "Canvas HW- Transformations",
       "due_at": "2026-10-01T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": "2026-09-30T22:02:54Z",
+      "graded_at": "2026-09-30T22:02:56Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578894"
