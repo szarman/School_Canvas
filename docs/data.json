@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:00:05.260250Z",
+  "generated_at": "2026-10-03T22:00:05.100027Z",
   "courses": [
     {
       "id": "1411965",
@@ -46,21 +46,6 @@
   ],
   "assignments": [
     {
-      "id": "1414605-22101301",
-      "course_id": "1414605",
-      "title": "Get to Know Your Classmate C&E",
-      "due_at": "2026-08-13T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-19T12:48:21Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22101301"
-    },
-    {
       "id": "1411346-22114718",
       "course_id": "1411346",
       "title": "MAP 21 Spanish Speaking Countries ",
@@ -74,51 +59,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22114718"
-    },
-    {
-      "id": "1414605-22101296",
-      "course_id": "1414605",
-      "title": "Classroom Contract",
-      "due_at": "2026-08-15T03:59:59Z",
-      "status": "graded",
-      "points_possible": 5.0,
-      "score": 5.0,
-      "grade": "5",
-      "submitted_at": null,
-      "graded_at": "2026-08-19T12:50:27Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22101296"
-    },
-    {
-      "id": "1413943-22172128",
-      "course_id": "1413943",
-      "title": "In-Class Review and Quiz",
-      "due_at": "2026-08-19T03:59:59Z",
-      "status": "graded",
-      "points_possible": 25.0,
-      "score": 25.0,
-      "grade": "25",
-      "submitted_at": null,
-      "graded_at": "2026-08-19T13:04:44Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22172128"
-    },
-    {
-      "id": "1414605-22101300",
-      "course_id": "1414605",
-      "title": "AP Classroom Access",
-      "due_at": "2026-08-19T03:59:59Z",
-      "status": "graded",
-      "points_possible": 5.0,
-      "score": 5.0,
-      "grade": "5",
-      "submitted_at": null,
-      "graded_at": "2026-08-19T12:58:13Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22101300"
     },
     {
       "id": "1411346-22167613",
