@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:00:06.644125Z",
+  "generated_at": "2026-10-04T22:00:05.738196Z",
   "courses": [
     {
       "id": "1411965",
@@ -91,21 +91,6 @@
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22157299"
     },
     {
-      "id": "1412828-22178075",
-      "course_id": "1412828",
-      "title": "PM1 Session 1-participation",
-      "due_at": "2026-08-20T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-20T18:13:11Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22178075"
-    },
-    {
       "id": "1413943-22141727",
       "course_id": "1413943",
       "title": "Khan HW-Solve Absolute Value, Solve Absolute Value with bars on both sides",
@@ -119,21 +104,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22141727"
-    },
-    {
-      "id": "1412828-22178078",
-      "course_id": "1412828",
-      "title": "PM1 Session 2-participation",
-      "due_at": "2026-08-21T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-20T18:13:40Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22178078"
     },
     {
       "id": "1411346-22179015",
@@ -2296,6 +2266,21 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586116"
     },
     {
+      "id": "1412828-22586177",
+      "course_id": "1412828",
+      "title": "# 34 Act. 1: Home Energy Use",
+      "due_at": "2026-10-06T14:00:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586177"
+    },
+    {
       "id": "1413943-22621127",
       "course_id": "1413943",
       "title": "Unit 3 Functions Test",
@@ -2341,6 +2326,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621125"
     },
     {
+      "id": "1412828-22586203",
+      "course_id": "1412828",
+      "title": "# 35 Act 2 Drive a Nail LWU",
+      "due_at": "2026-10-07T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586203"
+    },
+    {
       "id": "1413943-22621123",
       "course_id": "1413943",
       "title": "Khan HW- Find Slope From a Graph and 2 points",
@@ -2356,6 +2356,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621123"
     },
     {
+      "id": "1412828-22586285",
+      "course_id": "1412828",
+      "title": "# 37 Roller Coaster Video",
+      "due_at": "2026-10-09T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586285"
+    },
+    {
       "id": "1413943-22621124",
       "course_id": "1413943",
       "title": "Khan HW- Find Slope from a table and an equation",
@@ -2369,6 +2384,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621124"
+    },
+    {
+      "id": "1412828-22586224",
+      "course_id": "1412828",
+      "title": "#36 Roller Coaster Energy",
+      "due_at": "2026-10-09T14:00:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586224"
     },
     {
       "id": "1411965-22532687",
@@ -2399,6 +2429,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22511200"
+    },
+    {
+      "id": "1412828-22586278",
+      "course_id": "1412828",
+      "title": "#38 Roller Coaster Gizmo",
+      "due_at": "2026-10-12T13:30:00Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586278"
     },
     {
       "id": "1413943-22621122",
