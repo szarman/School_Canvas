@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:00:05.738196Z",
+  "generated_at": "2026-10-05T03:00:05.577465Z",
   "courses": [
     {
       "id": "1411965",
@@ -119,21 +119,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22179015"
-    },
-    {
-      "id": "1413943-22141724",
-      "course_id": "1413943",
-      "title": "Canvas HW- Literal Equations",
-      "due_at": "2026-08-21T12:00:00Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-08-20T22:02:47Z",
-      "graded_at": "2026-08-20T22:02:59Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22141724"
     },
     {
       "id": "1412828-22050084",
