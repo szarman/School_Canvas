@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:00:06.698020Z",
+  "generated_at": "2026-10-05T22:00:05.514316Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 74.21,
+      "score": 75.38,
       "grade": "C"
     },
     {
@@ -91,21 +91,6 @@
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22157299"
     },
     {
-      "id": "1413943-22141727",
-      "course_id": "1413943",
-      "title": "Khan HW-Solve Absolute Value, Solve Absolute Value with bars on both sides",
-      "due_at": "2026-08-20T12:00:00Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-21T12:52:37Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22141727"
-    },
-    {
       "id": "1411346-22179015",
       "course_id": "1411346",
       "title": "Los cognados / Choice board",
@@ -166,21 +151,6 @@
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22219271"
     },
     {
-      "id": "1413943-22141725",
-      "course_id": "1413943",
-      "title": "In-Class Review and Solve Absolute and Literal Equations",
-      "due_at": "2026-08-22T03:59:59Z",
-      "status": "graded",
-      "points_possible": 25.0,
-      "score": 15.0,
-      "grade": "15",
-      "submitted_at": null,
-      "graded_at": "2026-08-21T20:31:09Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22141725"
-    },
-    {
       "id": "1412828-21932965",
       "course_id": "1412828",
       "title": "HW:  #1 Science Cover Page- SUBMISSION",
@@ -194,21 +164,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/21932965"
-    },
-    {
-      "id": "1412828-22178083",
-      "course_id": "1412828",
-      "title": "PM1 Session 3-participation",
-      "due_at": "2026-08-22T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-21T20:21:33Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22178083"
     },
     {
       "id": "1414605-22170597",
@@ -1852,10 +1807,10 @@
       "due_at": "2026-09-28T03:59:59Z",
       "status": "graded",
       "points_possible": 15.0,
-      "score": 9.0,
-      "grade": "9",
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": "2026-09-24T13:59:31Z",
-      "graded_at": "2026-09-24T13:59:33Z",
+      "graded_at": "2026-10-05T11:53:41Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22567235"
@@ -2165,13 +2120,13 @@
       "course_id": "1411346",
       "title": "¡Hola! Conozcámonos.",
       "due_at": "2026-10-03T03:59:59Z",
-      "status": "graded",
+      "status": "awaiting_grading",
       "points_possible": 10.0,
       "score": 0.0,
       "grade": "0",
-      "submitted_at": null,
+      "submitted_at": "2026-10-05T20:55:44Z",
       "graded_at": "2026-10-02T04:14:06Z",
-      "late": false,
+      "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22619791"
     },
@@ -2180,15 +2135,30 @@
       "course_id": "1411346",
       "title": "Word Search Hispanic ",
       "due_at": "2026-10-03T03:59:59Z",
-      "status": "graded",
+      "status": "awaiting_grading",
       "points_possible": 1.0,
       "score": 0.0,
       "grade": "0",
-      "submitted_at": null,
+      "submitted_at": "2026-10-05T20:54:13Z",
       "graded_at": "2026-10-03T04:16:03Z",
-      "late": false,
+      "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22628397"
+    },
+    {
+      "id": "1411965-22646110",
+      "course_id": "1411965",
+      "title": "Week 8 Practice Log",
+      "due_at": "2026-10-06T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22646110"
     },
     {
       "id": "1414605-22592272",
@@ -2298,7 +2268,7 @@
     {
       "id": "1413943-22621125",
       "course_id": "1413943",
-      "title": "Khan HW- Functions and Absolute Value \"Test\"",
+      "title": "Khan HW- Functions and Absolute Value \"Test\" 80% + = 100%",
       "due_at": "2026-10-07T12:00:00Z",
       "status": "upcoming",
       "points_possible": 10.0,
@@ -2474,6 +2444,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951513"
+    },
+    {
+      "id": "1412828-22643052",
+      "course_id": "1412828",
+      "title": "Penda Nature of Science",
+      "due_at": "2026-10-20T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22643052"
     },
     {
       "id": "1411346-22613372",
