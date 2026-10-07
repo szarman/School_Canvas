@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T03:00:01.875786Z",
+  "generated_at": "2026-10-07T10:00:02.465887Z",
   "courses": [
     {
       "id": "1411965",
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 74.99,
+      "score": 72.95,
       "grade": "C"
     }
   ],
@@ -2285,12 +2285,12 @@
       "course_id": "1411346",
       "title": "Vocabulario Unit 1 / Verbos en espanol",
       "due_at": "2026-10-07T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-07T04:13:06Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22652461"
@@ -2538,5 +2538,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 40
+  "token_days_left": 39
 }
