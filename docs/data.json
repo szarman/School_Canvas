@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:00:04.918440Z",
+  "generated_at": "2026-10-08T03:00:05.706786Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 75.38,
+      "score": 76.67,
       "grade": "C"
     },
     {
@@ -2315,12 +2315,12 @@
       "course_id": "1411248",
       "title": "Comparative Reading Student Notes",
       "due_at": "2026-10-09T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 14.0,
-      "score": null,
-      "grade": null,
+      "score": 14.0,
+      "grade": "14",
       "submitted_at": "2026-09-29T14:05:30Z",
-      "graded_at": null,
+      "graded_at": "2026-10-08T00:50:32Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22600134"
@@ -2330,12 +2330,12 @@
       "course_id": "1411248",
       "title": "Comparative Reading Graphic Organizer ",
       "due_at": "2026-10-09T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 28.0,
-      "score": null,
-      "grade": null,
+      "score": 22.0,
+      "grade": "22",
       "submitted_at": "2026-09-30T21:55:57Z",
-      "graded_at": null,
+      "graded_at": "2026-10-08T01:17:29Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22608604"
