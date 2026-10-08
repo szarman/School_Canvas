@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T10:00:05.263866Z",
+  "generated_at": "2026-10-08T22:00:05.240317Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,13 +10,13 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 79.94,
-      "grade": "C"
+      "score": 80.23,
+      "grade": "B"
     },
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 84.74,
+      "score": 84.9,
       "grade": "B"
     },
     {
@@ -34,8 +34,8 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 77.99,
-      "grade": "C"
+      "score": 81.21,
+      "grade": "B"
     },
     {
       "id": "1411346",
@@ -76,21 +76,6 @@
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22167613"
     },
     {
-      "id": "1411965-22157299",
-      "course_id": "1411965",
-      "title": "Syllabus Signed & Returned",
-      "due_at": "2026-08-20T03:59:59Z",
-      "status": "graded",
-      "points_possible": 20.0,
-      "score": 20.0,
-      "grade": "20",
-      "submitted_at": null,
-      "graded_at": "2026-08-24T14:28:52Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22157299"
-    },
-    {
       "id": "1411346-22179015",
       "course_id": "1411346",
       "title": "Los cognados / Choice board",
@@ -106,21 +91,6 @@
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22179015"
     },
     {
-      "id": "1412828-22050084",
-      "course_id": "1412828",
-      "title": "#8 Activity 1 Improving Car and Driver Safety",
-      "due_at": "2026-08-21T13:30:00Z",
-      "status": "graded",
-      "points_possible": 20.0,
-      "score": 16.0,
-      "grade": "16",
-      "submitted_at": null,
-      "graded_at": "2026-08-24T17:54:25Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050084"
-    },
-    {
       "id": "1411346-22322017",
       "course_id": "1411346",
       "title": "Los cognados",
@@ -134,36 +104,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22322017"
-    },
-    {
-      "id": "1411965-22219271",
-      "course_id": "1411965",
-      "title": "Week 2 Rehearsal Etiquette",
-      "due_at": "2026-08-22T03:59:59Z",
-      "status": "graded",
-      "points_possible": 50.0,
-      "score": 50.0,
-      "grade": "50",
-      "submitted_at": null,
-      "graded_at": "2026-08-24T14:32:47Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1411965/assignments/22219271"
-    },
-    {
-      "id": "1414605-22170597",
-      "course_id": "1414605",
-      "title": "Passport",
-      "due_at": "2026-08-22T03:59:59Z",
-      "status": "graded",
-      "points_possible": 20.0,
-      "score": 20.0,
-      "grade": "20",
-      "submitted_at": null,
-      "graded_at": "2026-08-24T14:14:06Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22170597"
     },
     {
       "id": "1414605-22225354",
@@ -787,10 +727,10 @@
       "due_at": "2026-09-08T03:59:59Z",
       "status": "graded",
       "points_possible": 10.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 8.0,
+      "grade": "8",
       "submitted_at": null,
-      "graded_at": "2026-09-11T13:54:31Z",
+      "graded_at": "2026-10-08T12:06:13Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22374292"
@@ -1698,7 +1638,7 @@
     {
       "id": "1414605-22554926",
       "course_id": "1414605",
-      "title": "Checkpoint Test #1",
+      "title": "Checkpoint 1",
       "due_at": "2026-09-26T03:59:59Z",
       "status": "graded",
       "points_possible": 12.0,
@@ -2240,12 +2180,12 @@
       "course_id": "1413943",
       "title": "Khan HW- Find Slope From a Graph and 2 points",
       "due_at": "2026-10-08T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-08T12:18:43Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22621123"
@@ -2360,12 +2300,12 @@
       "course_id": "1412828",
       "title": "#36 Roller Coaster Energy",
       "due_at": "2026-10-09T14:00:00Z",
-      "status": "upcoming",
-      "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-08T18:30:06Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586224"
@@ -2386,16 +2326,31 @@
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22532687"
     },
     {
-      "id": "1414605-22611089",
-      "course_id": "1414605",
-      "title": "Checkpoint 2",
+      "id": "1411248-22667375",
+      "course_id": "1411248",
+      "title": "Archetypes Quiz",
       "due_at": "2026-10-10T03:59:59Z",
       "status": "upcoming",
-      "points_possible": 12.0,
+      "points_possible": 30.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22667375"
+    },
+    {
+      "id": "1414605-22611089",
+      "course_id": "1414605",
+      "title": "Checkpoint 2",
+      "due_at": "2026-10-10T03:59:59Z",
+      "status": "graded",
+      "points_possible": 12.0,
+      "score": 8.0,
+      "grade": "8",
+      "submitted_at": null,
+      "graded_at": "2026-10-08T12:34:03Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22611089"
@@ -2405,15 +2360,30 @@
       "course_id": "1414605",
       "title": "Unit 1 Performance Task REVIEW",
       "due_at": "2026-10-10T03:59:59Z",
+      "status": "graded",
+      "points_possible": 25.0,
+      "score": 24.0,
+      "grade": "24",
+      "submitted_at": null,
+      "graded_at": "2026-10-08T17:00:35Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22659591"
+    },
+    {
+      "id": "1414605-22668024",
+      "course_id": "1414605",
+      "title": "Unit 1 Performance Task #1 Test",
+      "due_at": "2026-10-10T03:59:59Z",
       "status": "upcoming",
-      "points_possible": 15.0,
+      "points_possible": 50.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
       "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22659591"
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22668024"
     },
     {
       "id": "1412828-22586278",
@@ -2459,6 +2429,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22631171"
+    },
+    {
+      "id": "1411346-22670864",
+      "course_id": "1411346",
+      "title": "Poster: Mexico, Cuba, Rep. Dominicana, Puerto Rico",
+      "due_at": "2026-10-14T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22670864"
     },
     {
       "id": "1414702-21951513",
