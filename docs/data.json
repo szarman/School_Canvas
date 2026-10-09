@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T22:00:05.240317Z",
+  "generated_at": "2026-10-09T03:00:05.892012Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 76.67,
+      "score": 75.9,
       "grade": "C"
     },
     {
@@ -45,51 +45,6 @@
     }
   ],
   "assignments": [
-    {
-      "id": "1411346-22114718",
-      "course_id": "1411346",
-      "title": "MAP 21 Spanish Speaking Countries ",
-      "due_at": "2026-08-14T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-08-14T01:06:18Z",
-      "graded_at": "2026-08-24T23:54:42Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22114718"
-    },
-    {
-      "id": "1411346-22167613",
-      "course_id": "1411346",
-      "title": "An unexpected school experience. ",
-      "due_at": "2026-08-19T03:59:59Z",
-      "status": "graded",
-      "points_possible": 30.0,
-      "score": 20.0,
-      "grade": "20",
-      "submitted_at": "2026-08-18T20:47:50Z",
-      "graded_at": "2026-08-25T00:28:01Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22167613"
-    },
-    {
-      "id": "1411346-22179015",
-      "course_id": "1411346",
-      "title": "Los cognados / Choice board",
-      "due_at": "2026-08-21T03:59:59Z",
-      "status": "graded",
-      "points_possible": 20.0,
-      "score": 17.0,
-      "grade": "17",
-      "submitted_at": "2026-08-19T23:15:06Z",
-      "graded_at": "2026-08-25T01:14:48Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22179015"
-    },
     {
       "id": "1411346-22322017",
       "course_id": "1411346",
@@ -149,21 +104,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22219060"
-    },
-    {
-      "id": "1413943-22207386",
-      "course_id": "1413943",
-      "title": "Canvas HW- Simple Interest",
-      "due_at": "2026-08-25T12:00:00Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-08-24T22:00:20Z",
-      "graded_at": "2026-08-24T22:00:22Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207386"
     },
     {
       "id": "1413943-22227918",
@@ -2176,6 +2116,21 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586203"
     },
     {
+      "id": "1411248-22674883",
+      "course_id": "1411248",
+      "title": "Ten Days in a Mad House First Read",
+      "due_at": "2026-10-08T03:59:59Z",
+      "status": "graded",
+      "points_possible": 18.0,
+      "score": 11.0,
+      "grade": "11",
+      "submitted_at": null,
+      "graded_at": "2026-10-08T23:59:48Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22674883"
+    },
+    {
       "id": "1413943-22621123",
       "course_id": "1413943",
       "title": "Khan HW- Find Slope From a Graph and 2 points",
@@ -2339,6 +2294,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22667375"
+    },
+    {
+      "id": "1411248-22675814",
+      "course_id": "1411248",
+      "title": "Phineas Gage First Read",
+      "due_at": "2026-10-10T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 28.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22675814"
     },
     {
       "id": "1414605-22611089",
