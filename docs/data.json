@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T03:00:06.127129Z",
+  "generated_at": "2026-10-10T10:00:05.141808Z",
   "courses": [
     {
       "id": "1411965",
@@ -40,7 +40,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 81.13,
+      "score": 80.07,
       "grade": "B"
     }
   ],
@@ -2255,7 +2255,7 @@
       "course_id": "1411248",
       "title": "Phineas Gage First Read",
       "due_at": "2026-10-10T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 28.0,
       "score": null,
       "grade": null,
@@ -2300,7 +2300,7 @@
       "course_id": "1414605",
       "title": "Unit 1 Performance Task #1 Test",
       "due_at": "2026-10-10T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -2315,12 +2315,12 @@
       "course_id": "1411346",
       "title": "Review: Aprender, Ensenar, Responder",
       "due_at": "2026-10-10T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-10T04:19:07Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22679079"
@@ -2553,5 +2553,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 37
+  "token_days_left": 36
 }
