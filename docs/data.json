@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:00:05.141808Z",
+  "generated_at": "2026-10-10T22:00:06.044384Z",
   "courses": [
     {
       "id": "1411965",
@@ -45,21 +45,6 @@
     }
   ],
   "assignments": [
-    {
-      "id": "1411346-22322017",
-      "course_id": "1411346",
-      "title": "Los cognados",
-      "due_at": "2026-08-21T20:30:00Z",
-      "status": "graded",
-      "points_possible": 50.0,
-      "score": 33.0,
-      "grade": "33",
-      "submitted_at": null,
-      "graded_at": "2026-08-26T20:52:21Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22322017"
-    },
     {
       "id": "1414605-22225354",
       "course_id": "1414605",
@@ -119,21 +104,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22226281"
-    },
-    {
-      "id": "1411346-22230618",
-      "course_id": "1411346",
-      "title": "Útiles Escolares / Commandos",
-      "due_at": "2026-08-26T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": "2026-08-25T16:24:39Z",
-      "graded_at": "2026-08-26T12:23:36Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22230618"
     },
     {
       "id": "1414605-22225390",
