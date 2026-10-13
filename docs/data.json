@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:00:02.040157Z",
+  "generated_at": "2026-10-13T22:00:05.776997Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,19 +22,19 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 79.26,
+      "score": 78.17,
       "grade": "C"
     },
     {
       "id": "1414702",
       "name": "PE",
-      "score": 93.07,
+      "score": 94.8,
       "grade": "A"
     },
     {
       "id": "1414605",
       "name": "World History",
-      "score": 81.21,
+      "score": 82.57,
       "grade": "B"
     },
     {
@@ -1651,6 +1651,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578894"
     },
     {
+      "id": "1411248-22694879",
+      "course_id": "1411248",
+      "title": "Quarter 1 Checkpoint",
+      "due_at": "2026-10-02T03:59:59Z",
+      "status": "graded",
+      "points_possible": 18.0,
+      "score": 12.0,
+      "grade": "12",
+      "submitted_at": null,
+      "graded_at": "2026-10-13T10:52:58Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22694879"
+    },
+    {
       "id": "1412828-22572941",
       "course_id": "1412828",
       "title": "End of Unit Force/Motion Test",
@@ -2106,7 +2121,7 @@
       "title": "Unit 1 Performance Task #1 Test",
       "due_at": "2026-10-10T03:59:59Z",
       "status": "missing",
-      "points_possible": 50.0,
+      "points_possible": 45.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
@@ -2114,6 +2129,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22668024"
+    },
+    {
+      "id": "1414605-22702841",
+      "course_id": "1414605",
+      "title": "Classroom Participation",
+      "due_at": "2026-10-10T03:59:59Z",
+      "status": "graded",
+      "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": null,
+      "graded_at": "2026-10-13T18:20:40Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22702841"
     },
     {
       "id": "1411346-22679079",
@@ -2191,6 +2221,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671933"
     },
     {
+      "id": "1412828-22690835",
+      "course_id": "1412828",
+      "title": "# 40 Science Max: Elastic Potential Energy",
+      "due_at": "2026-10-14T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22690835"
+    },
+    {
       "id": "1411346-22670864",
       "course_id": "1411346",
       "title": "Poster: Mexico, Cuba, Rep. Dominicana, Puerto Rico",
@@ -2204,21 +2249,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22670864"
-    },
-    {
-      "id": "1412828-22586294",
-      "course_id": "1412828",
-      "title": "# 39 Shake the Shot LWU",
-      "due_at": "2026-10-14T14:00:00Z",
-      "status": "upcoming",
-      "points_possible": 50.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586294"
     },
     {
       "id": "1413943-22671934",
@@ -2236,6 +2266,51 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671934"
     },
     {
+      "id": "1412828-22690839",
+      "course_id": "1412828",
+      "title": "# 39 Elastic Potential Energy Lab",
+      "due_at": "2026-10-15T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22690839"
+    },
+    {
+      "id": "1411248-22697250",
+      "course_id": "1411248",
+      "title": "Central Idea Benchmark Intro - Student Notes",
+      "due_at": "2026-10-15T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 38.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22697250"
+    },
+    {
+      "id": "1412828-22586294",
+      "course_id": "1412828",
+      "title": "# 41 Shake the Shot LWU",
+      "due_at": "2026-10-15T14:00:00Z",
+      "status": "upcoming",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22586294"
+    },
+    {
       "id": "1413943-22671937",
       "course_id": "1413943",
       "title": "Unit 3 Test Corrections",
@@ -2251,19 +2326,19 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671937"
     },
     {
-      "id": "1412828-22634524",
-      "course_id": "1412828",
-      "title": "#40 Notes Energy",
+      "id": "1411248-22698277",
+      "course_id": "1411248",
+      "title": "Central Idea Graphic Organizer",
       "due_at": "2026-10-16T03:59:59Z",
       "status": "upcoming",
-      "points_possible": 10.0,
+      "points_possible": 30.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22634524"
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22698277"
     },
     {
       "id": "1413943-22671935",
@@ -2281,21 +2356,6 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671935"
     },
     {
-      "id": "1412828-22634527",
-      "course_id": "1412828",
-      "title": "# 41 Energy Problems",
-      "due_at": "2026-10-16T13:00:00Z",
-      "status": "upcoming",
-      "points_possible": 20.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22634527"
-    },
-    {
       "id": "1413943-22671936",
       "course_id": "1413943",
       "title": "DQA 1 ",
@@ -2311,9 +2371,39 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671936"
     },
     {
+      "id": "1412828-22634524",
+      "course_id": "1412828",
+      "title": "#42 Notes Energy",
+      "due_at": "2026-10-17T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22634524"
+    },
+    {
       "id": "1414702-21951513",
       "course_id": "1414702",
       "title": "Racket Sports Unit Quiz Round 1",
+      "due_at": "2026-10-17T03:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 100.0,
+      "grade": "100",
+      "submitted_at": "2026-10-13T18:26:26Z",
+      "graded_at": "2026-10-13T18:26:28Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951513"
+    },
+    {
+      "id": "1414702-22698643",
+      "course_id": "1414702",
+      "title": "Racket Sports Skills Test Round 2 (Quarter 2)",
       "due_at": "2026-10-17T03:59:59Z",
       "status": "upcoming",
       "points_possible": 100.0,
@@ -2322,8 +2412,8 @@
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951513"
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414702/assignments/22698643"
     },
     {
       "id": "1414605-22664046",
@@ -2341,10 +2431,10 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22664046"
     },
     {
-      "id": "1412828-22634536",
+      "id": "1412828-22634527",
       "course_id": "1412828",
-      "title": "# 42 Phet Energy Skate Park",
-      "due_at": "2026-10-20T03:59:59Z",
+      "title": "# 43 Energy Problems",
+      "due_at": "2026-10-19T13:00:00Z",
       "status": "upcoming",
       "points_possible": 20.0,
       "score": null,
@@ -2353,7 +2443,7 @@
       "graded_at": null,
       "late": false,
       "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22634536"
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22634527"
     },
     {
       "id": "1412828-22643052",
@@ -2369,6 +2459,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22643052"
+    },
+    {
+      "id": "1414605-22699146",
+      "course_id": "1414605",
+      "title": "NHD Week 8 Packet",
+      "due_at": "2026-10-20T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22699146"
     },
     {
       "id": "1411346-22613372",
@@ -2399,6 +2504,51 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22685272"
+    },
+    {
+      "id": "1414702-21951630",
+      "course_id": "1414702",
+      "title": "Conduct: Q2",
+      "due_at": "2026-12-19T04:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 100.0,
+      "grade": "100",
+      "submitted_at": null,
+      "graded_at": "2026-10-13T14:02:04Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951630"
+    },
+    {
+      "id": "1414702-21951633",
+      "course_id": "1414702",
+      "title": "Dress Out/Prepared for Class: Q2",
+      "due_at": "2026-12-19T04:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 100.0,
+      "grade": "100",
+      "submitted_at": null,
+      "graded_at": "2026-10-13T13:58:14Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951633"
+    },
+    {
+      "id": "1414702-21951665",
+      "course_id": "1414702",
+      "title": "Participation: Q2",
+      "due_at": "2026-12-19T04:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 100.0,
+      "grade": "100",
+      "submitted_at": null,
+      "graded_at": "2026-10-13T13:57:40Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951665"
     },
     {
       "id": "1411248-22476910",
