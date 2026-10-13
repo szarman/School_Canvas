@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T03:00:05.722398Z",
+  "generated_at": "2026-10-13T10:00:02.040157Z",
   "courses": [
     {
       "id": "1411965",
@@ -2150,7 +2150,7 @@
       "course_id": "1413943",
       "title": "In-Class Review and quiz on slope- Grade will be going into 2nd Quarter",
       "due_at": "2026-10-13T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -2165,7 +2165,7 @@
       "course_id": "1414605",
       "title": "NHD Week 7 Packet",
       "due_at": "2026-10-13T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -2433,5 +2433,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 34
+  "token_days_left": 33
 }
