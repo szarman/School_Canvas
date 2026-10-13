@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:00:05.624923Z",
+  "generated_at": "2026-10-13T03:00:05.722398Z",
   "courses": [
     {
       "id": "1411965",
@@ -59,21 +59,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22370693"
-    },
-    {
-      "id": "1413943-22207389",
-      "course_id": "1413943",
-      "title": "Unit 1 Test",
-      "due_at": "2026-08-29T03:59:59Z",
-      "status": "graded",
-      "points_possible": 75.0,
-      "score": 49.0,
-      "grade": "49",
-      "submitted_at": null,
-      "graded_at": "2026-08-28T22:19:50Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207389"
     },
     {
       "id": "1414605-22225422",
