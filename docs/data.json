@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:00:05.776997Z",
+  "generated_at": "2026-10-14T03:00:02.251734Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 78.17,
+      "score": 76.94,
       "grade": "C"
     },
     {
@@ -1664,6 +1664,36 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22694879"
+    },
+    {
+      "id": "1411248-22706430",
+      "course_id": "1411248",
+      "title": "Participation",
+      "due_at": "2026-10-02T03:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 70.0,
+      "grade": "70",
+      "submitted_at": null,
+      "graded_at": "2026-10-14T00:29:58Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22706430"
+    },
+    {
+      "id": "1411248-22706484",
+      "course_id": "1411248",
+      "title": "Extra Credit",
+      "due_at": "2026-10-02T03:59:59Z",
+      "status": "missing",
+      "points_possible": 0.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22706484"
     },
     {
       "id": "1412828-22572941",
