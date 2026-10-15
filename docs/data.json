@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:00:28.264067Z",
+  "generated_at": "2026-10-15T03:00:05.968619Z",
   "courses": [
     {
       "id": "1411965",
@@ -34,8 +34,8 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 81.1,
-      "grade": "B"
+      "score": 76.48,
+      "grade": "C"
     },
     {
       "id": "1411346",
@@ -45,21 +45,6 @@
     }
   ],
   "assignments": [
-    {
-      "id": "1411346-22370693",
-      "course_id": "1411346",
-      "title": "El alfabeto - Spelling in Spanish - Quiz",
-      "due_at": "2026-08-28T08:30:00Z",
-      "status": "graded",
-      "points_possible": 50.0,
-      "score": 48.0,
-      "grade": "48",
-      "submitted_at": null,
-      "graded_at": "2026-08-31T00:58:12Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22370693"
-    },
     {
       "id": "1414605-22225422",
       "course_id": "1414605",
@@ -2150,12 +2135,12 @@
       "course_id": "1414605",
       "title": "Unit 1 Performance Task #1 Test",
       "due_at": "2026-10-10T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 45.0,
-      "score": null,
-      "grade": null,
+      "score": 25.0,
+      "grade": "25",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-15T00:44:03Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22668024"
@@ -2360,11 +2345,11 @@
       "course_id": "1411248",
       "title": "Central Idea Graphic Organizer",
       "due_at": "2026-10-16T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 30.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-10-14T22:27:06Z",
       "graded_at": null,
       "late": false,
       "offline": false,
