@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T10:00:06.172779Z",
+  "generated_at": "2026-10-15T22:00:05.817968Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.5,
+      "score": 80.64,
       "grade": "B"
     },
     {
@@ -46,21 +46,6 @@
   ],
   "assignments": [
     {
-      "id": "1414605-22225422",
-      "course_id": "1414605",
-      "title": "Principles of Geography G1-B/C",
-      "due_at": "2026-08-29T03:59:59Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-31T20:12:13Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22225422"
-    },
-    {
       "id": "1411346-22345084",
       "course_id": "1411346",
       "title": "El alfabeto aloud",
@@ -76,21 +61,6 @@
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22345084"
     },
     {
-      "id": "1413943-22207387",
-      "course_id": "1413943",
-      "title": "Khan HW- Solve 1-step inequalities and 2-step inequalities",
-      "due_at": "2026-08-31T12:00:00Z",
-      "status": "graded",
-      "points_possible": 10.0,
-      "score": 10.0,
-      "grade": "10",
-      "submitted_at": null,
-      "graded_at": "2026-08-31T12:52:06Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22207387"
-    },
-    {
       "id": "1412828-22050107",
       "course_id": "1412828",
       "title": "#10 Distance-Time Gizmo  ",
@@ -104,21 +74,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22050107"
-    },
-    {
-      "id": "1411346-22368075",
-      "course_id": "1411346",
-      "title": "El alfabeto - Listening quiz",
-      "due_at": "2026-08-31T20:30:00Z",
-      "status": "graded",
-      "points_possible": 20.0,
-      "score": 9.0,
-      "grade": "9",
-      "submitted_at": "2026-08-31T15:25:05Z",
-      "graded_at": "2026-08-31T15:25:09Z",
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22368075"
     },
     {
       "id": "1411346-22376406",
@@ -2225,12 +2180,12 @@
       "course_id": "1413943",
       "title": "CW- Slope Practice",
       "due_at": "2026-10-14T03:59:59Z",
-      "status": "missing",
+      "status": "excused",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-15T14:14:05Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671933"
@@ -2270,12 +2225,12 @@
       "course_id": "1413943",
       "title": "CW- Unit 1 & 2 REVIEW",
       "due_at": "2026-10-15T03:59:59Z",
-      "status": "missing",
+      "status": "excused",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-15T14:22:08Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671934"
@@ -2315,7 +2270,7 @@
       "course_id": "1412828",
       "title": "# 41 Shake the Shot LWU",
       "due_at": "2026-10-15T14:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
@@ -2330,12 +2285,12 @@
       "course_id": "1413943",
       "title": "Unit 3 Test Corrections",
       "due_at": "2026-10-16T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 5.0,
-      "score": null,
-      "grade": null,
+      "score": 5.0,
+      "grade": "5",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-15T14:43:24Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671937"
@@ -2354,6 +2309,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22698277"
+    },
+    {
+      "id": "1411346-22721309",
+      "course_id": "1411346",
+      "title": "Emociones/Deportes",
+      "due_at": "2026-10-16T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22721309"
     },
     {
       "id": "1413943-22671935",
@@ -2504,6 +2474,36 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22613372"
+    },
+    {
+      "id": "1413943-22720210",
+      "course_id": "1413943",
+      "title": "CONDUCT",
+      "due_at": "2026-12-19T04:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 100.0,
+      "grade": "100",
+      "submitted_at": null,
+      "graded_at": "2026-10-15T14:46:30Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22720210"
+    },
+    {
+      "id": "1413943-22720229",
+      "course_id": "1413943",
+      "title": "CONDUCT",
+      "due_at": "2026-12-19T04:59:59Z",
+      "status": "upcoming",
+      "points_possible": 100.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22720229"
     },
     {
       "id": "1412828-22685272",
