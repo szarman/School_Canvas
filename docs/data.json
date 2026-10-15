@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T03:00:05.968619Z",
+  "generated_at": "2026-10-15T10:00:06.172779Z",
   "courses": [
     {
       "id": "1411965",
@@ -2270,7 +2270,7 @@
       "course_id": "1413943",
       "title": "CW- Unit 1 & 2 REVIEW",
       "due_at": "2026-10-15T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
@@ -2300,7 +2300,7 @@
       "course_id": "1411248",
       "title": "Central Idea Benchmark Intro - Student Notes",
       "due_at": "2026-10-15T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 38.0,
       "score": null,
       "grade": null,
@@ -2598,5 +2598,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 32
+  "token_days_left": 31
 }
