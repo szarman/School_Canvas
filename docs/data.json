@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:00:05.817968Z",
+  "generated_at": "2026-10-16T03:00:06.332004Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.64,
+      "score": 81.29,
       "grade": "B"
     },
     {
@@ -1591,6 +1591,21 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22578894"
     },
     {
+      "id": "1411248-22476910",
+      "course_id": "1411248",
+      "title": "Conduct",
+      "due_at": "2026-10-02T03:59:59Z",
+      "status": "graded",
+      "points_possible": 100.0,
+      "score": 100.0,
+      "grade": "100",
+      "submitted_at": null,
+      "graded_at": "2026-09-13T17:55:41Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22476910"
+    },
+    {
       "id": "1411248-22694879",
       "course_id": "1411248",
       "title": "Quarter 1 Checkpoint",
@@ -2315,11 +2330,11 @@
       "course_id": "1411346",
       "title": "Emociones/Deportes",
       "due_at": "2026-10-16T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 10.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-10-15T23:40:06Z",
       "graded_at": null,
       "late": false,
       "offline": false,
@@ -2330,12 +2345,12 @@
       "course_id": "1413943",
       "title": "Canvas HW- Algebra Quarter 1 Review",
       "due_at": "2026-10-16T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 25.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
+      "score": 25.0,
+      "grade": "25",
+      "submitted_at": "2026-10-15T22:02:52Z",
+      "graded_at": "2026-10-15T22:02:55Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22671935"
@@ -2401,6 +2416,21 @@
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/22698643"
     },
     {
+      "id": "1414605-22725723",
+      "course_id": "1414605",
+      "title": "Measuring Time",
+      "due_at": "2026-10-17T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 15.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22725723"
+    },
+    {
       "id": "1412828-22634527",
       "course_id": "1412828",
       "title": "# 43 Energy Problems",
@@ -2459,6 +2489,21 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22699146"
+    },
+    {
+      "id": "1414605-22725726",
+      "course_id": "1414605",
+      "title": "Performance Task Feedback",
+      "due_at": "2026-10-20T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22725726"
     },
     {
       "id": "1411346-22613372",
@@ -2564,21 +2609,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951665"
-    },
-    {
-      "id": "1411248-22476910",
-      "course_id": "1411248",
-      "title": "Conduct",
-      "due_at": "2027-05-02T03:59:59Z",
-      "status": "graded",
-      "points_possible": 100.0,
-      "score": 100.0,
-      "grade": "100",
-      "submitted_at": null,
-      "graded_at": "2026-09-13T17:55:41Z",
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22476910"
     },
     {
       "id": "1414702-21951636",
