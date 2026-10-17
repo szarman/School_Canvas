@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:00:05.777467Z",
+  "generated_at": "2026-10-17T03:00:05.877421Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 76.94,
+      "score": 73.11,
       "grade": "C"
     },
     {
@@ -2330,12 +2330,12 @@
       "course_id": "1411248",
       "title": "Central Idea Graphic Organizer",
       "due_at": "2026-10-16T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 30.0,
-      "score": null,
-      "grade": null,
+      "score": 28.0,
+      "grade": "28",
       "submitted_at": "2026-10-14T22:27:06Z",
-      "graded_at": null,
+      "graded_at": "2026-10-17T01:30:54Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22698277"
@@ -2420,15 +2420,30 @@
       "course_id": "1411248",
       "title": "Central Idea Benchmark Intro - Student Notes",
       "due_at": "2026-10-17T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 38.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-17T00:40:56Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22697250"
+    },
+    {
+      "id": "1411248-22735775",
+      "course_id": "1411248",
+      "title": "I'm Nobody! Who Are You? First Read",
+      "due_at": "2026-10-17T03:59:59Z",
+      "status": "graded",
+      "points_possible": 12.0,
+      "score": 11.0,
+      "grade": "11",
+      "submitted_at": null,
+      "graded_at": "2026-10-17T02:08:36Z",
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22735775"
     },
     {
       "id": "1414702-21951513",
