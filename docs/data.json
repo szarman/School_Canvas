@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T03:00:06.534065Z",
+  "generated_at": "2026-10-20T10:00:06.378133Z",
   "courses": [
     {
       "id": "1411965",
@@ -2345,7 +2345,7 @@
       "course_id": "1411965",
       "title": "Q2 Week 1 Practice Log",
       "due_at": "2026-10-20T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -3003,5 +3003,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 27
+  "token_days_left": 26
 }
