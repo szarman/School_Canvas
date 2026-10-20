@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:00:06.413694Z",
+  "generated_at": "2026-10-20T03:00:06.534065Z",
   "courses": [
     {
       "id": "1411965",
@@ -22,7 +22,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 73.11,
+      "score": 73.98,
       "grade": "C"
     },
     {
@@ -2480,12 +2480,12 @@
       "course_id": "1411248",
       "title": "Poetry Benchmark Intro - Student Notes",
       "due_at": "2026-10-22T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": "2026-10-19T14:10:44Z",
-      "graded_at": null,
+      "graded_at": "2026-10-20T01:32:49Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22742126"
