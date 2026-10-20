@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:00:06.378133Z",
+  "generated_at": "2026-10-20T22:00:05.898203Z",
   "courses": [
     {
       "id": "1411965",
@@ -10,7 +10,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.7,
+      "score": 80.94,
       "grade": "B"
     },
     {
@@ -28,20 +28,20 @@
     {
       "id": "1414702",
       "name": "PE",
-      "score": 94.8,
+      "score": 92.8,
       "grade": "A"
     },
     {
       "id": "1414605",
       "name": "World History",
-      "score": 75.93,
+      "score": 77.61,
       "grade": "C"
     },
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 76.47,
-      "grade": "C"
+      "score": 81.42,
+      "grade": "B"
     }
   ],
   "assignments": [
@@ -2075,12 +2075,12 @@
       "course_id": "1411346",
       "title": "Poster: Mexico, Cuba, Rep. Dominicana, Puerto Rico",
       "due_at": "2026-10-14T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "points_possible": 50.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 42.75,
+      "grade": "42.75",
       "submitted_at": "2026-10-14T16:07:17Z",
-      "graded_at": "2026-10-14T04:08:33Z",
+      "graded_at": "2026-10-20T20:17:52Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22670864"
@@ -2262,7 +2262,7 @@
       "submitted_at": null,
       "graded_at": "2026-10-17T02:08:36Z",
       "late": false,
-      "offline": true,
+      "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22735775"
     },
     {
@@ -2285,12 +2285,12 @@
       "course_id": "1414702",
       "title": "Racket Sports Skills Test Round 2 (Quarter 2)",
       "due_at": "2026-10-17T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "points_possible": 100.0,
-      "score": null,
-      "grade": null,
+      "score": 80.0,
+      "grade": "80",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-20T12:17:08Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/22698643"
@@ -2392,10 +2392,10 @@
       "due_at": "2026-10-20T03:59:59Z",
       "status": "graded",
       "points_possible": 10.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 9.0,
+      "grade": "9",
       "submitted_at": null,
-      "graded_at": "2026-10-19T16:09:35Z",
+      "graded_at": "2026-10-20T16:24:42Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22725726"
@@ -2405,12 +2405,12 @@
       "course_id": "1413943",
       "title": "Khan HW- Graph in Slop-Intercept and Horizontal & Vertical Lines",
       "due_at": "2026-10-20T12:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-20T12:50:34Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22732965"
@@ -2420,7 +2420,7 @@
       "course_id": "1412828",
       "title": "# 44 Phet Energy Skate Park",
       "due_at": "2026-10-20T14:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
@@ -2429,6 +2429,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22730761"
+    },
+    {
+      "id": "1411346-22756463",
+      "course_id": "1411346",
+      "title": "Ser vs Estar Flash cards answer sheet",
+      "due_at": "2026-10-21T03:59:59Z",
+      "status": "awaiting_grading",
+      "points_possible": 24.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": "2026-10-20T16:02:03Z",
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22756463"
     },
     {
       "id": "1413943-22732968",
@@ -2495,15 +2510,30 @@
       "course_id": "1414605",
       "title": "Ancient Period Lesson 1 Content Exploration Organizer",
       "due_at": "2026-10-22T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "points_possible": 10.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": null,
+      "graded_at": "2026-10-20T16:49:14Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22736391"
+    },
+    {
+      "id": "1414605-22756492",
+      "course_id": "1414605",
+      "title": "Ancient Period 1.1 Intro ",
+      "due_at": "2026-10-22T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 8.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
       "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22736391"
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22756492"
     },
     {
       "id": "1413943-22732967",
@@ -2534,6 +2564,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22634607"
+    },
+    {
+      "id": "1411248-22754307",
+      "course_id": "1411248",
+      "title": "I'm Nobody! Who are you? Skill: Poetry",
+      "due_at": "2026-10-23T03:59:59Z",
+      "status": "upcoming",
+      "points_possible": 30.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22754307"
     },
     {
       "id": "1413943-22732966",
@@ -2684,6 +2729,21 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735237"
+    },
+    {
+      "id": "1414702-21951562",
+      "course_id": "1414702",
+      "title": "Ultimate Frisbee Unit Quiz- Round 3",
+      "due_at": "2026-11-07T04:59:59Z",
+      "status": "upcoming",
+      "points_possible": 100.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951562"
     },
     {
       "id": "1411965-22735174",
