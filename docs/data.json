@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:00:05.898203Z",
+  "generated_at": "2026-10-21T03:00:02.494205Z",
   "courses": [
     {
       "id": "1411965",
@@ -2570,11 +2570,11 @@
       "course_id": "1411248",
       "title": "I'm Nobody! Who are you? Skill: Poetry",
       "due_at": "2026-10-23T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "points_possible": 30.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-10-20T23:34:39Z",
       "graded_at": null,
       "late": false,
       "offline": false,
