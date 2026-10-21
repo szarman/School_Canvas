@@ -124,8 +124,8 @@ branch**, branch `main`, folder **`/docs`**, and save. The board appears at
 powershell -ExecutionPolicy Bypass -File .\install_task.ps1
 ```
 
-Registers a task named **Canvas Homework Board** that runs at **6:00 AM,
-6:00 PM and 11:00 PM** — morning check, after school, end of day. It runs as
+Registers a task named **Canvas Homework Board** that runs **every hour, on
+the hour**. It runs as
 you and only while you're logged on, so no password is stored with the task. If
 the PC was off, it catches up at the next login.
 
@@ -166,7 +166,7 @@ to `scrape.log`.
 | `course_labels.json` | District course name → public label (gitignored) |
 | `publish.py` | Commits and pushes `docs/` |
 | `run_daily.py` | Nightly entry point; scrape + publish + log |
-| `install_task.ps1` | Registers/removes the 11 PM scheduled task |
+| `install_task.ps1` | Registers/removes the hourly scheduled task |
 | `docs/` | The published site |
 | `worker/` | Cloudflare Worker for cross-device checkmark sync |
 
@@ -182,10 +182,22 @@ to `scrape.log`.
 | `CANVAS_STUDENT_ID` | *(blank)* | Observer accounts watching more than one student. Auto-detected otherwise. |
 | `SYNC_URL` | *(blank)* | Cloudflare Worker URL for cross-device checkmarks. See [worker/README.md](worker/README.md). |
 
-Note `GRADED_HISTORY_DAYS` trims old graded work off the board, which also
-trims it out of the Grades view's points tally. The headline percentage is
-unaffected — that comes from Canvas and reflects the whole term — but raise
-this if you want the points breakdown to cover more than the last 45 days.
+`GRADED_HISTORY_DAYS` only trims old graded work off the Homework view, and
+only while *All quarters* is selected. `data.json` keeps the whole school year
+so the Grades view can total every quarter.
+
+## Quarters
+
+Canvas grading periods (`Q1-2627`, `Q2-2627`, …) are pulled each run, with
+Canvas's official grade for each — the report-card number. The Grades view has
+a tab per quarter that has started, plus *Full year*, and opens on the current
+quarter. The Homework view tags each card with its quarter and can filter to
+one.
+
+An assignment's quarter comes from Canvas where the submission says, otherwise
+from its due date; undated work counts in the last quarter, as Canvas does.
+Quarters are matched across courses by title, because a semester course can
+sit in its own grading-period set with different IDs.
 
 ## When the token expires
 

@@ -116,6 +116,90 @@ def fetch_courses(client, student_id):
     return courses
 
 
+def fetch_periods(client, course, student_id, now):
+    """Attach the course's grading periods (quarters) and the official grade in each.
+
+    Canvas computes a separate grade per period -- the one on the report card --
+    and only hands it out when asked for that period by ID. Periods that have
+    not started yet are listed but not queried; they cannot have a grade.
+    """
+    try:
+        raw = client.get_all(f"/api/v1/courses/{course['id']}/grading_periods")
+    except Exception as exc:
+        print(f"    {course['name']}: no grading periods ({exc})")
+        course["periods"] = {}
+        return []
+
+    periods = []
+    for page in raw:
+        periods.extend(page.get("grading_periods") or [])
+    periods.sort(key=lambda p: p.get("start_date") or "")
+
+    grades = {}
+    for period in periods:
+        start = parse_time(period.get("start_date"))
+        entry = {"score": None, "grade": None}
+        if start and start <= now:
+            params = {"type[]": ["StudentEnrollment"], "grading_period_id": period["id"]}
+            if student_id:
+                params["user_id"] = student_id
+            for enrollment in client.get_all(
+                f"/api/v1/courses/{course['id']}/enrollments", **params
+            ):
+                if student_id and str(enrollment.get("user_id")) != str(student_id):
+                    continue
+                found = enrollment.get("grades") or {}
+                entry = {"score": found.get("current_score"), "grade": found.get("current_grade")}
+                break
+        grades[period_key(period)] = entry
+
+    course["periods"] = grades
+    return [
+        {
+            "id": period_key(period),
+            "canvas_id": str(period["id"]),
+            "title": period.get("title") or f"Period {period['id']}",
+            "start": period.get("start_date"),
+            "end": period.get("end_date"),
+        }
+        for period in periods
+    ]
+
+
+def period_key(period):
+    """Quarters are matched across courses by title, not Canvas ID.
+
+    A semester course can sit in its own grading-period set whose "Q1-2627"
+    has a different ID from everyone else's, but it is the same report-card
+    quarter.
+    """
+    return period.get("title") or str(period["id"])
+
+
+def period_for(assignment, submission, periods):
+    """Which grading period an assignment counts toward.
+
+    Canvas's own answer wins where the submission carries one -- a teacher can
+    move work between quarters. Otherwise it follows the due date, and undated
+    work goes to the last period, which is where Canvas counts it too.
+    """
+    own = str((submission or {}).get("grading_period_id") or "")
+    for period in periods:
+        if own and period["canvas_id"] == own:
+            return period["id"]
+    if not periods:
+        return None
+
+    due = parse_time(assignment.get("due_at"))
+    if due is None:
+        return periods[-1]["id"]
+    for period in periods:
+        start, end = parse_time(period["start"]), parse_time(period["end"])
+        if start and end and start <= due <= end:
+            return period["id"]
+    return None
+
+
 def classify(assignment, submission, now):
     """Reduce Canvas's submission state to one bucket the board can render."""
     due = parse_time(assignment.get("due_at"))
@@ -161,15 +245,26 @@ def fetch_pairs(client, course, student_id):
     return [(item, item.get("submission") or {}) for item in raw]
 
 
-def fetch_assignments(client, course, student_id, now):
+def fetch_assignments(client, course, student_id, now, periods):
     graded_cutoff = now - timedelta(days=config.GRADED_HISTORY_DAYS)
     missing_cutoff = now - timedelta(days=MISSING_HISTORY_DAYS)
+
+    # Every quarter's breakdown needs its graded work, so history reaches back
+    # to the start of the school year. The board trims the Homework view to
+    # GRADED_HISTORY_DAYS itself.
+    year_start = min(
+        (parse_time(p["start"]) for p in periods if parse_time(p["start"])),
+        default=None,
+    )
+    if year_start:
+        graded_cutoff = min(graded_cutoff, year_start)
+        missing_cutoff = min(missing_cutoff, year_start)
 
     assignments = []
     for item, submission in fetch_pairs(client, course, student_id):
         status, due = classify(item, submission, now)
 
-        # Trim old history so the board stays about the current term.
+        # Trim old history so the board stays about the current school year.
         if status in ("graded", "awaiting_grading", "excused"):
             stamp = parse_time(submission.get("graded_at")) or parse_time(
                 submission.get("submitted_at")
@@ -185,6 +280,7 @@ def fetch_assignments(client, course, student_id, now):
             "title": item.get("name") or "Untitled assignment",
             "due_at": item.get("due_at"),
             "status": status,
+            "period_id": period_for(item, submission, periods),
             "points_possible": item.get("points_possible"),
             "score": submission.get("score"),
             "grade": submission.get("grade"),
@@ -225,10 +321,15 @@ def build():
         print(f"  {len(courses)} course(s)")
 
         assignments = []
+        all_periods = {}
         for course in courses:
-            found = fetch_assignments(client, course, student_id, now)
+            periods = fetch_periods(client, course, student_id, now)
+            for period in periods:
+                public = {k: v for k, v in period.items() if k != "canvas_id"}
+                all_periods.setdefault(period["id"], public)
+            found = fetch_assignments(client, course, student_id, now, periods)
             assignments.extend(found)
-            print(f"    {course['name']}: {len(found)} assignment(s)")
+            print(f"    {course['name']}: {len(found)} assignment(s), {len(periods)} grading period(s)")
     finally:
         client.close()
 
@@ -236,6 +337,10 @@ def build():
 
     data = {
         "generated_at": now.isoformat().replace("+00:00", "Z"),
+        # Quarters across all courses, in calendar order. Each course's
+        # "periods" says which of these it runs in and the grade for each.
+        "periods": sorted(all_periods.values(), key=lambda p: p["start"] or ""),
+        "graded_history_days": config.GRADED_HISTORY_DAYS,
         "courses": courses,
         "assignments": assignments,
     }

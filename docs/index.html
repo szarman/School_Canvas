@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>Homework Board</title>
-  <link rel="stylesheet" href="styles.css?v=0e519f89ef">
+  <link rel="stylesheet" href="styles.css?v=9f513f45d3">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
 </head>
 <body>
@@ -58,6 +58,7 @@
   <section class="controls">
     <input type="search" id="search" placeholder="Search assignments…" aria-label="Search assignments">
     <div class="chips" id="course-filter" role="group" aria-label="Filter by course"></div>
+    <div class="chips" id="period-filter" role="group" aria-label="Filter by quarter" hidden></div>
     <label class="toggle">
       <input type="checkbox" id="hide-done">
       <span>Hide done &amp; graded</span>
@@ -68,11 +69,11 @@
   <main id="grades" aria-live="polite" hidden></main>
 
   <footer>
-    <p>Pulled from Canvas at 6:00&nbsp;AM, 6:00&nbsp;PM and 11:00&nbsp;PM. Press
+    <p>Pulled from Canvas every hour, on the hour. Press
        Refresh for the latest published data. Canvas is the source of truth for
        submitted and graded work; the checkboxes are yours.</p>
   </footer>
 
-  <script src="app.js?v=c81cd93c20"></script>
+  <script src="app.js?v=9e35003b18"></script>
 </body>
 </html>

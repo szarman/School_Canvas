@@ -1,8 +1,8 @@
 <#
   Registers a Windows scheduled task that runs run_daily.py.
 
-  Defaults to 6:00 AM, 6:00 PM and 11:00 PM -- morning check, after school,
-  and an end-of-day catch-up.
+  Defaults to every hour, on the hour, so grades posted during the day show
+  up on the board within the hour.
 
   Usage:
       powershell -ExecutionPolicy Bypass -File .\install_task.ps1
@@ -15,7 +15,7 @@
 #>
 
 param(
-    [string[]]$At = @("06:00", "18:00", "23:00"),
+    [string[]]$At = @(0..23 | ForEach-Object { "{0:D2}:00" -f $_ }),
     [switch]$Remove
 )
 

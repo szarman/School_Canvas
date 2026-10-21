@@ -24,6 +24,8 @@ const state = {
   data: { courses: [], assignments: [], generated_at: null },
   flags: loadFlags(),
   courseFilter: null,
+  periodFilter: null,  // homework view; null = all quarters
+  gradesPeriod: null,  // grades view; null = the current quarter, "all" = full year
   search: "",
   hideDone: false,
   view: localStorage.getItem(VIEW_KEY) === "grades" ? "grades" : "homework",
@@ -282,6 +284,36 @@ function shortDate(iso) {
   return new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
 }
 
+/* ---------- quarters --------------------------------------------------- */
+
+/* Canvas grading periods, e.g. "Q1-2627". Each course lists the ones it runs
+ * in, with Canvas's official grade for each -- the report-card number. */
+
+const periods = () => state.data.periods || [];
+
+/** "Q1-2627" -> "Q1"; the school-year suffix is noise on a one-year board. */
+function periodLabel(id) {
+  const period = periods().find((p) => p.id === id);
+  return period ? period.title.replace(/-\d{4}$/, "") : "";
+}
+
+/** The quarter today falls in; between quarters, the one just finished. */
+function currentPeriodId() {
+  const now = Date.now();
+  let latest = null;
+  for (const period of periods()) {
+    if (new Date(period.start).getTime() > now) break;
+    latest = period.id;
+    if (now <= new Date(period.end).getTime()) return period.id;
+  }
+  return latest;
+}
+
+function coursePeriodGrade(course, periodId) {
+  const entry = (course.periods || {})[periodId];
+  return entry && entry.score !== null && entry.score !== undefined ? entry : null;
+}
+
 /* ---------- grouping --------------------------------------------------- */
 
 function groupOf(assignment) {
@@ -304,9 +336,27 @@ function isFinished(assignment) {
   return flagsFor(assignment.id).done || ["graded", "excused"].includes(assignment.status);
 }
 
+/* data.json carries the whole school year so the Grades view can total every
+ * quarter. With all quarters showing, the Homework view keeps to recent
+ * finished work, as it always has; picking a quarter shows all of it. */
+function boardAssignments() {
+  if (state.periodFilter) {
+    return state.data.assignments.filter((a) => a.period_id === state.periodFilter);
+  }
+  const days = state.data.graded_history_days;
+  if (!days) return state.data.assignments;
+
+  const cutoff = Date.now() - days * DAY;
+  return state.data.assignments.filter((a) => {
+    if (!canvasConfirmed(a)) return true;
+    const stamp = a.graded_at || a.submitted_at || a.due_at;
+    return !stamp || new Date(stamp).getTime() >= cutoff;
+  });
+}
+
 function visibleAssignments() {
   const needle = state.search.trim().toLowerCase();
-  return state.data.assignments.filter((assignment) => {
+  return boardAssignments().filter((assignment) => {
     if (state.courseFilter && assignment.course_id !== state.courseFilter) return false;
     if (state.hideDone && isFinished(assignment)) return false;
     if (needle && !assignment.title.toLowerCase().includes(needle)) return false;
@@ -380,39 +430,76 @@ function renderTiles(assignments) {
   );
 }
 
+/* The strip shows the quarter being filtered to, or the current one -- that
+ * is the grade on the next report card, not the year-to-date blend. */
 function renderCourses() {
   const host = document.getElementById("courses");
-  const withGrades = state.data.courses.filter((c) => c.score !== null && c.score !== undefined);
-  host.replaceChildren(
-    ...withGrades.map((course) =>
+  const periodId = state.periodFilter || currentPeriodId();
+
+  const pills = [];
+  for (const course of state.data.courses) {
+    const entry = periodId ? coursePeriodGrade(course, periodId) : null;
+    const shown = entry || (!periodId && course.score !== null && course.score !== undefined ? course : null);
+    if (!shown) continue;
+    pills.push(
       el("div", { class: "course-grade" }, [
         el("span", { text: course.name }),
         el("span", {
           class: "grade",
-          text: course.grade ? `${course.grade} · ${course.score}%` : `${course.score}%`,
+          text: shown.grade ? `${shown.grade} · ${shown.score}%` : `${shown.score}%`,
         }),
       ])
+    );
+  }
+
+  host.replaceChildren(
+    ...(pills.length && periodId ? [el("span", { class: "courses-label", text: `${periodLabel(periodId)} grades` })] : []),
+    ...pills
+  );
+}
+
+function chipRow(host, options, selected, onPick) {
+  host.replaceChildren(
+    ...options.map((option) =>
+      el("button", {
+        class: "chip",
+        type: "button",
+        "aria-pressed": String(selected === option.id),
+        text: option.name,
+        onclick: () => onPick(option.id),
+      })
     )
   );
 }
 
-function renderFilters() {
-  const host = document.getElementById("course-filter");
-  const chips = [{ id: null, name: "All courses" }, ...state.data.courses];
+/** Quarters that have started -- an empty Q4 tab in October is just clutter. */
+function startedPeriods() {
+  const now = Date.now();
+  return periods().filter((p) => new Date(p.start).getTime() <= now);
+}
 
-  host.replaceChildren(
-    ...chips.map((course) =>
-      el("button", {
-        class: "chip",
-        type: "button",
-        "aria-pressed": String(state.courseFilter === course.id),
-        text: course.name,
-        onclick: () => {
-          state.courseFilter = course.id;
-          render();
-        },
-      })
-    )
+function renderFilters() {
+  chipRow(
+    document.getElementById("course-filter"),
+    [{ id: null, name: "All courses" }, ...state.data.courses],
+    state.courseFilter,
+    (id) => {
+      state.courseFilter = id;
+      render();
+    }
+  );
+
+  const periodHost = document.getElementById("period-filter");
+  const started = startedPeriods();
+  periodHost.hidden = !started.length;
+  chipRow(
+    periodHost,
+    [{ id: null, name: "All quarters" }, ...started.map((p) => ({ id: p.id, name: periodLabel(p.id) }))],
+    state.periodFilter,
+    (id) => {
+      state.periodFilter = id;
+      render();
+    }
   );
 }
 
@@ -429,6 +516,10 @@ function renderCard(assignment, color) {
     el("span", { class: "course", text: courseName(assignment.course_id) }),
     el("span", { class: `due ${due.tone}`, text: due.text }),
   ];
+
+  if (assignment.period_id) {
+    meta.push(el("span", { class: "badge period", text: periodLabel(assignment.period_id) }));
+  }
 
   if (assignment.status === "graded" && assignment.score !== null) {
     const total = assignment.points_possible;
@@ -560,8 +651,10 @@ function markColor(pct) {
 /* Points tallied from what is on the board. Canvas's own course percentage is
  * authoritative -- it applies category weights this cannot see -- so it is
  * preferred for the headline whenever Canvas supplies one. */
-function courseStats(courseId) {
-  const items = state.data.assignments.filter((a) => a.course_id === courseId);
+function courseStats(courseId, periodId = null) {
+  const items = state.data.assignments.filter(
+    (a) => a.course_id === courseId && (!periodId || a.period_id === periodId)
+  );
   const scored = items.filter((a) => a.status === "graded" && a.score !== null);
 
   const earned = scored.reduce((sum, a) => sum + a.score, 0);
@@ -655,18 +748,45 @@ function renderGrades() {
     return;
   }
 
-  const cards = state.data.courses.map((course) => {
-    const stats = courseStats(course.id);
+  // One quarter at a time, matching the report card. Opens on the current one.
+  const started = startedPeriods();
+  let periodId = state.gradesPeriod === "all" ? null : state.gradesPeriod || currentPeriodId();
+  if (periodId && !started.some((p) => p.id === periodId)) periodId = null;
+
+  const tabs = started.length
+    ? el("div", { class: "chips periodtabs", role: "group", "aria-label": "Choose a quarter" })
+    : null;
+  if (tabs) {
+    chipRow(
+      tabs,
+      [...started.map((p) => ({ id: p.id, name: periodLabel(p.id) })), { id: "all", name: "Full year" }],
+      periodId || "all",
+      (id) => {
+        state.gradesPeriod = id;
+        render();
+      }
+    );
+  }
+
+  // A semester class has no Q3 or Q4; leave it off those tabs.
+  const courses = periodId
+    ? state.data.courses.filter((c) => !Object.keys(c.periods || {}).length || periodId in c.periods)
+    : state.data.courses;
+
+  const cards = courses.map((course) => {
+    const stats = courseStats(course.id, periodId);
 
     // Canvas's number wins when present; otherwise fall back to the tally.
-    const official = course.score !== null && course.score !== undefined;
-    const headlinePct = official ? course.score : stats.pct;
+    const official = periodId
+      ? coursePeriodGrade(course, periodId)
+      : course.score !== null && course.score !== undefined ? course : null;
+    const headlinePct = official ? official.score : stats.pct;
     const color = markColor(headlinePct);
 
     const markText = official
-      ? course.grade
-        ? `${course.grade}  ${Math.round(course.score * 10) / 10}%`
-        : `${Math.round(course.score * 10) / 10}%`
+      ? official.grade
+        ? `${official.grade}  ${Math.round(official.score * 10) / 10}%`
+        : `${Math.round(official.score * 10) / 10}%`
       : stats.pct !== null
         ? `${Math.round(stats.pct)}%`
         : "No grades yet";
@@ -716,7 +836,7 @@ function renderGrades() {
     ]);
   });
 
-  host.replaceChildren(...cards);
+  host.replaceChildren(...(tabs ? [tabs] : []), ...cards);
 }
 
 /* ---------- view switching ---------------------------------------------- */
@@ -747,7 +867,7 @@ function render() {
     return;
   }
 
-  renderTiles(state.data.assignments);
+  renderTiles(boardAssignments());
   renderCourses();
   renderFilters();
   renderBoard(visibleAssignments());
