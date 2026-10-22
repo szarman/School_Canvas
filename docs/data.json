@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:00:06.028709Z",
+  "generated_at": "2026-10-22T13:00:02.992374Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -3919,22 +3919,6 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22756492"
     },
     {
-      "id": "1414605-22767728",
-      "course_id": "1414605",
-      "title": "Intro to Paleolithic Era Worksheet",
-      "due_at": "2026-10-22T03:59:59Z",
-      "status": "missing",
-      "period_id": "Q2-2627",
-      "points_possible": 20.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22767728"
-    },
-    {
       "id": "1413943-22732967",
       "course_id": "1413943",
       "title": "Khan HW- Point-Slope Form and Write Linear Equation Word Problem",
@@ -3983,6 +3967,22 @@
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22754307"
     },
     {
+      "id": "1414605-22767728",
+      "course_id": "1414605",
+      "title": "Intro to Paleolithic Era Worksheet",
+      "due_at": "2026-10-23T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22767728"
+    },
+    {
       "id": "1413943-22732966",
       "course_id": "1413943",
       "title": "Khan HW- Graph in Standard, Intercepts from an equation, Convert to Standard Form, Linear Equations in all Forms",
@@ -4029,6 +4029,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735223"
+    },
+    {
+      "id": "1414605-22769606",
+      "course_id": "1414605",
+      "title": "Ancient Period 1.1 A",
+      "due_at": "2026-10-24T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 8.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22769606"
     },
     {
       "id": "1413943-22732970",
@@ -4429,70 +4445,6 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22743186"
-    },
-    {
-      "id": "1414605-22743210",
-      "course_id": "1414605",
-      "title": "Tools of the Ancient Era",
-      "due_at": null,
-      "status": "upcoming",
-      "period_id": "Q4-2627",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22743210"
-    },
-    {
-      "id": "1414605-22743296",
-      "course_id": "1414605",
-      "title": "Cave Paintings",
-      "due_at": null,
-      "status": "upcoming",
-      "period_id": "Q4-2627",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22743296"
-    },
-    {
-      "id": "1414605-22743301",
-      "course_id": "1414605",
-      "title": "The Neolithic Era",
-      "due_at": null,
-      "status": "upcoming",
-      "period_id": "Q4-2627",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22743301"
-    },
-    {
-      "id": "1414605-22743306",
-      "course_id": "1414605",
-      "title": "Warlike Pastoralists",
-      "due_at": null,
-      "status": "upcoming",
-      "period_id": "Q4-2627",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22743306"
     }
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
