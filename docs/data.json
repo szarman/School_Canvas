@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:00:02.260121Z",
+  "generated_at": "2026-10-22T12:00:06.028709Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -3939,7 +3939,7 @@
       "course_id": "1413943",
       "title": "Khan HW- Point-Slope Form and Write Linear Equation Word Problem",
       "due_at": "2026-10-22T12:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
