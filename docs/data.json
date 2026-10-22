@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:00:02.992374Z",
+  "generated_at": "2026-10-22T14:00:05.628200Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -55,7 +55,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 81.29,
+      "score": 81.51,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -63,7 +63,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 86.36,
+          "score": 87.5,
           "grade": "B"
         },
         "Q3-2627": {
@@ -3923,13 +3923,13 @@
       "course_id": "1413943",
       "title": "Khan HW- Point-Slope Form and Write Linear Equation Word Problem",
       "due_at": "2026-10-22T12:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-22T13:10:38Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22732967"
@@ -3939,7 +3939,7 @@
       "course_id": "1412828",
       "title": " #56 Act 6 Follow the Energy",
       "due_at": "2026-10-22T14:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
