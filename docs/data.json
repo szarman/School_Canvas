@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:00:02.641426Z",
+  "generated_at": "2026-10-22T17:00:02.302463Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -143,7 +143,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 77.83,
+      "score": 78.36,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -151,7 +151,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 80.46,
+          "score": 84.11,
           "grade": "B"
         },
         "Q3-2627": {
@@ -3971,13 +3971,13 @@
       "course_id": "1414605",
       "title": "Intro to Paleolithic Era Worksheet",
       "due_at": "2026-10-23T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-22T16:57:14Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22767728"
