@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:00:02.301264Z",
+  "generated_at": "2026-10-23T16:00:05.210679Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4031,20 +4031,20 @@
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735223"
     },
     {
-      "id": "1414605-22769606",
+      "id": "1414605-22780548",
       "course_id": "1414605",
-      "title": "Ancient Period 1.1 A",
+      "title": "Paleolithic Age Guided Notes",
       "due_at": "2026-10-24T03:59:59Z",
       "status": "upcoming",
       "period_id": "Q2-2627",
-      "points_possible": 8.0,
+      "points_possible": 15.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
       "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22769606"
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22780548"
     },
     {
       "id": "1413943-22732970",
@@ -4109,6 +4109,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22736380"
+    },
+    {
+      "id": "1414605-22769606",
+      "course_id": "1414605",
+      "title": "Ancient Period 1.1 A/B",
+      "due_at": "2026-10-27T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 16.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22769606"
     },
     {
       "id": "1411965-22735229",
