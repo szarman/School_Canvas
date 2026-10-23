@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:00:02.332233Z",
+  "generated_at": "2026-10-23T12:00:06.673327Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -3987,7 +3987,7 @@
       "course_id": "1413943",
       "title": "Khan HW- Graph in Standard, Intercepts from an equation, Convert to Standard Form, Linear Equations in all Forms",
       "due_at": "2026-10-23T12:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
