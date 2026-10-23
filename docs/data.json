@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:00:02.373339Z",
+  "generated_at": "2026-10-23T20:00:02.299280Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4127,6 +4127,70 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22769606"
     },
     {
+      "id": "1413943-22784398",
+      "course_id": "1413943",
+      "title": "Khan HW - Eyeball Best Fit, Positive/Neg Correlation, Estimate Best Fit, Describing Trends",
+      "due_at": "2026-10-28T12:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22784398"
+    },
+    {
+      "id": "1413943-22784397",
+      "course_id": "1413943",
+      "title": "Khan HW - Calculate and interpret Residuals, Correlation Coefficient, Interpret Slope in Scatter Plots",
+      "due_at": "2026-10-28T12:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22784397"
+    },
+    {
+      "id": "1413943-22784396",
+      "course_id": "1413943",
+      "title": "CW- Teacher Led Review",
+      "due_at": "2026-10-29T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22784396"
+    },
+    {
+      "id": "1413943-22784399",
+      "course_id": "1413943",
+      "title": "Khan HW- Linear Equation and Scatter Plot \"Test\"",
+      "due_at": "2026-10-30T12:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22784399"
+    },
+    {
       "id": "1411965-22735229",
       "course_id": "1411965",
       "title": "Week 3 Rehearsal Etiquette",
@@ -4141,6 +4205,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735229"
+    },
+    {
+      "id": "1413943-22784400",
+      "course_id": "1413943",
+      "title": "Unit 4 Test",
+      "due_at": "2026-10-31T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 75.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22784400"
     },
     {
       "id": "1412828-22643052",
