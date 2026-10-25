@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:00:02.269182Z",
+  "generated_at": "2026-10-25T20:00:02.240964Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -103,7 +103,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 72.66,
+      "score": 73.1,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -111,8 +111,8 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 59.29,
-          "grade": "F"
+          "score": 63.26,
+          "grade": "D"
         },
         "Q3-2627": {
           "score": null,
@@ -3955,13 +3955,13 @@
       "course_id": "1411248",
       "title": "I'm Nobody! Who are you? Skill: Poetry",
       "due_at": "2026-10-23T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 30.0,
-      "score": null,
-      "grade": null,
+      "score": 25.0,
+      "grade": "25",
       "submitted_at": "2026-10-20T23:34:39Z",
-      "graded_at": null,
+      "graded_at": "2026-10-25T19:04:24Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22754307"
