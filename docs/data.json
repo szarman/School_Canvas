@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:00:02.242116Z",
+  "generated_at": "2026-10-26T12:00:05.872275Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4051,7 +4051,7 @@
       "course_id": "1413943",
       "title": "Khan HW-Compare Linear Functions, Write Para & Perp Lines, Para and Perp Lines",
       "due_at": "2026-10-26T12:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
