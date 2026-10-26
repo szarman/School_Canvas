@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:00:02.347781Z",
+  "generated_at": "2026-10-26T16:00:05.634647Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4461,6 +4461,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735211"
+    },
+    {
+      "id": "1414605-22794082",
+      "course_id": "1414605",
+      "title": "NHD Annotated Bibliography DUE 11/30/26",
+      "due_at": "2026-12-01T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22794082"
     },
     {
       "id": "1411965-22735347",
