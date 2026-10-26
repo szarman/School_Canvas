@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:00:05.634647Z",
+  "generated_at": "2026-10-26T17:00:02.366258Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -103,12 +103,12 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 73.1,
+      "score": 77.6,
       "grade": "C",
       "periods": {
         "Q1-2627": {
-          "score": 76.94,
-          "grade": "C"
+          "score": 81.44,
+          "grade": "B"
         },
         "Q2-2627": {
           "score": 63.26,
@@ -2726,10 +2726,10 @@
       "status": "graded",
       "period_id": "Q1-2627",
       "points_possible": 100.0,
-      "score": 70.0,
-      "grade": "70",
+      "score": 100.0,
+      "grade": "100",
       "submitted_at": null,
-      "graded_at": "2026-10-14T00:29:58Z",
+      "graded_at": "2026-10-26T16:10:05Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22706430"
@@ -4605,6 +4605,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951665"
+    },
+    {
+      "id": "1414605-22794994",
+      "course_id": "1414605",
+      "title": "NHD Project Process Paper",
+      "due_at": "2027-01-06T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q3-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22794994"
     },
     {
       "id": "1414702-21951636",
