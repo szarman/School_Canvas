@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:00:02.322688Z",
+  "generated_at": "2026-10-26T21:00:02.322078Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -143,7 +143,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 78.73,
+      "score": 78.79,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -151,7 +151,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 86.07,
+          "score": 85.81,
           "grade": "B"
         },
         "Q3-2627": {
@@ -4099,13 +4099,13 @@
       "course_id": "1414605",
       "title": "NHD Week 9 Packet",
       "due_at": "2026-10-27T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-26T20:10:18Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22736380"
@@ -4115,13 +4115,13 @@
       "course_id": "1414605",
       "title": "Ancient Period 1.1 A/B",
       "due_at": "2026-10-27T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 16.0,
-      "score": null,
-      "grade": null,
+      "score": 12.0,
+      "grade": "12",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-26T20:11:02Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22769606"
