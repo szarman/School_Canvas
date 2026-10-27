@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:00:02.378556Z",
+  "generated_at": "2026-10-27T00:00:06.096292Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -3603,14 +3603,14 @@
       "course_id": "1411248",
       "title": "Central Idea Benchmark Intro - Student Notes",
       "due_at": "2026-10-17T03:59:59Z",
-      "status": "graded",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 38.0,
       "score": 0.0,
       "grade": "0",
-      "submitted_at": null,
-      "graded_at": "2026-10-17T00:40:56Z",
-      "late": false,
+      "submitted_at": "2026-10-26T23:35:28Z",
+      "graded_at": "2026-10-26T23:35:28Z",
+      "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22697250"
     },
