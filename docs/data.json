@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:00:09.997562Z",
+  "generated_at": "2026-10-27T19:00:02.282287Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 84.45,
+      "score": 84.21,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,7 +87,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 82.35,
+          "score": 81.67,
           "grade": "B"
         },
         "Q3-2627": {
@@ -4003,13 +4003,13 @@
       "course_id": "1412828",
       "title": "# 47  Act 7 Lab Mixing Hot and Cool Water",
       "due_at": "2026-10-23T14:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 46.0,
+      "grade": "46",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-27T18:32:00Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22736090"
@@ -4131,13 +4131,13 @@
       "course_id": "1412828",
       "title": "#48 Review Notes-VERY important!",
       "due_at": "2026-10-27T13:30:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-27T18:32:04Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737539"
