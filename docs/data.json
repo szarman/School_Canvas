@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:00:02.890093Z",
+  "generated_at": "2026-10-27T16:00:02.339903Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 85.04,
+      "score": 84.45,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,7 +87,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 86.67,
+          "score": 82.35,
           "grade": "B"
         },
         "Q3-2627": {
@@ -3795,13 +3795,13 @@
       "course_id": "1412828",
       "title": "# 44 Phet Energy Skate Park",
       "due_at": "2026-10-20T14:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-27T15:27:23Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22730761"
