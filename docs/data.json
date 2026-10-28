@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:00:02.265180Z",
+  "generated_at": "2026-10-28T12:00:06.140549Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4195,7 +4195,7 @@
       "course_id": "1413943",
       "title": "Khan HW - Eyeball Best Fit, Positive/Neg Correlation, Estimate Best Fit, Describing Trends",
       "due_at": "2026-10-28T12:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
@@ -4211,7 +4211,7 @@
       "course_id": "1413943",
       "title": "Khan HW - Calculate and interpret Residuals, Correlation Coefficient, Interpret Slope in Scatter Plots",
       "due_at": "2026-10-28T12:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
