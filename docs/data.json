@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T19:00:02.689116Z",
+  "generated_at": "2026-10-28T20:00:02.342565Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 85.12,
+      "score": 85.11,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,7 +87,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 86.4,
+          "score": 86.17,
           "grade": "B"
         },
         "Q3-2627": {
@@ -3841,7 +3841,7 @@
     {
       "id": "1412828-22634599",
       "course_id": "1412828",
-      "title": "#55 Act 5 Conservation of Energy",
+      "title": "#45 Act 5 Conservation of Energy",
       "due_at": "2026-10-21T14:00:00Z",
       "status": "graded",
       "period_id": "Q2-2627",
@@ -3937,7 +3937,7 @@
     {
       "id": "1412828-22634607",
       "course_id": "1412828",
-      "title": " #56 Act 6 Follow the Energy",
+      "title": " #46 Act 6 Follow the Energy",
       "due_at": "2026-10-22T14:00:00Z",
       "status": "graded",
       "period_id": "Q2-2627",
@@ -4243,13 +4243,13 @@
       "course_id": "1412828",
       "title": " #49 Energy MidPt Assessment",
       "due_at": "2026-10-29T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 42.5,
+      "grade": "42.5",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-28T19:03:00Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737543"
