@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:00:02.446465Z",
+  "generated_at": "2026-10-28T14:00:47.892706Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -103,16 +103,16 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 77.6,
-      "grade": "C",
+      "score": 81.89,
+      "grade": "B",
       "periods": {
         "Q1-2627": {
           "score": 81.44,
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 63.26,
-          "grade": "D"
+          "score": 79.55,
+          "grade": "C"
         },
         "Q3-2627": {
           "score": null,
@@ -3603,13 +3603,13 @@
       "course_id": "1411248",
       "title": "Central Idea Benchmark Intro - Student Notes",
       "due_at": "2026-10-17T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 38.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 30.0,
+      "grade": "30",
       "submitted_at": "2026-10-26T23:35:28Z",
-      "graded_at": "2026-10-26T23:35:28Z",
+      "graded_at": "2026-10-28T13:34:12Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22697250"
@@ -4349,6 +4349,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22643052"
+    },
+    {
+      "id": "1411248-22808527",
+      "course_id": "1411248",
+      "title": "Commencement Address Argument Graphic Organizer  ",
+      "due_at": "2026-11-02T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 21.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22808527"
     },
     {
       "id": "1411965-22735172",
