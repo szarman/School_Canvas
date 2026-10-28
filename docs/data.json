@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:00:02.326868Z",
+  "generated_at": "2026-10-28T04:00:02.215037Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4147,7 +4147,7 @@
       "course_id": "1411346",
       "title": "Hispanic Cultural Festivities",
       "due_at": "2026-10-28T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -4163,7 +4163,7 @@
       "course_id": "1411346",
       "title": "Spanish Language Scavenger Hunt",
       "due_at": "2026-10-28T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -4179,7 +4179,7 @@
       "course_id": "1411346",
       "title": "Numbers and Colors",
       "due_at": "2026-10-28T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
@@ -4721,5 +4721,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 19
+  "token_days_left": 18
 }
