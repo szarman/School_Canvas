@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:00:02.215037Z",
+  "generated_at": "2026-10-28T05:00:02.317201Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,16 +167,16 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 81.42,
-      "grade": "B",
+      "score": 76.96,
+      "grade": "C",
       "periods": {
         "Q1-2627": {
           "score": 78.38,
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 95.32,
-          "grade": "A"
+          "score": 72.07,
+          "grade": "C"
         },
         "Q3-2627": {
           "score": null,
@@ -4147,13 +4147,13 @@
       "course_id": "1411346",
       "title": "Hispanic Cultural Festivities",
       "due_at": "2026-10-28T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-28T04:08:36Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804886"
@@ -4163,13 +4163,13 @@
       "course_id": "1411346",
       "title": "Spanish Language Scavenger Hunt",
       "due_at": "2026-10-28T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-28T04:08:36Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804888"
@@ -4179,13 +4179,13 @@
       "course_id": "1411346",
       "title": "Numbers and Colors",
       "due_at": "2026-10-28T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-28T04:08:36Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804890"
