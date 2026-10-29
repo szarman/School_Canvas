@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:00:05.841435Z",
+  "generated_at": "2026-10-29T17:00:05.064549Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 78.02,
+      "score": 79.59,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,8 +175,8 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 77.01,
-          "grade": "C"
+          "score": 83.03,
+          "grade": "B"
         },
         "Q3-2627": {
           "score": null,
@@ -4243,13 +4243,13 @@
       "course_id": "1411346",
       "title": "Hispanic Cultural Festivities",
       "due_at": "2026-10-29T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 15.0,
+      "grade": "15",
       "submitted_at": "2026-10-28T15:23:31Z",
-      "graded_at": "2026-10-28T04:08:36Z",
+      "graded_at": "2026-10-29T16:43:37Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804886"
