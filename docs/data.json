@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:00:05.985704Z",
+  "generated_at": "2026-10-29T13:00:03.653516Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4381,6 +4381,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22643052"
+    },
+    {
+      "id": "1414605-22815944",
+      "course_id": "1414605",
+      "title": "Global Spread of Humans Paleolithic Period",
+      "due_at": "2026-10-31T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22815944"
     },
     {
       "id": "1411248-22808527",
