@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:00:02.459475Z",
+  "generated_at": "2026-10-29T16:00:05.841435Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 75.31,
+      "score": 78.02,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,8 +175,8 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 65.67,
-          "grade": "D"
+          "score": 77.01,
+          "grade": "C"
         },
         "Q3-2627": {
           "score": null,
@@ -3811,13 +3811,13 @@
       "course_id": "1411346",
       "title": "Ser vs Estar Flash cards answer sheet",
       "due_at": "2026-10-21T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 24.0,
-      "score": null,
-      "grade": null,
+      "score": 24.0,
+      "grade": "24",
       "submitted_at": "2026-10-20T16:02:03Z",
-      "graded_at": null,
+      "graded_at": "2026-10-29T15:47:37Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22756463"
@@ -4143,38 +4143,6 @@
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737539"
     },
     {
-      "id": "1411346-22804886",
-      "course_id": "1411346",
-      "title": "Hispanic Cultural Festivities",
-      "due_at": "2026-10-28T03:59:59Z",
-      "status": "awaiting_grading",
-      "period_id": "Q2-2627",
-      "points_possible": 20.0,
-      "score": 0.0,
-      "grade": "0",
-      "submitted_at": "2026-10-28T15:23:31Z",
-      "graded_at": "2026-10-28T04:08:36Z",
-      "late": true,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804886"
-    },
-    {
-      "id": "1411346-22804890",
-      "course_id": "1411346",
-      "title": "Numbers and Colors",
-      "due_at": "2026-10-28T03:59:59Z",
-      "status": "awaiting_grading",
-      "period_id": "Q2-2627",
-      "points_possible": 10.0,
-      "score": 0.0,
-      "grade": "0",
-      "submitted_at": "2026-10-28T15:23:12Z",
-      "graded_at": "2026-10-28T04:08:36Z",
-      "late": true,
-      "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804890"
-    },
-    {
       "id": "1413943-22784398",
       "course_id": "1413943",
       "title": "Khan HW - Eyeball Best Fit, Positive/Neg Correlation, Estimate Best Fit, Describing Trends",
@@ -4271,20 +4239,52 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22770067"
     },
     {
-      "id": "1411346-22804888",
+      "id": "1411346-22804886",
       "course_id": "1411346",
-      "title": "Spanish Language Scavenger Hunt",
+      "title": "Hispanic Cultural Festivities",
       "due_at": "2026-10-29T03:59:59Z",
       "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": 0.0,
       "grade": "0",
-      "submitted_at": "2026-10-28T15:22:52Z",
+      "submitted_at": "2026-10-28T15:23:31Z",
       "graded_at": "2026-10-28T04:08:36Z",
       "late": false,
       "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804886"
+    },
+    {
+      "id": "1411346-22804888",
+      "course_id": "1411346",
+      "title": "Spanish Language Scavenger Hunt",
+      "due_at": "2026-10-29T03:59:59Z",
+      "status": "graded",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": 20.0,
+      "grade": "20",
+      "submitted_at": "2026-10-28T15:22:52Z",
+      "graded_at": "2026-10-29T15:46:35Z",
+      "late": false,
+      "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804888"
+    },
+    {
+      "id": "1411346-22804890",
+      "course_id": "1411346",
+      "title": "Numbers and Colors",
+      "due_at": "2026-10-29T03:59:59Z",
+      "status": "awaiting_grading",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": 0.0,
+      "grade": "0",
+      "submitted_at": "2026-10-28T15:23:12Z",
+      "graded_at": "2026-10-28T04:08:36Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804890"
     },
     {
       "id": "1411346-22810734",
