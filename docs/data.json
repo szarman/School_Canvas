@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:00:02.642198Z",
+  "generated_at": "2026-10-30T12:00:06.779003Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4307,7 +4307,7 @@
       "course_id": "1413943",
       "title": "Khan HW- Linear Equation and Scatter Plot \"Test\"",
       "due_at": "2026-10-30T12:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
@@ -4397,6 +4397,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22815944"
+    },
+    {
+      "id": "1414605-22822976",
+      "course_id": "1414605",
+      "title": "Halloween Museum Mystery",
+      "due_at": "2026-10-31T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 11.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22822976"
     },
     {
       "id": "1411248-22808527",
