@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:00:02.893572Z",
+  "generated_at": "2026-10-30T18:00:06.254945Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4419,12 +4419,12 @@
       "course_id": "1411346",
       "title": "La casa Project",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-10-30T17:38:42Z",
       "graded_at": null,
       "late": false,
       "offline": false,
