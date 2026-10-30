@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:00:03.179518Z",
+  "generated_at": "2026-10-30T17:00:02.893572Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -143,7 +143,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 107.29,
+      "score": 107.4,
       "grade": "A",
       "periods": {
         "Q1-2627": {
@@ -151,7 +151,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 88.87,
+          "score": 89.11,
           "grade": "B"
         },
         "Q3-2627": {
@@ -4403,16 +4403,48 @@
       "course_id": "1414605",
       "title": "Halloween Museum Mystery",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 11.0,
+      "score": 10.0,
+      "grade": "10",
+      "submitted_at": null,
+      "graded_at": "2026-10-30T16:56:07Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22822976"
+    },
+    {
+      "id": "1411346-22826990",
+      "course_id": "1411346",
+      "title": "La casa Project",
+      "due_at": "2026-10-31T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 50.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
       "offline": false,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22822976"
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22826990"
+    },
+    {
+      "id": "1411346-22827037",
+      "course_id": "1411346",
+      "title": "Octubre Bellwork",
+      "due_at": "2026-10-31T03:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22827037"
     },
     {
       "id": "1411248-22808527",
