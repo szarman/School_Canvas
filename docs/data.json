@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:00:02.475814Z",
+  "generated_at": "2026-10-31T05:00:02.848225Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 79.59,
+      "score": 77.96,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,8 +175,8 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 83.03,
-          "grade": "B"
+          "score": 76.86,
+          "grade": "C"
         },
         "Q3-2627": {
           "score": null,
@@ -4435,13 +4435,13 @@
       "course_id": "1411346",
       "title": "Octubre Bellwork",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-10-31T04:15:03Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22827037"
