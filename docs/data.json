@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T03:00:02.496812Z",
+  "generated_at": "2026-10-31T04:00:02.475814Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4339,7 +4339,7 @@
       "course_id": "1411965",
       "title": "Week 3 Rehearsal Etiquette",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
       "score": null,
@@ -4355,7 +4355,7 @@
       "course_id": "1413943",
       "title": "Unit 4 Test",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 75.0,
       "score": null,
@@ -4371,7 +4371,7 @@
       "course_id": "1412828",
       "title": "Penda Nature of Science",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -4387,7 +4387,7 @@
       "course_id": "1414605",
       "title": "Global Spread of Humans Paleolithic Period",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
@@ -4435,7 +4435,7 @@
       "course_id": "1411346",
       "title": "Octubre Bellwork",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -4913,5 +4913,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 16
+  "token_days_left": 15
 }
