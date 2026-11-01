@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T19:00:01.944011Z",
+  "generated_at": "2026-11-01T20:00:03.153456Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4543,6 +4543,22 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825586"
     },
     {
+      "id": "1412828-22737563",
+      "course_id": "1412828",
+      "title": "#52 Act 9:  Energy Across the Sciences",
+      "due_at": "2026-11-03T15:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737563"
+    },
+    {
       "id": "1413943-22825587",
       "course_id": "1413943",
       "title": "Khan HW- Solve by substitution, # of solutions by substitution",
@@ -4557,6 +4573,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825587"
+    },
+    {
+      "id": "1412828-22737634",
+      "course_id": "1412828",
+      "title": "# 53 Act 14 Hot Bulbs LWU",
+      "due_at": "2026-11-04T15:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 50.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737634"
     },
     {
       "id": "1413943-22825588",
@@ -4589,6 +4621,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825585"
+    },
+    {
+      "id": "1412828-22737628",
+      "course_id": "1412828",
+      "title": "# 54 Act 12 Conduction, Convection, Radiation",
+      "due_at": "2026-11-06T15:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737628"
     },
     {
       "id": "1411965-22735237",
@@ -4637,6 +4685,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825584"
+    },
+    {
+      "id": "1412828-22737622",
+      "course_id": "1412828",
+      "title": "# 55 Act 10 Energy Transfer Challenge",
+      "due_at": "2026-11-09T15:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737622"
     },
     {
       "id": "1411965-22735174",
@@ -4765,6 +4829,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735347"
+    },
+    {
+      "id": "1412828-22786831",
+      "course_id": "1412828",
+      "title": "# 51 Egg Drop Information",
+      "due_at": "2026-12-04T15:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 100.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22786831"
     },
     {
       "id": "1411965-22735252",
