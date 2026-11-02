@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:00:20.374813Z",
+  "generated_at": "2026-11-02T17:00:08.840482Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4779,7 +4779,7 @@
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": true,
+      "offline": false,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22836637"
     },
     {
