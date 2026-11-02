@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T04:00:01.721832Z",
+  "generated_at": "2026-11-02T05:00:01.832135Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4467,7 +4467,7 @@
       "course_id": "1411248",
       "title": "Extra Credit",
       "due_at": "2026-11-02T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 0.0,
       "score": null,
@@ -4483,7 +4483,7 @@
       "course_id": "1411248",
       "title": "Commencement Address First Rea",
       "due_at": "2026-11-02T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 33.0,
       "score": null,
@@ -5025,5 +5025,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 14
+  "token_days_left": 13
 }
