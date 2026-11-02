@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:00:06.769786Z",
+  "generated_at": "2026-11-02T16:00:20.374813Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -55,7 +55,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 82.42,
+      "score": 80.94,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -63,8 +63,8 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 90.0,
-          "grade": "A"
+          "score": 82.16,
+          "grade": "B"
         },
         "Q3-2627": {
           "score": null,
@@ -4355,13 +4355,13 @@
       "course_id": "1413943",
       "title": "Unit 4 Test",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 75.0,
-      "score": null,
-      "grade": null,
+      "score": 47.5,
+      "grade": "47.5",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-02T15:03:56Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22784400"
@@ -4541,6 +4541,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825586"
+    },
+    {
+      "id": "1411346-22837837",
+      "course_id": "1411346",
+      "title": "Dia de los muerto COCO",
+      "due_at": "2026-11-04T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22837837"
     },
     {
       "id": "1413943-22825587",
