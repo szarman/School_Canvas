@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:00:02.032809Z",
+  "generated_at": "2026-11-03T15:00:03.740407Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -55,7 +55,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.94,
+      "score": 81.13,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -63,7 +63,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 82.16,
+          "score": 82.83,
           "grade": "B"
         },
         "Q3-2627": {
@@ -167,16 +167,16 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 77.96,
-      "grade": "C",
+      "score": 81.02,
+      "grade": "B",
       "periods": {
         "Q1-2627": {
           "score": 78.38,
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 76.86,
-          "grade": "C"
+          "score": 87.97,
+          "grade": "B"
         },
         "Q3-2627": {
           "score": null,
@@ -4275,13 +4275,13 @@
       "course_id": "1411346",
       "title": "Numbers and Colors",
       "due_at": "2026-10-29T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": "2026-10-28T15:23:12Z",
-      "graded_at": "2026-10-28T04:08:36Z",
+      "graded_at": "2026-11-03T14:52:02Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22804890"
@@ -4291,13 +4291,13 @@
       "course_id": "1411346",
       "title": "La casa vocabulary",
       "due_at": "2026-10-29T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 19.9,
+      "grade": "19.9",
       "submitted_at": "2026-10-30T00:31:54Z",
-      "graded_at": "2026-10-29T04:04:10Z",
+      "graded_at": "2026-11-03T14:51:38Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22810734"
@@ -4547,13 +4547,13 @@
       "course_id": "1413943",
       "title": "Khan HW- Solutions to Systems, # of solutions, Solutions from a graph",
       "due_at": "2026-11-03T13:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-03T14:25:11Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825586"
