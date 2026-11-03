@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T19:00:02.060199Z",
+  "generated_at": "2026-11-03T20:00:02.025983Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 71.83,
+      "score": 78.73,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,8 +175,8 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 60.06,
-          "grade": "D"
+          "score": 79.35,
+          "grade": "C"
         },
         "Q3-2627": {
           "score": null,
@@ -3446,10 +3446,10 @@
       "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 27.0,
+      "grade": "27",
       "submitted_at": null,
-      "graded_at": "2026-11-03T17:54:43Z",
+      "graded_at": "2026-11-03T19:15:21Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22848755"
@@ -3878,10 +3878,10 @@
       "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 75.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 49.0,
+      "grade": "49",
       "submitted_at": null,
-      "graded_at": "2026-11-03T17:55:48Z",
+      "graded_at": "2026-11-03T19:22:39Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22848773"
@@ -4605,6 +4605,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22815971"
+    },
+    {
+      "id": "1414605-22849981",
+      "course_id": "1414605",
+      "title": "Ancient Period 1.1 C",
+      "due_at": "2026-11-04T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22849981"
     },
     {
       "id": "1411346-22837837",
