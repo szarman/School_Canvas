@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:00:01.990494Z",
+  "generated_at": "2026-11-03T22:00:01.824912Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4467,14 +4467,14 @@
       "course_id": "1411346",
       "title": "Octubre Bellwork",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "graded",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": 0.0,
       "grade": "0",
-      "submitted_at": null,
+      "submitted_at": "2026-11-03T21:57:42Z",
       "graded_at": "2026-10-31T04:15:03Z",
-      "late": false,
+      "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22827037"
     },
