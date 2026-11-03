@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:00:06.355519Z",
+  "generated_at": "2026-11-03T13:00:01.929998Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4531,7 +4531,7 @@
       "course_id": "1413943",
       "title": "Khan HW- Solutions to Systems, # of solutions, Solutions from a graph",
       "due_at": "2026-11-03T13:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
