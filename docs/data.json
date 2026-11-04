@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:00:01.856963Z",
+  "generated_at": "2026-11-04T15:00:01.981848Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -55,7 +55,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 81.13,
+      "score": 81.33,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -63,7 +63,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 82.83,
+          "score": 83.45,
           "grade": "B"
         },
         "Q3-2627": {
@@ -4627,13 +4627,13 @@
       "course_id": "1413943",
       "title": "Khan HW- Solve by substitution, # of solutions by substitution",
       "due_at": "2026-11-04T13:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-04T14:21:23Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825587"
@@ -4643,7 +4643,7 @@
       "course_id": "1412828",
       "title": "#53 Act 9:  Energy Across the Sciences",
       "due_at": "2026-11-04T15:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -4749,6 +4749,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22836762"
+    },
+    {
+      "id": "1411248-22853910",
+      "course_id": "1411248",
+      "title": "Understanding Rhetoric Benchmark Student Notes",
+      "due_at": "2026-11-07T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 30.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22853910"
     },
     {
       "id": "1414702-21951562",
