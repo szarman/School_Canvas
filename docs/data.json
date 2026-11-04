@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:00:04.891945Z",
+  "generated_at": "2026-11-04T13:00:01.766536Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4627,7 +4627,7 @@
       "course_id": "1413943",
       "title": "Khan HW- Solve by substitution, # of solutions by substitution",
       "due_at": "2026-11-04T13:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
