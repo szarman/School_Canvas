@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:00:01.981848Z",
+  "generated_at": "2026-11-04T16:00:01.884291Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -143,7 +143,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 108.0,
+      "score": 108.36,
       "grade": "A",
       "periods": {
         "Q1-2627": {
@@ -151,7 +151,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 90.57,
+          "score": 91.32,
           "grade": "A"
         },
         "Q3-2627": {
@@ -4595,13 +4595,13 @@
       "course_id": "1414605",
       "title": "The Neolithic Revolution",
       "due_at": "2026-11-04T04:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-04T15:41:06Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22815971"
@@ -4755,12 +4755,12 @@
       "course_id": "1411248",
       "title": "Understanding Rhetoric Benchmark Student Notes",
       "due_at": "2026-11-07T04:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 30.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-11-04T15:21:31Z",
       "graded_at": null,
       "late": false,
       "offline": false,
