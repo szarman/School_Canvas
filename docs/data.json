@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T04:00:01.748210Z",
+  "generated_at": "2026-11-04T05:00:01.816756Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4595,7 +4595,7 @@
       "course_id": "1414605",
       "title": "The Neolithic Revolution",
       "due_at": "2026-11-04T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -5137,5 +5137,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 12
+  "token_days_left": 11
 }
