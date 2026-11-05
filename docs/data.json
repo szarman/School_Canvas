@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:00:01.796291Z",
+  "generated_at": "2026-11-05T15:00:01.950750Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4707,7 +4707,7 @@
       "course_id": "1412828",
       "title": "# 54 Act 14 Hot Bulbs LWU",
       "due_at": "2026-11-05T15:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
       "score": null,
@@ -4797,6 +4797,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951562"
+    },
+    {
+      "id": "1411248-22861411",
+      "course_id": "1411248",
+      "title": "Rhetoric Grahpic Organizer ",
+      "due_at": "2026-11-08T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 24.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411248/assignments/22861411"
     },
     {
       "id": "1413943-22825584",
