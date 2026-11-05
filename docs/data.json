@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:00:05.107313Z",
+  "generated_at": "2026-11-05T13:00:02.524571Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4691,7 +4691,7 @@
       "course_id": "1413943",
       "title": "Khan HW-Systems by elimination, elimination strategies, system challenge",
       "due_at": "2026-11-05T13:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
