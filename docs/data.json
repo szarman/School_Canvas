@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:00:01.937553Z",
+  "generated_at": "2026-11-06T21:00:01.960992Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4701,22 +4701,6 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22825588"
-    },
-    {
-      "id": "1412828-22874520",
-      "course_id": "1412828",
-      "title": "# 64 Slinky waves LAB ",
-      "due_at": "2026-11-05T14:30:00Z",
-      "status": "missing",
-      "period_id": "Q2-2627",
-      "points_possible": 10.0,
-      "score": null,
-      "grade": null,
-      "submitted_at": null,
-      "graded_at": null,
-      "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22874520"
     },
     {
       "id": "1412828-22737634",
