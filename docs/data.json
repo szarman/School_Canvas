@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T00:00:05.303059Z",
+  "generated_at": "2026-11-06T01:00:02.084953Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4835,12 +4835,12 @@
       "course_id": "1411248",
       "title": "Rhetoric Grahpic Organizer ",
       "due_at": "2026-11-08T04:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 24.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-11-06T00:16:05Z",
       "graded_at": null,
       "late": false,
       "offline": false,
