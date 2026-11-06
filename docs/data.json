@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:00:02.808076Z",
+  "generated_at": "2026-11-06T16:00:58.207908Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4941,6 +4941,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22836637"
+    },
+    {
+      "id": "1414605-22871401",
+      "course_id": "1414605",
+      "title": "Neolithic Agriculture Revolution - ESSAY Packet",
+      "due_at": "2026-11-13T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 45.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22871401"
     },
     {
       "id": "1411965-22735242",
