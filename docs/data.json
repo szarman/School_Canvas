@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T04:00:02.025822Z",
+  "generated_at": "2026-11-07T05:00:02.043164Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4739,7 +4739,7 @@
       "course_id": "1411965",
       "title": "Week 4 Rehearsal Etiquette",
       "due_at": "2026-11-07T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
       "score": null,
@@ -4851,7 +4851,7 @@
       "course_id": "1411346",
       "title": "Real Life communication challenge - The House",
       "due_at": "2026-11-07T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -5329,5 +5329,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 9
+  "token_days_left": 8
 }
