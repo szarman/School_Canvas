@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:00:01.794650Z",
+  "generated_at": "2026-11-08T14:00:03.939565Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -103,7 +103,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 82.55,
+      "score": 83.2,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -111,7 +111,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 80.48,
+          "score": 81.63,
           "grade": "B"
         },
         "Q3-2627": {
@@ -4771,13 +4771,13 @@
       "course_id": "1411248",
       "title": "Understanding Rhetoric Benchmark Student Notes",
       "due_at": "2026-11-07T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 30.0,
-      "score": null,
-      "grade": null,
+      "score": 30.0,
+      "grade": "30",
       "submitted_at": "2026-11-04T15:21:31Z",
-      "graded_at": null,
+      "graded_at": "2026-11-08T13:44:50Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22853910"
