@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:00:03.238182Z",
+  "generated_at": "2026-11-09T15:00:02.346333Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4899,7 +4899,7 @@
       "course_id": "1412828",
       "title": "# 55 Act 12 Conduction, Convection, Radiation",
       "due_at": "2026-11-09T15:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
