@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:00:06.531653Z",
+  "generated_at": "2026-11-09T22:00:01.910257Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -5011,12 +5011,12 @@
       "course_id": "1411248",
       "title": "So Where Are You From? First Read",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 18.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-11-09T21:52:35Z",
       "graded_at": null,
       "late": false,
       "offline": false,
