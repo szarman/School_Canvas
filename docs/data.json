@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:00:13.489084Z",
+  "generated_at": "2026-11-09T18:00:05.075404Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4973,6 +4973,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22878572"
+    },
+    {
+      "id": "1412828-22887101",
+      "course_id": "1412828",
+      "title": "#57 Energy Review Questions",
+      "due_at": "2026-11-12T14:30:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 22.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22887101"
     },
     {
       "id": "1412828-22836637",
