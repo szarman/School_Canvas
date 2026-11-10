@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:00:05.090850Z",
+  "generated_at": "2026-11-10T13:00:01.937549Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4931,7 +4931,7 @@
       "course_id": "1413943",
       "title": "Khan HW- Graphs of Inequalities (4), Two Variable Inequalities (4), Systems of Inequalities (4)",
       "due_at": "2026-11-10T13:00:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
       "score": null,
