@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:00:03.371479Z",
+  "generated_at": "2026-11-10T15:00:14.474857Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -55,7 +55,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.59,
+      "score": 80.78,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -63,7 +63,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 80.78,
+          "score": 81.36,
           "grade": "B"
         },
         "Q3-2627": {
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 85.92,
+      "score": 86.11,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,7 +87,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 88.52,
+          "score": 89.02,
           "grade": "B"
         },
         "Q3-2627": {
@@ -4931,13 +4931,13 @@
       "course_id": "1413943",
       "title": "Khan HW- Graphs of Inequalities (4), Two Variable Inequalities (4), Systems of Inequalities (4)",
       "due_at": "2026-11-10T13:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-10T14:17:44Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22872509"
@@ -4963,13 +4963,13 @@
       "course_id": "1412828",
       "title": "# 56 Quiz Questions",
       "due_at": "2026-11-11T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": "2026-11-10T01:34:20Z",
-      "graded_at": null,
+      "graded_at": "2026-11-10T14:59:30Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22878572"
