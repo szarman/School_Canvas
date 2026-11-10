@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:00:01.783662Z",
+  "generated_at": "2026-11-10T05:00:01.761172Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4915,7 +4915,7 @@
       "course_id": "1411965",
       "title": "Q2 Week 4 Practice Log",
       "due_at": "2026-11-10T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
@@ -5393,5 +5393,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 6
+  "token_days_left": 5
 }
