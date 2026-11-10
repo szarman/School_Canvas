@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:00:01.976182Z",
+  "generated_at": "2026-11-10T21:00:02.630821Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -5071,6 +5071,22 @@
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22872510"
     },
     {
+      "id": "1412828-22737622",
+      "course_id": "1412828",
+      "title": "# 58 Act 10 Energy Transfer Challenge",
+      "due_at": "2026-11-13T15:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737622"
+    },
+    {
       "id": "1411965-22735242",
       "course_id": "1411965",
       "title": "Week 5 Rehearsal Etiquette",
@@ -5101,6 +5117,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22872512"
+    },
+    {
+      "id": "1412828-22737642",
+      "course_id": "1412828",
+      "title": "# 59 Gizmo: Household Energy Use",
+      "due_at": "2026-11-16T14:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 20.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737642"
     },
     {
       "id": "1411965-22735179",
