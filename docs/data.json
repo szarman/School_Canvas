@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:00:03.104391Z",
+  "generated_at": "2026-11-10T18:00:09.228162Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 77.32,
+      "score": 78.01,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,7 +175,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 75.52,
+          "score": 77.43,
           "grade": "C"
         },
         "Q3-2627": {
@@ -4611,13 +4611,13 @@
       "course_id": "1411346",
       "title": "Dia de los muerto COCO",
       "due_at": "2026-11-04T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": "2026-11-04T03:13:19Z",
-      "graded_at": null,
+      "graded_at": "2026-11-10T17:18:03Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22837837"
@@ -4973,6 +4973,22 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22878572"
+    },
+    {
+      "id": "1411346-22895594",
+      "course_id": "1411346",
+      "title": "Los verbos terminados -ar",
+      "due_at": "2026-11-11T04:59:59Z",
+      "status": "graded",
+      "period_id": "Q2-2627",
+      "points_possible": 15.0,
+      "score": 15.0,
+      "grade": "15",
+      "submitted_at": "2026-11-10T17:11:10Z",
+      "graded_at": "2026-11-10T17:19:16Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22895594"
     },
     {
       "id": "1412828-22887101",
