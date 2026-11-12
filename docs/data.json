@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:00:01.972619Z",
+  "generated_at": "2026-11-12T16:00:01.915811Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4523,7 +4523,7 @@
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": true,
+      "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22831171"
     },
     {
@@ -5055,20 +5055,20 @@
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22871401"
     },
     {
-      "id": "1414605-22903197",
-      "course_id": "1414605",
-      "title": "The Three Sisters: The Traditional Intercropping Ag Method",
+      "id": "1411346-22905605",
+      "course_id": "1411346",
+      "title": "Un sabado especial en mi casa.",
       "due_at": "2026-11-13T04:59:59Z",
       "status": "upcoming",
       "period_id": "Q2-2627",
-      "points_possible": 10.0,
+      "points_possible": 15.0,
       "score": null,
       "grade": null,
       "submitted_at": null,
       "graded_at": null,
       "late": false,
-      "offline": true,
-      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22903197"
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22905605"
     },
     {
       "id": "1413943-22872510",
@@ -5133,6 +5133,22 @@
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22872512"
+    },
+    {
+      "id": "1414605-22903197",
+      "course_id": "1414605",
+      "title": "The Three Sisters: The Traditional Intercropping Ag Method",
+      "due_at": "2026-11-14T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22903197"
     },
     {
       "id": "1412828-22737642",
