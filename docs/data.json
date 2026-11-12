@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:00:02.155503Z",
+  "generated_at": "2026-11-12T22:00:05.085370Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 86.67,
+      "score": 86.79,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,7 +87,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 90.33,
+          "score": 90.67,
           "grade": "A"
         },
         "Q3-2627": {
@@ -4997,11 +4997,11 @@
       "due_at": "2026-11-12T14:30:00Z",
       "status": "graded",
       "period_id": "Q2-2627",
-      "points_possible": 22.0,
+      "points_possible": 20.0,
       "score": 22.0,
       "grade": "22",
       "submitted_at": null,
-      "graded_at": "2026-11-12T19:39:05Z",
+      "graded_at": "2026-11-12T21:22:51Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22887101"
