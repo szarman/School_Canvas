@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:00:02.156933Z",
+  "generated_at": "2026-11-12T15:00:01.972619Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -4995,7 +4995,7 @@
       "course_id": "1412828",
       "title": "#57 Energy Review Questions",
       "due_at": "2026-11-12T14:30:00Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 22.0,
       "score": null,
