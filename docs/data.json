@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:00:05.144462Z",
+  "generated_at": "2026-11-12T20:00:02.079063Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 86.11,
+      "score": 86.67,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,8 +87,8 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 89.02,
-          "grade": "B"
+          "score": 90.33,
+          "grade": "A"
         },
         "Q3-2627": {
           "score": null,
@@ -4899,13 +4899,13 @@
       "course_id": "1412828",
       "title": "# 55 Act 12 Conduction, Convection, Radiation",
       "due_at": "2026-11-09T15:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T19:37:10Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737628"
@@ -4995,13 +4995,13 @@
       "course_id": "1412828",
       "title": "#57 Energy Review Questions",
       "due_at": "2026-11-12T14:30:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 22.0,
-      "score": null,
-      "grade": null,
+      "score": 22.0,
+      "grade": "22",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T19:39:05Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22887101"
@@ -5091,13 +5091,13 @@
       "course_id": "1412828",
       "title": "# 58 Act 10 Energy Transfer Challenge",
       "due_at": "2026-11-13T15:00:00Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T19:41:02Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737622"
