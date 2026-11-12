@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:00:13.806108Z",
+  "generated_at": "2026-11-12T18:00:09.323866Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -31,7 +31,7 @@
     {
       "id": "1411965",
       "name": "Orchestra",
-      "score": 93.74,
+      "score": 94.63,
       "grade": "A",
       "periods": {
         "Q1-2627": {
@@ -39,8 +39,8 @@
           "grade": "A"
         },
         "Q2-2627": {
-          "score": null,
-          "grade": null
+          "score": 100.0,
+          "grade": "A"
         },
         "Q3-2627": {
           "score": null,
@@ -143,7 +143,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 108.09,
+      "score": 108.3,
       "grade": "A",
       "periods": {
         "Q1-2627": {
@@ -151,7 +151,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 90.14,
+          "score": 90.26,
           "grade": "A"
         },
         "Q3-2627": {
@@ -3571,13 +3571,13 @@
       "course_id": "1411965",
       "title": "Week 1 Rehearsal Etiquette",
       "due_at": "2026-10-17T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 40.0,
-      "score": null,
-      "grade": null,
+      "score": 40.0,
+      "grade": "40",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T17:36:12Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735130"
@@ -4051,13 +4051,13 @@
       "course_id": "1411965",
       "title": "Week 2 Rehearsal Etiquette",
       "due_at": "2026-10-24T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 50.0,
+      "grade": "50",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T17:37:56Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735223"
@@ -4371,13 +4371,13 @@
       "course_id": "1411965",
       "title": "Week 3 Rehearsal Etiquette",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 50.0,
+      "grade": "50",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T17:38:51Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735229"
@@ -4739,13 +4739,13 @@
       "course_id": "1411965",
       "title": "Week 4 Rehearsal Etiquette",
       "due_at": "2026-11-07T04:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 50.0,
+      "grade": "50",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T17:40:22Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735237"
@@ -5043,13 +5043,13 @@
       "course_id": "1414605",
       "title": "Neolithic Agriculture Revolution - ESSAY Packet",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 45.0,
-      "score": null,
-      "grade": null,
+      "score": 40.0,
+      "grade": "40",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T17:38:31Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22871401"
