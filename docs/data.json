@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T18:00:09.323866Z",
+  "generated_at": "2026-11-12T19:00:05.144462Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -31,7 +31,7 @@
     {
       "id": "1411965",
       "name": "Orchestra",
-      "score": 94.63,
+      "score": 93.33,
       "grade": "A",
       "periods": {
         "Q1-2627": {
@@ -39,7 +39,7 @@
           "grade": "A"
         },
         "Q2-2627": {
-          "score": 100.0,
+          "score": 91.3,
           "grade": "A"
         },
         "Q3-2627": {
@@ -103,7 +103,7 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 82.74,
+      "score": 82.75,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -111,7 +111,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 79.84,
+          "score": 79.59,
           "grade": "C"
         },
         "Q3-2627": {
@@ -3731,13 +3731,13 @@
       "course_id": "1411965",
       "title": "Q2 Week 1 Practice Log",
       "due_at": "2026-10-20T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T18:34:15Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735141"
@@ -4099,13 +4099,13 @@
       "course_id": "1411965",
       "title": "Q2 Week 2 Practice Log",
       "due_at": "2026-10-27T03:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-12T18:41:51Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735170"
@@ -5027,13 +5027,13 @@
       "course_id": "1411248",
       "title": "So Where Are You From? First Read",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 18.0,
-      "score": null,
-      "grade": null,
+      "score": 15.0,
+      "grade": "15",
       "submitted_at": "2026-11-09T21:52:35Z",
-      "graded_at": null,
+      "graded_at": "2026-11-12T18:15:26Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22882345"
