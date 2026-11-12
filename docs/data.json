@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T04:00:01.892554Z",
+  "generated_at": "2026-11-12T05:00:01.789036Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -5441,5 +5441,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 4
+  "token_days_left": 3
 }
