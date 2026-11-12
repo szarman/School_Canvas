@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T22:00:05.085370Z",
+  "generated_at": "2026-11-12T23:00:01.852808Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -127,7 +127,7 @@
     {
       "id": "1414702",
       "name": "PE",
-      "score": 94.51,
+      "score": 93.88,
       "grade": "A",
       "periods": {
         "Q1-2627": {
@@ -135,7 +135,7 @@
           "grade": "A"
         },
         "Q2-2627": {
-          "score": 98.0,
+          "score": 96.75,
           "grade": "A"
         }
       }
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 78.01,
+      "score": 79.54,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,8 +175,8 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 77.43,
-          "grade": "C"
+          "score": 81.34,
+          "grade": "B"
         },
         "Q3-2627": {
           "score": null,
@@ -4467,13 +4467,13 @@
       "course_id": "1411346",
       "title": "Octubre Bellwork",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": 0.0,
       "grade": "0",
       "submitted_at": "2026-11-03T21:57:42Z",
-      "graded_at": "2026-10-31T04:15:03Z",
+      "graded_at": "2026-11-12T22:13:04Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22827037"
@@ -4675,13 +4675,13 @@
       "course_id": "1411346",
       "title": "Mi casa - Descripción de mi casa. ",
       "due_at": "2026-11-05T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 6.0,
+      "grade": "6",
       "submitted_at": "2026-11-04T23:41:00Z",
-      "graded_at": null,
+      "graded_at": "2026-11-12T22:08:40Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22855905"
@@ -4851,13 +4851,13 @@
       "course_id": "1411346",
       "title": "Real Life communication challenge - The House",
       "due_at": "2026-11-07T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 19.7,
+      "grade": "19.7",
       "submitted_at": "2026-11-09T16:07:37Z",
-      "graded_at": "2026-11-07T05:17:32Z",
+      "graded_at": "2026-11-12T22:03:19Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22865168"
@@ -5382,10 +5382,10 @@
       "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 100.0,
-      "score": 100.0,
-      "grade": "100",
+      "score": 95.0,
+      "grade": "95",
       "submitted_at": null,
-      "graded_at": "2026-10-13T13:58:14Z",
+      "graded_at": "2026-11-12T22:00:46Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414702/assignments/21951633"
