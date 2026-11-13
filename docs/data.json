@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T01:00:01.770416Z",
+  "generated_at": "2026-11-13T02:00:01.837559Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 79.54,
+      "score": 79.15,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,7 +175,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 81.34,
+          "score": 80.23,
           "grade": "B"
         },
         "Q3-2627": {
@@ -4451,13 +4451,13 @@
       "course_id": "1411346",
       "title": "La casa Project",
       "due_at": "2026-10-31T03:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 35.0,
+      "grade": "35",
       "submitted_at": "2026-10-30T17:38:42Z",
-      "graded_at": null,
+      "graded_at": "2026-11-13T01:20:36Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22826990"
