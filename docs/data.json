@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:00:01.968893Z",
+  "generated_at": "2026-11-13T15:00:02.517100Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -55,7 +55,7 @@
     {
       "id": "1413943",
       "name": "Algebra 1 Honors",
-      "score": 80.87,
+      "score": 81.05,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -63,7 +63,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 81.64,
+          "score": 82.17,
           "grade": "B"
         },
         "Q3-2627": {
@@ -5075,13 +5075,13 @@
       "course_id": "1413943",
       "title": "Khan HW- Systems Unit \"Test\" 80%+ = 100%",
       "due_at": "2026-11-13T13:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-13T14:13:35Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1413943/assignments/22872510"
@@ -5181,6 +5181,70 @@
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411965/assignments/22735179"
+    },
+    {
+      "id": "1414605-22912297",
+      "course_id": "1414605",
+      "title": "Trading by Nomads",
+      "due_at": "2026-11-17T04:59:59Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 15.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1414605/assignments/22912297"
+    },
+    {
+      "id": "1413943-22913142",
+      "course_id": "1413943",
+      "title": "Canvas HW- Data Displays",
+      "due_at": "2026-11-17T13:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22913142"
+    },
+    {
+      "id": "1413943-22913143",
+      "course_id": "1413943",
+      "title": "Khan HW - 4 assignments",
+      "due_at": "2026-11-19T13:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22913143"
+    },
+    {
+      "id": "1413943-22913144",
+      "course_id": "1413943",
+      "title": "Khan HW- 3 Assignments",
+      "due_at": "2026-11-20T13:00:00Z",
+      "status": "upcoming",
+      "period_id": "Q2-2627",
+      "points_possible": 10.0,
+      "score": null,
+      "grade": null,
+      "submitted_at": null,
+      "graded_at": null,
+      "late": false,
+      "offline": true,
+      "url": "https://sdhc.instructure.com/courses/1413943/assignments/22913144"
     },
     {
       "id": "1411965-22735247",
