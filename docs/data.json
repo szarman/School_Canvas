@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:00:01.977165Z",
+  "generated_at": "2026-11-13T18:00:05.514163Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -143,7 +143,7 @@
     {
       "id": "1414605",
       "name": "World History",
-      "score": 108.3,
+      "score": 108.45,
       "grade": "A",
       "periods": {
         "Q1-2627": {
@@ -151,7 +151,7 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 90.26,
+          "score": 90.53,
           "grade": "A"
         },
         "Q3-2627": {
@@ -5059,14 +5059,14 @@
       "course_id": "1411346",
       "title": "Un sabado especial en mi casa.",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "graded",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 15.0,
       "score": 0.0,
       "grade": "0",
-      "submitted_at": null,
+      "submitted_at": "2026-11-13T17:01:59Z",
       "graded_at": "2026-11-13T05:04:36Z",
-      "late": false,
+      "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22905605"
     },
@@ -5139,13 +5139,13 @@
       "course_id": "1414605",
       "title": "The Three Sisters: The Traditional Intercropping Ag Method",
       "due_at": "2026-11-14T04:59:59Z",
-      "status": "upcoming",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 10.0,
-      "score": null,
-      "grade": null,
+      "score": 10.0,
+      "grade": "10",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-13T17:36:41Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1414605/assignments/22903197"
