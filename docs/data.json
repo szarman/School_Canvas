@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:00:05.105494Z",
+  "generated_at": "2026-11-13T01:00:01.770416Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -5011,12 +5011,12 @@
       "course_id": "1412828",
       "title": "# 52 Egg Drop Rough Draft ( SUBMISSION)",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "upcoming",
+      "status": "awaiting_grading",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
       "score": null,
       "grade": null,
-      "submitted_at": null,
+      "submitted_at": "2026-11-13T00:35:45Z",
       "graded_at": null,
       "late": false,
       "offline": false,
