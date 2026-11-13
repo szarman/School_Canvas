@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:00:02.019633Z",
+  "generated_at": "2026-11-13T20:00:01.949905Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 86.96,
+      "score": 87.24,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,7 +87,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 91.02,
+          "score": 91.44,
           "grade": "A"
         },
         "Q3-2627": {
@@ -4707,13 +4707,13 @@
       "course_id": "1412828",
       "title": "# 54 Act 14 Hot Bulbs LWU",
       "due_at": "2026-11-05T15:00:00Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 50.0,
-      "score": null,
-      "grade": null,
+      "score": 50.0,
+      "grade": "50",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-13T19:34:03Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22737634"
@@ -4998,10 +4998,10 @@
       "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": 22.0,
-      "grade": "22",
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": null,
-      "graded_at": "2026-11-12T21:22:51Z",
+      "graded_at": "2026-11-13T19:24:10Z",
       "late": false,
       "offline": true,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22887101"
