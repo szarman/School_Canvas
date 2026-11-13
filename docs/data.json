@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:00:01.826988Z",
+  "generated_at": "2026-11-13T05:00:01.792154Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -5059,7 +5059,7 @@
       "course_id": "1411346",
       "title": "Un sabado especial en mi casa.",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 15.0,
       "score": null,
@@ -5473,5 +5473,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 3
+  "token_days_left": 2
 }
