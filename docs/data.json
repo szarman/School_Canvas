@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:00:05.514163Z",
+  "generated_at": "2026-11-13T19:00:02.019633Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -79,7 +79,7 @@
     {
       "id": "1412828",
       "name": "IAPS",
-      "score": 86.79,
+      "score": 86.96,
       "grade": "B",
       "periods": {
         "Q1-2627": {
@@ -87,7 +87,7 @@
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 90.67,
+          "score": 91.02,
           "grade": "A"
         },
         "Q3-2627": {
@@ -5011,13 +5011,13 @@
       "course_id": "1412828",
       "title": "# 52 Egg Drop Rough Draft ( SUBMISSION)",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 20.0,
-      "score": null,
-      "grade": null,
+      "score": 20.0,
+      "grade": "20",
       "submitted_at": "2026-11-13T00:35:45Z",
-      "graded_at": null,
+      "graded_at": "2026-11-13T18:33:45Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1412828/assignments/22836637"
