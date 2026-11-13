@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:00:02.517100Z",
+  "generated_at": "2026-11-13T16:00:02.111724Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -103,15 +103,15 @@
     {
       "id": "1411248",
       "name": "Language Arts",
-      "score": 82.75,
-      "grade": "B",
+      "score": 79.87,
+      "grade": "C",
       "periods": {
         "Q1-2627": {
           "score": 81.44,
           "grade": "B"
         },
         "Q2-2627": {
-          "score": 79.59,
+          "score": 72.24,
           "grade": "C"
         },
         "Q3-2627": {
@@ -4515,13 +4515,13 @@
       "course_id": "1411248",
       "title": "Commencement Address First Rea",
       "due_at": "2026-11-02T04:59:59Z",
-      "status": "missing",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 33.0,
-      "score": null,
-      "grade": null,
+      "score": 0.0,
+      "grade": "0",
       "submitted_at": null,
-      "graded_at": null,
+      "graded_at": "2026-11-13T15:15:57Z",
       "late": false,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411248/assignments/22831171"
