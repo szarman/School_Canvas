@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:00:02.256230Z",
+  "generated_at": "2026-11-14T18:00:05.126455Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -167,7 +167,7 @@
     {
       "id": "1411346",
       "name": "Spanish 1",
-      "score": 78.19,
+      "score": 79.5,
       "grade": "C",
       "periods": {
         "Q1-2627": {
@@ -175,8 +175,8 @@
           "grade": "C"
         },
         "Q2-2627": {
-          "score": 77.93,
-          "grade": "C"
+          "score": 80.87,
+          "grade": "B"
         },
         "Q3-2627": {
           "score": null,
@@ -4863,6 +4863,22 @@
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22865168"
     },
     {
+      "id": "1411346-22918702",
+      "course_id": "1411346",
+      "title": "Vocabulary Unit 2 Part 1",
+      "due_at": "2026-11-07T04:59:59Z",
+      "status": "graded",
+      "period_id": "Q2-2627",
+      "points_possible": 60.0,
+      "score": 51.0,
+      "grade": "51",
+      "submitted_at": null,
+      "graded_at": "2026-11-14T17:27:09Z",
+      "late": false,
+      "offline": false,
+      "url": "https://sdhc.instructure.com/courses/1411346/assignments/22918702"
+    },
+    {
       "id": "1411248-22861411",
       "course_id": "1411248",
       "title": "Rhetoric Grahpic Organizer ",
@@ -5059,13 +5075,13 @@
       "course_id": "1411346",
       "title": "Un sabado especial en mi casa.",
       "due_at": "2026-11-13T04:59:59Z",
-      "status": "awaiting_grading",
+      "status": "graded",
       "period_id": "Q2-2627",
       "points_possible": 15.0,
-      "score": 0.0,
-      "grade": "0",
+      "score": 12.92,
+      "grade": "12.92",
       "submitted_at": "2026-11-13T17:01:59Z",
-      "graded_at": "2026-11-13T05:04:36Z",
+      "graded_at": "2026-11-14T17:16:26Z",
       "late": true,
       "offline": false,
       "url": "https://sdhc.instructure.com/courses/1411346/assignments/22905605"
