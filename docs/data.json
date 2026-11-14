@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:00:01.872711Z",
+  "generated_at": "2026-11-14T05:00:01.784064Z",
   "periods": [
     {
       "id": "Q1-2627",
@@ -5107,7 +5107,7 @@
       "course_id": "1411965",
       "title": "Week 5 Rehearsal Etiquette",
       "due_at": "2026-11-14T04:59:59Z",
-      "status": "upcoming",
+      "status": "missing",
       "period_id": "Q2-2627",
       "points_possible": 40.0,
       "score": null,
@@ -5537,5 +5537,5 @@
   ],
   "sync_url": "https://homework-board-sync.szarman21.workers.dev",
   "token_expires": "2026-11-15",
-  "token_days_left": 2
+  "token_days_left": 1
 }
